@@ -4,326 +4,382 @@
 <!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
-  <WindowTemplate>
-    <Name>key_config</Name>
-    <WindowId>KeyConfig</WindowId>
-    <CloseButton>true</CloseButton>
-    <MoveButton>true</MoveButton>
-    <TopRightResizeButton>false</TopRightResizeButton>
-    <BottomRightResizeButton>true</BottomRightResizeButton>
-    <BottomLeftResizeButton>true</BottomLeftResizeButton>
-    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
-    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-    <TitleWidth>310</TitleWidth>
-    <TitleHeight>27</TitleHeight>
-    <Width>310</Width>
-    <Height>400</Height>
-    <ResizeableWidth>5</ResizeableWidth>
-    <ResizeableHeight>5</ResizeableHeight>
-    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
-    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-    <MinWidth>310</MinWidth>
-    <MinHeight>400</MinHeight>
-    <ContextTemplateName></ContextTemplateName>
 
-    <!-- Background Image -->
+    <ListBoxTemplate>
+        <Name>keyconfig_listbox</Name>
+        <LinePadding>4</LinePadding>
+        <CellPadding>4</CellPadding>
+        <LabelLength>128</LabelLength>
+        <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
+        <IconTemplate>plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>font_buttons</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>192</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>0</R>
+                <G>126</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>0</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
 
-    <FullResizeImageDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>0</X>
-        <Y>0</Y>
-      </Position>
-      <Alignment>
-        <GrowWidth>true</GrowWidth>
-        <GrowHeight>true</GrowHeight>
-      </Alignment>
-      <TemplateName>fresizeimage_dlg_bg</TemplateName>
-      <Width>310</Width>
-      <Height>400</Height>
-    </FullResizeImageDef>
 
-    <!-- Title -->
+    <WindowTemplate>
+        <Name>key_config</Name>
+        <WindowId>KeyConfig</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>200</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>475</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
-    <LabelDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>0</X>
-        <Y>11</Y>
-      </Position>
-      <Alignment>
-        <GrowWidth>true</GrowWidth>
-      </Alignment>
-      <Color>
-        <R>255</R>
-        <G>192</G>
-        <B>0</B>
-        <A>255</A>
-      </Color>
-      <FontName>font_titles</FontName>
-      <Width>310</Width>
-      <Height>17</Height>
-      <ColorAdapter></ColorAdapter>
-      <MaxCharacters>128</MaxCharacters>
-      <Data>Keyboard Options</Data>
-      <EndAligned>false</EndAligned>
-      <TextCentered>true</TextCentered>
-      <Adapter></Adapter>
-    </LabelDef>
 
-    <!-- Column Headings -->
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>fresizeimage_dlg_bg</TemplateName>
+            <Width>300</Width>
+            <Height>475</Height>
+        </FullResizeImageDef>
 
-    <HorizontalResizeImageDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>10</X>
-        <Y>27</Y>
-      </Position>
-      <Alignment>
-        <GrowWidth>true</GrowWidth>
-      </Alignment>
-      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
-      <Width>290</Width>
-    </HorizontalResizeImageDef>
 
-    <LabelDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>17</X>
-        <Y>28</Y>
-      </Position>
-      <Alignment>
-      </Alignment>
-      <Color>
-        <R>192</R>
-        <G>192</G>
-        <B>192</B>
-        <A>255</A>
-      </Color>
-      <FontName>font_headings</FontName>
-      <Width>64</Width>
-      <Height>16</Height>
-      <ColorAdapter></ColorAdapter>
-      <MaxCharacters>32</MaxCharacters>
-      <Data>Action</Data>
-      <EndAligned>false</EndAligned>
-      <TextCentered>false</TextCentered>
-      <Adapter></Adapter>
-    </LabelDef>
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keyboard Configuration</Data>
+        </LabelDef>
 
-    <LabelDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>193</X>
-        <Y>28</Y>
-      </Position>
-      <Alignment>
-      </Alignment>
-      <Color>
-        <R>192</R>
-        <G>192</G>
-        <B>192</B>
-        <A>255</A>
-      </Color>
-      <FontName>font_headings</FontName>
-      <Width>80</Width>
-      <Height>16</Height>
-      <ColorAdapter></ColorAdapter>
-      <MaxCharacters>32</MaxCharacters>
-      <Data>Assigned Key</Data>
-      <EndAligned>false</EndAligned>
-      <TextCentered>false</TextCentered>
-      <Adapter></Adapter>
-    </LabelDef>
 
-    <!-- Assigned Key Listing -->
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>28</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons</FontName>
+            <Width>64</Width>
+            <Height>15</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Action</Data>
+        </LabelDef>
 
-    <ListBoxDef>
-      <ControlId>1000</ControlId>
-      <Position>
-        <X>10</X>
-        <Y>43</Y>
-      </Position>
-      <Alignment>
-        <GrowWidth>true</GrowWidth>
-        <GrowHeight>true</GrowHeight>
-      </Alignment>
-      <Width>290</Width>
-      <Height>267</Height>
-      <TemplateName>listbox_keyconfig</TemplateName>
-      <AdapterName>key_config</AdapterName>
-      <Sorting>false</Sorting>
-      <Columns>2</Columns>
-      <IconTemplate>plain_icon_small</IconTemplate>
-      <ShowIndicator>false</ShowIndicator>
-      <ShowDefaultToolTips>false</ShowDefaultToolTips>
-      <OnHeaderClickEvent></OnHeaderClickEvent>
-      <OnClickEvent></OnClickEvent>
-    </ListBoxDef>
 
-    <!-- Control Button Frame Image -->
+        <LabelDef>
+            <Position>
+                <X>195</X>
+                <Y>28</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons</FontName>
+            <Width>64</Width>
+            <Height>15</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Key</Data>
+        </LabelDef>
 
-    <FullResizeImageDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>10</X>
-        <Y>31</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <GrowWidth>true</GrowWidth>
-      </Alignment>
-      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
-      <Width>290</Width>
-      <Height>60</Height>
-    </FullResizeImageDef>
 
-    <!-- Clear Current Action Button -->
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>45</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+            <Width>280</Width>
+            <Height>230</Height>
+        </FullResizeImageDef>
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>18</X>
-        <Y>71</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-      </Alignment>
-      <TemplateName>button_size_145</TemplateName>
-      <Label>Clear Current Key</Label>
-      <onClickEvent>InGameKeyConfigClearKey</onClickEvent>
-    </ButtonDef>
 
-    <!--Use Alt/Ctrl Key Buttons -->
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>45</Y>
+            </Position>
+            <Width>280</Width>
+            <Height>230</Height>
+            <TemplateName>keyconfig_listbox</TemplateName>
+            <AdapterName>key_config</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
 
-    <CheckBoxDef>
-      <ControlId>1011</ControlId>
-      <Position>
-        <X>18</X>
-        <Y>53</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-      </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
-      <AdapterName></AdapterName>
-      <TextAdapterName></TextAdapterName>
-      <Data>ALT Key as Modifier</Data>
-      <LabelWidth>145</LabelWidth>
-      <OnClickEvent></OnClickEvent>
-    </CheckBoxDef>
 
-    <CheckBoxDef>
-      <ControlId>1010</ControlId>
-      <Position>
-        <X>18</X>
-        <Y>35</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-      </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
-      <AdapterName></AdapterName>
-      <TextAdapterName></TextAdapterName>
-      <Data>CTRL Key as Modifier</Data>
-      <LabelWidth>145</LabelWidth>
-      <OnClickEvent></OnClickEvent>
-    </CheckBoxDef>
+        <ButtonDef>
+            <Position>
+                <X>10</X>
+                <Y>330</Y>
+            </Position>
+            <TemplateName>button_generic_wide</TemplateName>
+            <Label>CLEAR KEY</Label>
+            <OnClickEvent>InGameKeyConfigClearKey</OnClickEvent>
+        </ButtonDef>
 
-    <!--Default Configuration Buttons -->
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>18</X>
-        <Y>71</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <OffsetRight>true</OffsetRight>
-      </Alignment>
-      <TemplateName>button_generic_wide</TemplateName>
-      <Label>FPS Default</Label>
-      <onClickEvent>InGameKeyConfigResetFPS</onClickEvent>
-    </ButtonDef>
+        <ButtonDef>
+            <Position>
+                <X>190</X>
+                <Y>330</Y>
+            </Position>
+            <TemplateName>button_generic_wide</TemplateName>
+            <Label>RPG DEFAULT</Label>
+            <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
+        </ButtonDef>
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>18</X>
-        <Y>53</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <OffsetRight>true</OffsetRight>
-      </Alignment>
-      <TemplateName>button_generic_wide</TemplateName>
-      <Label>RPG Default</Label>
-      <onClickEvent>InGameKeyConfigResetRPG</onClickEvent>
-    </ButtonDef>
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>18</X>
-        <Y>35</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <OffsetRight>true</OffsetRight>
-      </Alignment>
-      <TemplateName>button_generic_wide</TemplateName>
-      <Label>MMO Default</Label>
-      <onClickEvent>InGameKeyConfigResetMMO</onClickEvent>
-    </ButtonDef>
+        <ButtonDef>
+            <Position>
+                <X>190</X>
+                <Y>355</Y>
+            </Position>
+            <TemplateName>button_generic_wide</TemplateName>
+            <Label>FPS DEFAULT</Label>
+            <OnClickEvent>InGameKeyConfigResetFPS</OnClickEvent>
+        </ButtonDef>
 
-    <!-- Accept/Cancel Buttons -->
 
-    <HorizontalResizeButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>10</X>
-        <Y>10</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-      </Alignment>
-      <TemplateName>hresizebutton_generic</TemplateName>
-      <Label>Quickbind Help</Label>
-      <Width>123</Width>
-      <onClickEvent>QuickBind</onClickEvent>
-    </HorizontalResizeButtonDef>
+        <ButtonDef>
+            <Position>
+                <X>190</X>
+                <Y>380</Y>
+            </Position>
+            <TemplateName>button_generic_wide</TemplateName>
+            <Label>MMO DEFAULT</Label>
+            <OnClickEvent>InGameKeyConfigResetMMO</OnClickEvent>
+        </ButtonDef>
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>73</X>
-        <Y>10</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <OffsetRight>true</OffsetRight>
-      </Alignment>
-      <TemplateName>button_generic</TemplateName>
-      <Label>Accept</Label>
-      <onClickEvent>InGameKeyConfigAccept</onClickEvent>
-    </ButtonDef>
 
-    <ButtonDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>10</X>
-        <Y>10</Y>
-      </Position>
-      <Alignment>
-        <OffsetBottom>true</OffsetBottom>
-        <OffsetRight>true</OffsetRight>
-      </Alignment>
-      <TemplateName>button_generic</TemplateName>
-      <Label>Cancel</Label>
-      <onClickEvent>InGameKeyConfigCancel</onClickEvent>
-    </ButtonDef>
+        <ButtonDef>
+            <Position>
+                <X>10</X>
+                <Y>355</Y>
+            </Position>
+            <TemplateName>button_generic_wide</TemplateName>
+            <Label>/QBINDS</Label>
+            <OnClickEvent>QuickBind</OnClickEvent>
+        </ButtonDef>
 
-  </WindowTemplate>
+
+        <ButtonDef>
+            <Position>
+                <X>152</X>
+                <Y>450</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>CANCEL</Label>
+            <OnClickEvent>InGameKeyConfigCancel</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>85</X>
+                <Y>450</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>ACCEPT</Label>
+            <OnClickEvent>InGameKeyConfigAccept</OnClickEvent>
+        </ButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>380</Y>
+            </Position>
+            <TemplateName>checkbox_generic</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>CTRL Key as Modifier</Data>
+            <LabelWidth>180</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>395</Y>
+            </Position>
+            <TemplateName>checkbox_generic</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>ALT Key as Modifier</Data>
+            <LabelWidth>180</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>410</Y>
+            </Position>
+            <TemplateName>checkbox_generic</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Forward breaks run-lock</Data>
+            <LabelWidth>180</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>checkbox_generic</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Modifiers break move keys</Data>
+            <LabelWidth>180</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>281</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons_small</FontName>
+            <Width>285</Width>
+            <Height>13</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>To change a key setting, left-click the entry on the right-</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>295</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons_small</FontName>
+            <Width>285</Width>
+            <Height>13</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>hand side of the list so that the entry is highlighted blue,</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>310</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_buttons_small</FontName>
+            <Width>285</Width>
+            <Height>13</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>then press the key on your keyboard you wish to set.</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
 
 </Root_Element>
