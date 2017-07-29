@@ -447,8 +447,8 @@
       <TemplateName>checkbox_realmwar</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
-      <Data>Agramon</Data>
-      <LabelWidth>56</LabelWidth>
+	  <Data>Ellan Vannin</Data>
+	  <LabelWidth>70</LabelWidth>
       <OnClickEvent></OnClickEvent>
     </CheckBoxDef>
 
@@ -647,6 +647,23 @@
       </Alignment>
       <TemplateName>ImageArea_Map_Destination_Large</TemplateName>
     </ImageAreaDef>
+	
+			<ImageAreaDef>
+			<TemplateName>realmwar_destination</TemplateName>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<ControlId>1111</ControlId>
+		</ImageAreaDef>
+		<ImageAreaDef>
+			<TemplateName>realmwar_destination</TemplateName>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<ControlId>1112</ControlId>
+		</ImageAreaDef>
 
     <!--Fires-->
 
@@ -3051,6 +3068,27 @@
       <Width>16</Width>
       <Height>16</Height>
     </InvisibleButtonDef>
+	
+			<InvisibleButtonDef>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<width>16</width>
+			<height>16</height>
+			<OnClickEvent>WarmapPowerRelicTownSelect</OnClickEvent>
+			<ControlId>3411</ControlId>
+		</InvisibleButtonDef>
+		<InvisibleButtonDef>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<width>16</width>
+			<height>16</height>
+			<OnClickEvent>WarmapStrengthRelicTownSelect</OnClickEvent>
+			<ControlId>3412</ControlId>
+		</InvisibleButtonDef>
 
   </WindowTemplate>
 

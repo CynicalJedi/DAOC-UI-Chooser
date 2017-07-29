@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>warmap_agramon</Name>
-        <File>custom/Assets/RealmWar/AgramonMap.tga</File>
+        <File>maps/z163.dds</File>
     </Texture>
 
 
@@ -46,6 +46,21 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>fresizeimage_dlg_bg</TemplateName>
+            <Width>266</Width>
+            <Height>410</Height>
+        </FullResizeImageDef>
 
 
         <ImageAreaDef>
@@ -262,7 +277,7 @@
             <TemplateName>checkbox_realmwar</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Agramon</Data>
+            <Data>Ellan Vannin</Data>
             <LabelWidth>56</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
@@ -370,6 +385,16 @@
 
 
         <ImageAreaDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_destination_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
             <ControlId>1200</ControlId>
             <Position>
                 <X>0</X>
@@ -396,6 +421,99 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>imagearea_map_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1203</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1204</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1205</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId>1312</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1313</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1314</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1612</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1613</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1614</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
 
@@ -1092,6 +1210,39 @@
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <ControlId>1403</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1404</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1405</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
         <ImageAreaDef>
             <ControlId>2013</ControlId>
             <Position>
@@ -1136,6 +1287,84 @@
             </Position>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect2</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3403</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect3</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3404</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect4</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3405</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect5</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3312</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapTowerSelect12</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3313</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapTowerSelect13</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3314</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapTowerSelect14</OnClickEvent>
             <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
