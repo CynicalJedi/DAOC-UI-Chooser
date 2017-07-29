@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <MenuTemplate>
+    <Name>Menu_Generic</Name>
+    <Width>104</Width>
+    <Height>16</Height>
+    <LabelLength>128</LabelLength>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorHighlit>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorHighlit>
+    </Font>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Normal>
+        <X>107</X>
+        <Y>88</Y>
+      </Normal>
+      <Highlit>
+        <X>107</X>
+        <Y>71</Y>
+      </Highlit>
+    </Texture>
+  </MenuTemplate>
+
+</Root_Element>

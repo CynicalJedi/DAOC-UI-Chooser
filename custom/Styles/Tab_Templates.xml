@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Generic Tabs control -->
+
+  <TabsTemplate>
+    <Name>generic_tabs</Name>
+    <ControlAreaFullResizeImageTemplate>fresizeimage_tab_panel</ControlAreaFullResizeImageTemplate>
+    <TabButtonTemplate>button_tab</TabButtonTemplate>
+    <TabXOffset>5</TabXOffset>
+    <TabYOffset>2</TabYOffset>
+  </TabsTemplate>
+
+</Root_Element>

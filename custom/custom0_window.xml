@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load MainMenu Window -->
+
+  <WindowTemplate>
+    <Name>custom0_window</Name>
+    <WindowId>Main Menu</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>44</TitleHeight>
+    <Width>310</Width>
+    <Height>406</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>310</MinWidth>
+    <MinHeight>406</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background Image-->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>406</Height>
+    </FullResizeImageDef>
+
+    <!--Title-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Bob's User Interface 1.117 v7.0x BETA</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>310</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>http://bobsui.koamon.com</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!--Floating Window Controls-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>10</MaxCharacters>
+      <Data>Floating</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>60</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>290</Width>
+      <Height>26</Height>
+    </FullResizeImageDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>65</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Health</Label>
+      <onClickEvent>ToggleCustom1</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>65</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Endurance</Label>
+      <onClickEvent>ToggleCustom2</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>65</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Power</Label>
+      <onClickEvent>ToggleCustom3</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>65</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Target</Label>
+      <onClickEvent>ToggleCustom4</onClickEvent>
+    </ButtonDef>
+
+    <!--HHelper Window Controls-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>94</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>94</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>15</MaxCharacters>
+      <Data>Healer Helpers</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>110</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>290</Width>
+      <Height>26</Height>
+    </FullResizeImageDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Cube</Label>
+      <onClickEvent>ToggleCustom5</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Horizontal</Label>
+      <onClickEvent>ToggleCustom6</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Vertical</Label>
+      <onClickEvent>ToggleCustom7</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Mini Grp</Label>
+      <onClickEvent>ToggleMiniGroup</onClickEvent>
+    </ButtonDef>
+
+    <!--Miscellaneous Window Controls-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>144</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>144</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>15</MaxCharacters>
+      <Data>Miscellaneous</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>160</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>290</Width>
+      <Height>62</Height>
+    </FullResizeImageDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>165</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Mini Attr</Label>
+      <onClickEvent>ToggleCustom8</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>165</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Mini Res</Label>
+      <onClickEvent>ToggleCustom9</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>165</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Cmd Bar</Label>
+      <onClickEvent>ToggleCustom10</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>165</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Tabbed Xp</Label>
+      <onClickEvent>ToggleCustom11</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>183</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Chant</Label>
+      <onClickEvent>ToggleCustom12</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>183</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Armor Res</Label>
+      <onClickEvent>ToggleCustom13</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>183</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Artifacts</Label>
+      <onClickEvent>ToggleCustom14</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>183</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Atlas</Label>
+      <onClickEvent>ToggleCustom15</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>201</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Crafting</Label>
+      <onClickEvent>ToggleCustom16</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>201</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>RRank</Label>
+      <onClickEvent>ToggleCustom17</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>201</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Video</Label>
+      <onClickEvent>ToggleCustom18</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>201</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent>ToggleCustom19</onClickEvent>
+    </ButtonDef>
+
+    <!--Other Window Controls-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>230</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>230</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>10</MaxCharacters>
+      <Data>Commands</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>246</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>290</Width>
+      <Height>134</Height>
+    </FullResizeImageDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>251</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Bonuses</Label>
+      <onClickEvent>Bonuses</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>251</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Clock</Label>
+      <onClickEvent>ToggleClock</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>251</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Command</Label>
+      <onClickEvent>ToggleCommandWindow</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>251</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Compass</Label>
+      <onClickEvent>ToggleCompass</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>269</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Conc</Label>
+      <onClickEvent>ToggleConcentration</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>269</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Friends</Label>
+      <onClickEvent>ToggleMiniFriends</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>269</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Grp Buffs</Label>
+      <onClickEvent>ToggleGroupBuffs</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>269</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Help</Label>
+      <onClickEvent>ToggleHelp</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>287</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Journal</Label>
+      <onClickEvent>ToggleJournal</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>287</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Keeps</Label>
+      <onClickEvent>Realm</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>287</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Keyboard</Label>
+      <onClickEvent>ShowKeyboardConfig</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>287</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Lag Meter</Label>
+      <onClickEvent>TogglePerformanceMeter</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>305</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Map</Label>
+      <onClickEvent>ToggleMap</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>305</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Master Lvl</Label>
+      <onClickEvent>ToggleMasterLevel</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>305</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Mini Grp</Label>
+      <onClickEvent>ToggleMiniGroup</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>305</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Mini Pet</Label>
+      <onClickEvent>ToggleMiniPet</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>323</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Options</Label>
+      <onClickEvent>ToggleOptions</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>323</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Quiver</Label>
+      <onClickEvent>ToggleQuiver</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>323</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Relics</Label>
+      <onClickEvent>Relic</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>323</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Rlm Bonus</Label>
+      <onClickEvent>WarmapUpdateBonuses</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>341</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Rlm Key</Label>
+      <onClickEvent>ToggleWarmapKey</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>341</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>Social</Label>
+      <onClickEvent>Community</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>341</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label>War Map</Label>
+      <onClickEvent>ShowWarMap</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>341</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>359</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>359</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>359</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>226</X>
+        <Y>359</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_68</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!--Time Controls-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>125</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>time_of_day</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>75</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>153</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>70</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>13</MaxCharacters>
+      <Data>Server Time:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>153</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>70</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>10</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>game_time</Adapter>
+    </LabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Templates -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Ochi_GreenBarFG</Name>
+    <Height>10</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>84</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_ochi_01</TextureName>
+      <Left>
+        <X>171</X>
+        <Y>0</Y>
+      </Left>
+      <Repeat>
+        <X>171</X>
+        <Y>0</Y>
+      </Repeat>
+      <Right>
+        <X>171</X>
+        <Y>0</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Ochi_Green</Name>
+    <ForegroundHResizeTemplate>hresizeimage_ochi_greenbarfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_ochi_barsmallbg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Ochi_YellowBarFG</Name>
+    <Height>10</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>84</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_ochi_01</TextureName>
+      <Left>
+        <X>171</X>
+        <Y>10</Y>
+      </Left>
+      <Repeat>
+        <X>171</X>
+        <Y>10</Y>
+      </Repeat>
+      <Right>
+        <X>171</X>
+        <Y>10</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Ochi_Yellow</Name>
+    <ForegroundHResizeTemplate>hresizeimage_ochi_yellowbarfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_ochi_barsmallbg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load FloatingPlayerEnd Window -->
+
+  <WindowTemplate>
+    <Name>custom2_window</Name>
+    <WindowId>Floating Player End</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>170</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>170</Width>
+    <Height>10</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>170</MinWidth>
+    <MinHeight>10</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Player End Controls-->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_ochi_green</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+      <Width>84</Width>
+    </StatusBarDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>-3</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>26</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Player Pwr Controls-->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_ochi_yellow</TemplateName>
+      <AdapterName>summary_player_power</AdapterName>
+      <Width>84</Width>
+    </StatusBarDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>115</X>
+        <Y>-3</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_power</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

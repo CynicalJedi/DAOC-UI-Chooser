@@ -1,0 +1,2601 @@
+; ### areas.dat for mixed resolutions (256 AND 512)
+;
+; ### Last modified: 29.11.2006 by Valmerwolf
+; Thanks to MastaMappa for the offsets of the dungeons of Catacombs and DR
+;
+; 
+; This file contains the information used to display maps for specified area 
+; within a zone.
+;
+; Area textures and named the same as zone textures, but they have a two 
+; digit area number appended to the name. So where zone 200's texture is...
+;
+;	z200.dds
+;
+; ...zone 200 area 0 would be 
+;
+;	z200_00.dds
+;	
+; ...zone 200 area 1 would be 
+;
+;	z200_01.dds
+;
+; precise grammar for this file:
+; [zone%3d]				zone number
+; area_count=%d			number of areas in the zone (helps parsing)
+; area0_left=%d			left side of the area in word units
+; area0_top=%d			top of the area in word units
+; area0_z=%d			"ceiling" of the area in word units (optional)
+; area0_width=%d		width of the area in word units
+; area0_height=%d		height of the area in word units
+; area0_depth=%d		depth of the area in word units (optional)
+; area0_name=%s			name of this area (optional)
+; area0_desc=%s			description of this area (optional)
+; area1_left=%d       
+; area1_top=%d      
+; area1_width=%d     
+; ...
+
+[zone000]
+area_count=2
+area0_left=8640
+area0_top=23168
+area0_width=11520
+area0_height=11520
+area0_name=Cotswold
+area0_desc=Cotswold Village.
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Camelot Hills
+area1_desc=Nested by Camelot City, the hills hold two dungeons and an entrance into the Frontier. Geared primarily for low-level players, Mithra's Tomb highlights the best dungeon to level in for new players. A portal into Darkness Falls, a deep and dark dungeon, is also available in the castle ruins of the zone.  Castle Sauvage, to the north-east, allows entrance into the Albion Frontier.
+
+[zone001]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Salisbury Plains
+area0_desc=The wide expanse of Salisbury Plains is home to the legendary Stonehenge. Rolling hills spread over the plains where different creatures dwell. Adventurers’ level 12 through 25 will find excellent hunting here. Within the circles of Stonehenge lies the entrance to the Stonehenge Barrows, a tomb haunted by the undead that only the most skilled warriors should dare to enter.
+
+[zone002]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Black Mountains South
+area0_desc=Nestled in the Black South Mountains are the two small villages Ludlow and Humberton.  Young players will find great hunting in the hills surrounding the villages.  To the south lies the glorious city of Camelot.
+
+[zone003]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Black Mountains North
+area0_desc=Black Mountains North is home to Snowdownia Station, a small haven of rest in an area surrounded by towering mountains.  Young adventurers can find much to learn here. The road from the station leads to the northern reaches of the frontier and Snowdonia Fortress.
+
+[zone004]
+area_count=2
+area0_left=33500
+area0_top=53500
+area0_width=10000
+area0_height=10000
+area0_name=Golestandt's Lair
+area0_desc=This is the lair of the dragon of Albion: Golestandt
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Dartmoor
+area1_desc=Dartmoor,the very name strikes fear into the heart of young and old alike, for in this valley lies the home of Golestandt the Dragon. The untamed Dartmoor ponies and the giants walk this land freely. Only the most skilled warriors have dared to venture here.
+
+[zone006]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Cornwall
+area0_desc=Cornwall is a region haunted by the warriors of the past. From the Ghostly Church to the ruins of the Roman Fort, the area is one of memories echoing of another time.  Mid-level heroes between the levels of 22 and 30 can seek the Catacombs of Cardova which are guarded by the undead.
+
+[zone007]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Llyn Barfog
+area0_desc=Legends surround this mysterious lake. The shores are populated with powerful creatures ranging from level 25 through 50 and beyond.  Some monsters have even gained epic status for the very valor it takes to face them.  Groups of the most skilled warriors should be wary near these shores.
+
+[zone008]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Campacorentin Forest
+area0_desc=A dense and sprawling forest lying south of Salisbury Plains holds many secrets.   Hidden deep within the forest is the dungeon of Keltoi, where those between levels 15 and 21 can explore.
+
+[zone009]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Avalon Marsh
+area0_desc=Located in the southern regions, the marsh is infested with creatures for low level adventures to hunt.  Adribard's Retreat is a gathering place for the young citizens to learn and train. Located South-West of the Retreat is a portal to the Isle of Avalon.
+
+[zone010]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Lyonesse
+area0_desc=The southernmost region of Albion is Lyonesse. Once a thriving settlement, the ocean reclaimed the land, and the flood waters still linger. The land is covered in mist, and powerful creatures from both land and sea have found a home within the ruins of the partially submerged dwellings of yesteryear.  Only the most Skilled adventurers may travel here and live to tell of it.
+
+[zone013]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Caerwent
+area0_desc=Lots 1-200.
+
+[zone016]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Old Sarum
+area0_desc=Lots 601-800.
+
+[zone017]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Rilan
+area0_desc=Lots 201-400.
+
+[zone018]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Dalton
+area0_desc=Lots 401-600.
+
+[zone019]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=15365
+area0_offsety=13245
+area0_width=13340
+area0_height=13340
+area0_name=Stonehenge Barrows
+area0_desc=This deep pit is home to a multitude of undead, and a tribe of goblins
+
+[zone020]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Brisworthy
+area0_desc=Lots 801-1000.
+
+[zone021]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=12045
+area0_offsety=17880
+area0_width=13390
+area0_height=13390
+area0_name=Tomb of Mithra
+area0_desc=Undead infested place
+
+[zone022]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=21570
+area0_offsety=19605
+area0_width=8155
+area0_height=8155
+area0_name=Keltoi Fogou
+area0_desc=The Keltoi are a very spiritual people and often gather in secluded places to live, worship, or practice their spiritualistic arts. They use the fogou as their spiritual center for ceremony, initiation and teaching. Birth and death rituals are conducted in it as it is seen as a transition zone between this world and the next. The whole site is considered a sacred space.
+
+[zone023]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=15225
+area0_offsety=20695
+area0_width=17150
+area0_height=17150
+area0_name=Catacombs of Cardova
+area0_desc=
+
+[zone024]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=20315
+area0_offsety=16085
+area0_width=11085
+area0_height=11085
+area0_name=Tepok's Mine
+area0_desc=For many years, an unnamed crypt stood alone within a circle of standing stones in the middle of the Cornwall countryside. No one knew who was buried there or how long it had been there.
+
+[zone026]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=21900
+area0_offsety=13350
+area0_width=11200
+area0_height=11200
+area0_name=Camelot City
+area0_desc=This is the Capital of the Realm of Albion.
+
+[zone027]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Alb Keep
+area0_desc=Alb Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Alb Town
+area1_desc=Alb Town
+
+[zone028]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Mid Keep
+area0_desc=Mid Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Mid Town
+area1_desc=Mid Town
+
+[zone029]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Hib Keep
+area0_desc=Hib Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Hib Town
+area1_desc=Hib Town
+
+[zone030]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Hesperos
+area0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+[zone073]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Hesperos
+area0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+[zone130]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Hesperos
+area0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+
+[zone031]
+area_count=2
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Mesothalassa
+area1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+[zone074]
+area_count=2
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Mesothalassa
+area1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+[zone131]
+area_count=2
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Mesothalassa
+area1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+
+[zone032]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Boreal
+area0_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+[zone075]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Boreal
+area0_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+[zone132]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Boreal
+area0_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+
+[zone033]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Notos
+area0_desc=Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+[zone076]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Notos
+area0_desc=Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+[zone133]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Notos
+area0_desc=Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+
+[zone034]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Anatole
+area0_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+[zone077]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Anatole
+area0_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+[zone134]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Oceanus Anatole
+area0_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+
+[zone036]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7340
+area0_offsety=705
+area0_width=38285
+area0_height=38285
+area0_name=Sobekite Eternal
+area0_desc=
+[zone079]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7340
+area0_offsety=705
+area0_width=38285
+area0_height=38285
+area0_name=Sobekite Eternal
+area0_desc=
+[zone136]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7340
+area0_offsety=705
+area0_width=38285
+area0_height=38285
+area0_name=Sobekite Eternal
+area0_desc=
+
+[zone037]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=16485
+area0_offsety=-855
+area0_width=46790
+area0_height=46790
+area0_name=Temple of Twilight
+area0_desc=
+[zone080]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=16485
+area0_offsety=-855
+area0_width=46790
+area0_height=46790
+area0_name=Temple of Twilight
+area0_desc=
+[zone137]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=16485
+area0_offsety=-855
+area0_width=46790
+area0_height=46790
+area0_name=Temple of Twilight
+area0_desc=
+
+[zone038]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+[zone081]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+[zone138]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+
+[zone039]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+[zone082]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+[zone139]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stygian Delta
+area0_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+
+[zone040]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=2560
+area0_offsety=11175
+area0_width=42385
+area0_height=42385
+area0_name=Halls of Ma'ati
+area0_desc=
+[zone083]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=2560
+area0_offsety=11175
+area0_width=42385
+area0_height=42385
+area0_name=Halls of Ma'ati
+area0_desc=
+[zone140]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=2560
+area0_offsety=11175
+area0_width=42385
+area0_height=42385
+area0_name=Halls of Ma'ati
+area0_desc=
+
+[zone041]
+area_count=2
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Typhon's Reach
+area1_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+[zone084]
+area_count=2
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Typhon's Reach
+area1_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+[zone141]
+area_count=2
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Typhon's Reach
+area1_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+
+[zone042]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Ashen Isles
+area0_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+[zone085]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Ashen Isles
+area0_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+[zone142]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Ashen Isles
+area0_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+
+[zone043]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Green Glades
+area0_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+[zone086]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Green Glades
+area0_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+[zone143]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Green Glades
+area0_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+
+[zone044]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Arbor Glen
+area0_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+[zone087]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Arbor Glen
+area0_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+[zone144]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Arbor Glen
+area0_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+
+[zone046]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7770
+area0_offsety=-455
+area0_width=37760
+area0_height=37760
+area0_name=Deep Volcanus
+[zone089]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7770
+area0_offsety=-455
+area0_width=37760
+area0_height=37760
+area0_name=Deep Volcanus
+[zone146]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7770
+area0_offsety=-455
+area0_width=37760
+area0_height=37760
+area0_name=Deep Volcanus
+
+[zone047]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7060
+area0_offsety=2850
+area0_width=44215
+area0_height=44215
+area0_name=City of Aerus
+area0_desc=
+[zone090]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7060
+area0_offsety=2850
+area0_width=44215
+area0_height=44215
+area0_name=City of Aerus
+area0_desc=
+[zone147]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7060
+area0_offsety=2850
+area0_width=44215
+area0_height=44215
+area0_name=City of Aerus
+area0_desc=
+
+[zone050]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=10130
+area0_offsety=11915
+area0_width=28840
+area0_height=28840
+area0_name=Avalon City
+area0_desc=Avalon City is a smoking ruin and the Drakoran are in league with Morgan le Fay. Arawn, Lord of the Dead is the leader of the Inconnu and they want to get Avalon City back.
+
+[zone051]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Isle of Glass
+area0_desc=This beautiful isle provides perfect hunting for younger adventurers.  Home to Caer Gothwaite, the majestic keep looms over the harbor offering safety and assurance. Travel to the main lands and to Atlantis are available in the harbor.
+
+[zone052]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Avalon Isle
+area0_desc=Once a thriving orchard of magic and peace, Avalon Isle has been claimed by the vile Drakorans.  The small hamlet Wearyall is the only bastion inhabited by men in this area.  Even fair Avalon city has fallen to these invaders.  The realm calls upon its most skilled warriors to free the once glorious city.
+
+[zone053]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=DAles of Devwy
+area0_desc=In the Dales of Devwy, towering trees give the forest an aura of heavy, eerie quietness. Many adventurers have stated that the trees hide secrets and shelter monsters of the darkest imagination. All travelers are advised to stay close to the forest path.  Fort Gwyntell offers safety, supplies and training to the few who survive to reach it.
+
+[zone054]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Caldey
+area0_desc=This land is filled with many dangers and over shadowing it all upon a high mountain is the dungeon of Caer Sidi. Once a proud and glorious hall where men and women from the realm gathered, it now lays in ruin, inhabited by the most powerful of Morgana’s undead horde.  Only the strongest or the foolish fight to reclaim this stronghold.
+
+[zone055]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Gwyddneau
+area0_desc=A river flows through Gwyddneau to the sea between through a towering canyon.  An ancient race of beings make their homes in these cliffs and guard it furiously.  Along the coastline dwell marooned Vikings whose ships crashed upon these dangerous rock lined shores.
+
+[zone056]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Aldland
+area0_desc=Aldland is a land inhabited with strange creatures of both land and air. Caer Diogel offers the only friendly outpost in the region for supplies and training. In the northern part of this wild land is the Ogre citadel Krondon. Many skilled warriors have dared to face him, few have returned to tell the tale.
+
+[zone057]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Inishail Island
+area0_desc=Inishail Island is a foggy marshland torn between the Lammia and Orcs.  The feuding factions are not the only dangers here in the marsh, adventurers should be wary of slimes and sinkholes.
+
+[zone060]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=13970
+area0_offsety=15230
+area0_width=21105
+area0_height=21105
+area0_name=Caer Sidi
+area0_desc=
+
+[zone061]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=605
+area0_offsety=8415
+area0_width=55920
+area0_height=55920
+area0_name=Krondon
+area0_desc=
+
+[zone062]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=19350
+area0_offsety=21285
+area0_width=7400
+area0_height=7400
+area0_name=Crystal Cave
+area0_desc=This may well be the hardest dungeon to get into in the game... Hordes of 60+ mobs to just get to the entrance, then even more inside...
+
+[zone064]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Aylesbury
+area0_desc=Lots 1001-1200.
+
+[zone070]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Ruins of Atlantis
+area0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+[zone071]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Ruinerar av Atlantis
+area0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+[zone072]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Scrios de Atlantis
+area0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+
+[zone100]
+area_count=2
+area0_left=44864
+area0_top=47552
+area0_width=11520
+area0_height=11520
+area0_name=Mularn
+area0_desc=Mularn.
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Vale of Mularn
+area1_desc=Young players will find Mularn a suitable place to hunt and hone their skills.  The Vale is home to the Vendo Caverns, suitable to adventurers 18 to 30.  Also, the entrance to Darkness Falls, the RVR dungeon as well as entrances to the capital city of Jordheim and the housing areas are located here. Finally, Svasud Faste provides the gateway to the Frontiers and the battlegrounds.
+
+[zone101]
+area_count=2
+area0_left=49500
+area0_top=13820
+area0_width=8192
+area0_height=8192
+area0_name=Vasudheim
+area0_desc=This is Vasudheim.
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=East Svealand
+area1_desc=East Svealand has three towns Vasudheim, Audliten, and Dvalin.  This area is also home to the dungeon Nisse’s Lair, which will provide challenges to adventurers 8 to 20.  You will also find an entrance to the capital city of Jordheim here, near Vasudheim.
+
+[zone102]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=West Svealand
+area0_desc=West Svealand is an area for adventurers 10 to 20.  The town of Huginfel is your only refuge here from the Blodfelag and the other monsters that roam the land.  At the far north of the area, you will find Vindsaul Faste, which is a gateway to the Frontiers.
+
+[zone103]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Gotar
+area0_desc=Gotar is home to the city of Fort Atla and is plagued by monsters for lower level adventurers.  Also located here is the town of Nalliten, which contains the portal to Aegir.  On the eastern edge of land, there is the Cursed Tomb, which caters to adventurers levels 15 to 24.
+
+[zone104]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Muspelheim
+area0_desc=Home of the fire giants, Muspelheim is a charred land with pits of bubbling lava.  Adventurers in their 20s to 30s can find monsters a plenty to hunt here.  Be careful of angering the Dverge, who make their homes here because your trainer may send you to perform tasks for them in pursuit of magical arms and armor.
+
+[zone105]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Myrkwood Forest
+area0_desc=Dark and foreboding, Myrkwood Forest is home to two towns and the most challenging dungeon in old world Midgard, Spindelhalla.  The city of Galpen has monsters appropriate to adventurers’ levels 1 to 20.  Gna Faste is a tradeskill city and also has trainers that cannot be found in the other city.  If you are young, be wary of Njessi who wanders the lake preying on young adventurers.
+
+[zone106]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Skona Ravine
+area0_desc=In the shadow of Myrkwood Forest, Skona Ravine is a haven for werewolves, who provide good battles for adventurers 20 to mid 30s.  The Varulvhamn dungeon is their home and provides challenges to adventurers in their 30s to 40s.
+
+[zone107]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Vanern Swamp
+area0_desc=Dank and foggy, Vanern is home to monsters that will challenge adventurers between 30 and 45.  Beware both the Jotuns and Hagbui can be fearsome opponents if caught unprepared.
+
+[zone108]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Raumarik
+area0_desc=Raumarik is strictly a high level land with monsters challenging to adventurers from 40 to 50.  This area is home to the Wretches of Winter, who can be a challenge to even the most senior group.   The monsters of Raumarik are notoriously aggressive so be on your guard.
+
+[zone114]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Erikstaad
+area0_desc=Lots 1601-1800.
+
+[zone116]
+area_count=2
+area0_left=15800
+area0_top=50000
+area0_width=10000
+area0_height=10000
+area0_name=Gjapinulva's Lair
+area0_desc=This is the lair of the dragon of Midgard: Gjapinulva
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Malmohus
+area1_desc=Malmohus is home to the dragon Gjalpinulva and her underlings.  High level servants wander the area constantly and the dragon periodically flies over her domain patrolling for intruders. It is a very high-level area and should be traveled through carefully with a group.
+
+[zone117]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Arothi
+area0_desc=Lots 2201-2400.
+
+[zone118]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Carlingford
+area0_desc=Lots 1801-2000.
+
+[zone119]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Wyndham
+area0_desc=Lots 2001-2200.
+
+[zone120]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=21900
+area0_offsety=13350
+area0_width=11200
+area0_height=11200
+area0_name=Jordheim
+area0_desc=This is the Capital of the Realm of Midgard.
+
+[zone121]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Frisia
+area0_desc=Lots 2401-2600.
+
+[zone122]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Kaupang
+area0_desc=Lots 2601-2800.
+
+[zone125]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=18330
+area0_offsety=17500
+area0_width=11838
+area0_height=11838
+area0_name=Spindelhalla
+area0_desc=
+
+[zone126]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=17105
+area0_offsety=19925
+area0_width=8250
+area0_height=8250
+area0_name=Vendo Caverns
+area0_desc=
+
+[zone127]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=7110
+area0_offsety=10660
+area0_width=20880
+area0_height=20880
+area0_name=Varulvhamn
+area0_desc=Varulvhamn is an underground lair where some werewolves take up resident. Most of the werewolves that live here tend to be less militant than those in Skona, though not necessarily less aggressive towards humankind. Two types of werewolves live here, the "common" werewolves and the wolfaur. 
+
+[zone128]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=21570
+area0_offsety=19610
+area0_width=8155
+area0_height=8155
+area0_name=Cursed Tomb
+area0_desc=It is the final resting place of dishonored warriors and kings of Midgard who deserted in the midst of battle, betrayed their comrades, let greed and vice get in the way of honor, or died in less-than-heroic circumstances, and whom the Midgard gods wouldn't allow into Valhalla for their misdeeds. 
+
+[zone129]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=16830
+area0_offsety=20350
+area0_width=12535
+area0_height=12535
+area0_name=Nisse's Lair
+area0_desc=Nisse's Lair is a small burrow and is the underground home of the Tomte and their leader, Nisse. It also has a small but powerful lair of spiders that have taken over a small portion from the Tomte.
+
+[zone150]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=3025
+area0_offsety=-350
+area0_width=46240
+area0_height=46240
+area0_name=Trollheim
+area0_desc=Trolls and Kobold originated from here and is known as the home of the Troll Fathers. The Morvaltar, prehistoric humans have taken over Trollheim, the Troll city, and the clan called Valkyn, want them out! 
+
+[zone151]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Aegir's Landing
+area0_desc=Aegir's Landing is home to the capital city, Aegirhamn, which contains trainers as well as portals to both Old Midgard and Atlantis.  Monsters in this land are suited to young players.  Dyrfjell, the other town in this area undergoes periodic sieges by Morvalt forces.  Both Morvalt and Neanderthal factions fight over this land, so choose your side carefully.
+
+[zone152]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Gripklosa Mountains
+area0_desc=The mountains and valleys of Gripklosa shelter the town of Bjarken as the only refuge in this snow covered land.  From the Morvalt controlled city of Trollheim to the hidden Redcap town of Iss, adventurers from 30 to 50 will find foes to challenge them.  In the northern reaches of the land, you may discover Mammoth Valley and see the Old Matriarch herself.
+
+[zone153]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Delling Crater
+area0_desc=Delling Crater is best suited for high level adventurers in their upper 40s.  In the northeastern corner of the land, you will find the entrance to Tuscarian Glacier, the epic dungeon of Aegir.   If you are friendly with the People of Dellingstad, you may rest and trade in their town otherwise you should steer clear as they do not like intruders.
+
+[zone154]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Faraheim
+area0_desc=Faraheim is a dangerous place to travel at anytime of day or night, because the monsters here challenge even the highest level of adventurers.  The town of Hagall provides the only refuge and the only safe passage to the island of Modernagrav.  A small group of Iarn Dwarves have made a colony here on as well, but be wary as they and their griffon mounts do not take kindly to strangers.
+
+[zone155]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Munin Sound
+area0_desc=Munin Sound is meant to be explored by adventurers from 10 to 40.  The town of Knarr provides a place for the weary traveler to sell and a base to explore this area.
+
+[zone156]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Iarnwood
+area0_desc=Iarnwood is an extremely dangerous area to venture into even for the most senior adventurer.  This area hosts the entrance to the challenging dungeon of Iarnvidiur, which is best explored by well organized groups only.  In the northeast, you will find another settlement of Iarn Dwarves, but make sure you are friendly to them before getting too close.
+
+[zone158]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Modernagrav
+area0_desc=Modernagrav is an island located off of the eastern coast of Faraheim that has monsters fit for adventurers from 35 to 50.  Both the Sjoalf and Redcaps can provide challenges to small groups of adventurers.  Undead populate the middle of the island and only the very brave challenge them in their redoubts.
+
+[zone160]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=155
+area0_offsety=5200
+area0_width=50925
+area0_height=50925
+area0_name=Tuscaren Glacier
+area0_desc=
+
+[zone161]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=2600
+area0_offsety=-965
+area0_width=35290
+area0_height=35290
+area0_name=Iarnvidiur's Lair
+area0_desc=
+
+[zone163]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Agramon
+area0_desc=The Isle of Agramon appeared overnight heralded by earthquakes, tidal waves and demonic hordes. The strange new land mass filled up the entirety of the once vast North Sea and almost appeared to reach towards the Frontiers. Through great bravery and conflict, the Realms pushed back the armies of Darkness Falls and cast back down the creature that lead them, the Demon Lord Agramon. 
+
+[zone164]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Irish Sea
+area0_desc=The calm, clear waters of the Irish sea stretch out in all directions.  Without a compass and a map, many ocean farers have found themselves hopelessly lost in its vastness.  Though the waters may seem inviting, enemy battles await by sea. The coast of Albion lies to the east, far from the Hibernian coast in the west.
+
+[zone167]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Odin's Gate
+area0_desc=Odin’s Gate is Midgard’s front line for repelling foreign invaders.  Bledmeer Faste protects both the coast and the realm’s river access.  Nottmoor Faste protects the north western coast.  To the east, a series of rope bridges suspended high over canyon walls provides excellent defense for attacking armies marching deep into Midgard’s frontier.
+
+[zone168]
+area_count=2
+area0_left=19000
+area0_top=36000
+area0_width=12000
+area0_height=12000
+area0_name=Maze (Jamtland)
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Jamtland Mountains
+area1_desc=Blendrake Faste protects the southern coast of these snow-covered mountains, while the marshy keep Hlidskialf Faste defends the southeast’s watery borders.  The entrance to the Passage of Conflict opens here, to the south of Glenlock Faste. Ruins of an ancient city can be explored in the center of these lands, and further to the northwest the island keep Glenlock Faste protects river access into Midgard.
+
+[zone169]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Yggdra Forest
+area0_desc=The looming, dark trees of Yggdra Forest offer safe cover for Grallarhorn Faste in the southeast.  This great temple is the rightful home of the Horn of Valhalla, Midgard’s power relic.  Deep in the northeast, the border keep Vindsaul Faste protects Midgard’s homeland from invaders.  South of Arvakr Faste, a frontier village offers supplies and training to the weary defender.
+
+[zone170]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Uppland
+area0_desc=Located in the northernmost section of Midgard’s frontier, Uppland is home to Thor’s Hammer. This strength relic is housed by Mjollner Faste deep in the north.  In the east, the border keep Svasud Faste is the gateway to Midgard’s inner realm. A frontier village stands ready with supplies for restocking and trainers to aid in learning new skills, just across the river from Mjollner Faste.
+
+[zone171]
+area_count=2
+area0_left=4000
+area0_top=51000
+area0_width=14535
+area0_height=14535
+area0_name=Maze (Emain Macha)
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Emain Macha
+area1_desc=Emain Macha is Hibernia’s front line for repelling invaders from the foreign lands of Albion and Midgard.  Dun Crauchon not only protects the North Sea’s coast, but also acts as a sentinel for river access. Dun Crimthainn keeps vigil over the northern border, while Dun Bolg safeguards the swampy waters in the southeast.  The ruins of an ancient city offer mysterious adventure in the south west.
+
+[zone172]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Breifine
+area0_desc=In the depths of Hibernia’s frontier, the island keep of Dun na Ged keeps careful watch over nearby river traffic, while Dun da Behn protects the Irish Sea’s coast.  Suspended rope bridges stretch high across valleys in the southeast, providing excellent defense against invading armies attempting to flank  the outlaying outposts and keeps.  The Passage of Conflict’s entrance can be found deep in the woods, to the  south of nGed.
+
+[zone173]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Cruachan Gorge
+area0_desc=Hidden amidst a thick forest of lush trees, Dun Ailinne guards the very heart of the Hibernian frontier.   In the south of the Gorge, Druim Ligen keeps vigil over Hibernia with its massive,  stout walls.  Further north, the temple Dun Lamfota shelters Lug’s Spear,  Hibernia’s  strength relic.  Weary defenders can find solace in the frontier village deep in the northwest, where training and supplies are readily available.
+
+[zone174]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Mount Collory
+area0_desc=Home to Hibernia’s power relic, the Cauldron of Dagda, Dun Dagda towers over the south, heavily guarded by the temple’s mile gate.  In the southwest, the border keep Druim Cain protects the mainland.  A frontier village in the southeast offers supplies and training to brave defenders not wishing make the long trip home.
+
+[zone175]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Snowdonia
+area0_desc=Snowdonia is the southern most region of Albion’s frontier.  Here, the relic temple Castle Myrddin is home to Merlin’s Staff, Albion’s famed power relic.  Caer Hurbury and the milegate steadfastly defend against invaders of this region.  To the southwest, the frontier village allows for restocking supplies and training.  The inner realm is heavily guarded by Snowdonia Fortress, Albion’s border keep.
+
+[zone176]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Forest Sauvage
+area0_desc=Forest Sauvage is home to Albion’s strength relic temple, Castle Excalibur, wherein lies the resting place of the Scabbard of Excalibur.  Caer Renaris protects the western edge of this thick forest, while the northeast’s frontier village offers respite and training to the weary defender.  Deep in the south, Castle Sauvage is the final defense between attackers in the frontier and Albion’s heartlands. 
+
+[zone177]
+area_count=2
+area0_left=23000
+area0_top=0
+area0_width=11400
+area0_height=11400
+area0_name=Maze (Pennine)
+area1_left=0
+area1_top=0
+area1_width=65536
+area1_height=65536
+area1_name=Pennine Mountains
+area1_desc=The island keep of Caer Boldiam protects the realm’s inner river access.  To the northwest lie the ruins of an ancient monastery.  Along the river to the east, the entrance to the Passage of Conflict can be found.    Rope bridges closing the steep valley gaps offer easy passage to Caer Sursbrooke from the south.
+
+[zone178]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Hadrian's Wall
+area0_desc=The northernmost frontier of Albion, Hadrian’s Wall is flanked in the west by both the North Sea and the Irish Sea.  Twin sentinels on the westerly sea’s borders, the island keep, Caer Benowyc, and the marshy keep, Caer Erasleigh, stand vigil together against enemy invaders.   Caer Berkstead stands a constant vigil against likely Midgard invasions from the north.
+
+[zone180]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=16135
+area0_offsety=13034
+area0_width=18040
+area0_height=18040
+area0_name=Fomor
+area0_desc=
+
+[zone181]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Domnann
+area0_desc=Domnann, a thick, hilly forest, is home to the sylvan capital and the gateway to all of Hy Brasil. Young adventurers will find plenty of hunting here. The Grove of Domnann in the south is an enchanting city of massive trees.  The portal to the Hibernia’s mainlands lies just outside of the Grove.
+
+[zone182]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Caillte Garran
+area0_desc=The lands of Caillte Garran have one safe stronghold in the southeast known as Droighaid.  The rest of these lands have been scourged by the dread Fomor.  The large population of Fomorian here offers a great challenge to the most learned adventurer.  If a dungeon is what you seek, the entrance to Fomora City lies to the north.
+
+[zone183]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Vale of Balor
+area0_desc=The Vale holds one safe binding area at the Grove of Aalid Feie. Highly skilled adventurers will find hunting in the open fields and Fomorian villages, or in Tur Suil, a dungeon located in the southern area of the land.
+
+[zone184]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Cothrom Gorge
+area0_desc=Be wary traveling through Cothrom Gorge.  These lands hold great challenge even for groups of the highest skill.  The obscure faction of sylvan living in the Outlander settlement to the east may be your only allies among the ravenous forest creatures that reside here.
+
+[zone185]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=World's End
+area0_desc=World's End is a very dangerous land to journey alone.  The creatures lurking in this heavily wooded area could end the life of even the most experienced adventurer with little effort.  Travel cautiously east to Galladoria, for a dungeon adventure of epic proportions!
+
+[zone186]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Vigilant Rock
+area0_desc=The most skilled Hibernian will find the lands of Vigilant Rock a welcome challenge in exploration.  Necht, its single outpost on the eastern shore, provides players with a last-chance stopping point for binding, training, and horse rides before heading into the high level dungeons to the north.
+
+[zone187]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Allta Fearann
+area0_desc=Located off of the northern coast of World’s End is the long forgotten island Allta Fearann.  Recently discovered, this island’s occupants and encounters remain mysterious to all but the most inquisitive explorer.
+
+[zone190]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=10305
+area0_offsety=5665
+area0_width=26000
+area0_height=26000
+area0_name=Tur Suil
+area0_desc=
+
+[zone191]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=8605
+area0_offsety=17027
+area0_width=43065
+area0_height=43065
+area0_name=Galladoria
+area0_desc=
+
+[zone200]
+area_count=3
+area0_left=24384
+area0_top=1920
+area0_width=11520
+area0_height=11520
+area0_name=Mag Mell
+area0_desc=Mag Mell
+area1_left=20500
+area1_top=41000
+area1_width=8200
+area1_height=8200
+area1_name=Tir na mBeo
+area1_desc=This is Tir na mBeo.
+area2_left=0
+area2_top=0
+area2_width=65535
+area2_height=65535
+area2_name=Lough Derg
+area2_desc=A sparkling lake divides the rolling hills of Lough Derg.  A gateway to the capital city Tir Na Nog, these lands are perfect for the beginning adventurer.  If you are a newcomer, you may want to hunt the wolves and Orchard Nippers in the west and then head to the east for more difficult encounters, such as the Parthanan Farm. An island in the lake is home to the Siabra known as the Dergans.
+
+[zone201]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Silvermine Mountains
+area0_desc=This mountainous area is home to the strongholds of Howth and Ardagh.  The Spraggon Den’s entrance is nestled deep in the mountainside to the west.  Beginners will find plenty of hunting along the west side of the lake that divides these lands.  For those seeking more of a challenge, cross the stone bridge to the east side of Silvermine to seek out  Sheevra and walking rocks.
+
+[zone202]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Shannon Estuary
+area0_desc=Shannon Estuary boasts the sole portal to the isle of Hy Brasil.  Across the river from the portal is the costal village of Connla.  Be wary traveling the southward paths at night.  The friendly settlement of Cennai on the border of Lough Gur is heavily guarded by siabra. Shannon Estuary is home to creatures of varying skill, from the beginner to the moderately proficient Hibernian.
+
+[zone203]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Cliffs of Moher
+area0_desc=A cliff face stretches the expanse of the westernmost part of these lands and plunges to the sea.  The Cliff Dwellers residing on the shore there pose more of a threat than the cliffs’ steep drop.  A cluster of forest in the south hides Koalinth Caverns, a much safer choice for the mid-skilled adventurer.
+
+[zone204]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Lough Gur
+area0_desc=The mid-range dungeon known as Treibh Caillte is tucked in a valley of trees far to the west of Lough Gur.  The Gurite Settlement in the southeast corner and the melancholy fairies to the south are perfect spots for a well-seasoned group of adventurers.  Innis Carthaig in the east and Culraid in the northwest are the only friendly strongholds in these highly aggressive lands.
+
+[zone205]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Bog of Cullen
+area0_desc=The Bog of Cullen is home to the Siabran Queen, Cliodna and is prime hunting for those between the levels 30 through 50.  Venture not alone here unless you’re skilled, for the Gemstone Tower is heavily guarded by the queen’s loyal subjects. Friends can be found in the southeast corner in the settlement known as Alainn Bin.
+
+[zone206]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Valley of Bri Leith
+area0_desc=Adventurers between the levels of 10 and 20 will find a challenge in this magical valley.  If you seek the thrill of a dungeon, travel northwest to the mouth of the Coruscating Mines, the mainlands most dangerous dungeon.
+
+[zone207]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Connacht
+area0_desc=The capital city Tir na Nog, nestled here in Connacht, is heavily protected by Druim Ligen border keep to the north. This expanse of green fields and hillsides is also home to the beginners dungeon Muire Tomb.   Across the river from Druim Ligen is the entrance portal to Darkness Falls.  Adventurers will find plenty of monsters to hunt in the area surrounding the established town of Ardee.
+
+[zone208]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Cursed Forest
+area0_desc=This grand thicket of trees and brush is home to monsters far beyond the skill of any single Hibernian.  Legendary creatures roam the mysterious lurk in this dark wood.  The Faerie Court is rumored to wander its depths, and one fell step could land you face to face with the terror known as Juggernaut.  No doubt adventure awaits in mist of the forest, though venturing alone is sure to prove fatal.
+
+[zone209]
+area_count=1
+area0_number=209
+area0_left=0
+area0_top=0
+area0_offsetx=9125
+area0_offsety=14988
+area0_width=18300
+area0_height=18300
+area0_name=Tir na Nog
+area0_desc=This is the Capital of the Realm of Hibernia.
+
+[zone213]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Meath
+area0_desc=Lots 3201-3400.
+
+[zone215]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Dunshire
+area0_desc=Lots 3801-4000.
+
+[zone216]
+area_count=2
+area0_left=51000
+area0_top=54000
+area0_width=10000
+area0_height=10000
+area0_name=Cuuldurach's Lair
+area0_desc=This is the lair of the dragon of Hibernia: Cuuldurach
+area1_left=0
+area1_top=0
+area1_width=65535
+area1_height=65535
+area1_name=Sheeroe Hils
+area1_desc=Shrouded in eternal twilight, Sheeroe Hills is infested with the magical Glimmerlings.  Should you and your experienced companions manage to get through their defenses, your journey has only just begun.  These lands are a maze of winding valleys heavily guarded by Glimmers and Azures.  A wrong turn could find you in the lair of Cuuldurach the Glimmer King, Hibernia’s mighty dragon.
+
+[zone217]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Torrylin
+area0_desc=Lots 3401-3600.
+
+[zone218]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Kilcullen
+area0_desc=Lots 3601-3800.
+
+[zone219]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Saeranthal
+area0_desc=Lots 4001-4200.
+
+[zone220]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=18040
+area0_offsety=13350
+area0_width=12985
+area0_height=12985
+area0_name=Coruscating Mines
+area0_desc=The Coruscating Mines, located in the heart of the Silvermine Mountains, is completely controlled by the Unseelie Court. Bounty hunters and other members of this evil faction often raid human and firbolg towns and villages to supply a steady workforce. The humans and firbolgs they capture are forced to labor in the mines against their will; some of them are bound by geas,some by magical collars and others by mind manipulation
+
+[zone221]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=19205
+area0_offsety=18275
+area0_width=12485
+area0_height=12485
+area0_name=Muire Tomb
+area0_desc=Concaire Muire and his family were rich landowners prone to greed and haughtiness. Bitter and ranckled from years of cruel treatment, Muire serfs cast an evil eye upon the family. A dementia slowly started to afflict Concaire Muire until one night, he murdered his entire household and then killed himself. The family's tomb has since been a place of unrest.
+
+[zone222]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=17635
+area0_offsety=17065
+area0_width=12725
+area0_height=12725
+area0_name=Spraggon Den
+area0_desc=For levels 20-25
+
+[zone223]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=17580
+area0_offsety=15955
+area0_width=13290
+area0_height=13290
+area0_name=Koalinth Caverns
+area0_desc=The Koalinth are a coastal/marine species of hobgoblins. A tribe of the Koalinth have migrated from their traditional homelands which are under the sea off of the coast. They have taken over a series of caves and ancient tunnels near the Cliffs of Moher. From here they stage hunting raids on nearby settlements, and can still reach the sea easily to communicate with their homeland.
+
+[zone224]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=18275
+area0_offsety=18125
+area0_width=9930
+area0_height=9930
+area0_name=Treibh Caillte
+area0_desc=A small tribe of creatures locally known as ursine dwellers inhabits Treibh Caillte. The clan lives inside their naturally formed cavern. The reclusive clan is hostile to outsiders. No one knows where they came from, only that they recently arrived and inhabited a cavern in Lough Gur they claimed as their own. None of the ursine dwellers have been seen outside Treibh Caillte and not much is known about them.
+
+[zone225]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Aberillan
+area0_desc=Lots 4201-4400.
+
+[zone233]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=12930
+area0_offsety=14425
+area0_width=25270
+area0_height=25270
+area0_name=Summoner's Hall
+
+[zone234]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Proving Grounds
+area0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+
+[zone235]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Lions Den
+area0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+
+[zone236]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Hills of Claret
+area0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+
+[zone237]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Killaloe
+area0_desc=This region is for levels 15-19 only. capRP=125(1L3). The center keep can be claimed once per level for experience
+
+[zone238]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Thidranki
+area0_desc=This region is for levels 20-24 only. capRP=750(1L5).  The center keep can be claimed once per level for experience
+
+[zone239]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Braemar
+area0_desc=This region is for levels 25-29 only. capRP=7.125(2L0) The center keep can be claimed once per level for experience
+
+[zone240]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Wilton
+area0_desc=This region is for levels 30-34 only. capRP=25.375(2L5) The center keep can be claimed once per level for experience
+
+[zone241]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Molvik
+area0_desc=This region is for levels 35-39 only. capRP=61.750 (3L0) The center keep can be claimed once per level for experience
+
+[zone254]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Leirvik
+area0_desc=This region is for levels 40-44 only. capRP=213.875 (4L0). The center keep can be claimed once per level for experience
+
+[zone165]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Cathal Valley
+area0_desc=This region is for levels 45-49 only. capRP=475.475 (4L9). ML5
+
+[zone244]
+area_count=1
+area0_left=0
+area0_top=0
+area0_offsetx=4860
+area0_offsety=3970
+area0_width=44705
+area0_height=44705
+area0_name=Passage of Conflict
+
+[zone249]
+area_count=6
+area0_left=0
+area0_top=0
+area0_z=20801
+area0_width=45145
+area0_height=45145
+area0_depth=3549
+area0_name=Map 1
+area0_desc=
+area1_left=0
+area1_top=0
+area1_z=19126
+area1_width=45145
+area1_height=45145
+area1_depth=1675
+area1_name=Map 2
+area1_desc=
+area2_left=0
+area2_top=0
+area2_z=17901
+area2_width=45145
+area2_height=45145
+area2_depth=1225
+area2_name=Map 3
+area2_desc=
+area3_left=0
+area3_top=0
+area3_z=16701
+area3_width=45145
+area3_height=45145
+area3_depth=1200
+area3_name=Map 4
+area3_desc=
+area4_left=0
+area4_top=0
+area4_z=14901
+area4_width=45145
+area4_height=45145
+area4_depth=1800
+area4_name=Map 5
+area4_desc=
+area5_left=0
+area5_top=0
+area5_z=12800
+area5_width=45145
+area5_height=45145
+area5_depth=2101
+area5_name=Map 6
+area5_desc=
+
+[zone260]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Chiltern
+area0_desc=Lots 1201-1400.
+
+[zone261]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Sherborne
+area0_desc=Lots 1401-1600.
+
+[zone262]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stoneleigh
+area0_desc=Lots 4801-5000.
+
+[zone266]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Holmestrand
+area0_desc=Lots 2801-3000.
+
+[zone267]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Nittedal
+area0_desc=Lots 3001-3200.
+
+[zone268]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65536
+area0_height=65536
+area0_name=Stavgaard
+area0_desc=Lots 5001-5200.
+
+[zone272]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Tullamore
+area0_desc=Lots 4401-4600.
+
+[zone273]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Moycullen
+area0_desc=Lots 4601-4800.
+
+[zone274]
+area_count=1
+area0_left=0
+area0_top=0
+area0_width=65535
+area0_height=65535
+area0_name=Broughshane
+area0_desc=Lots 5201-5400.
+;
+; ########################
+; # DR and Epic Dungeons #
+; ########################
+;
+; Hibernia 30
+[zone325]
+area_count=1
+area0_number=325
+area0_left=0
+area0_top=0
+area0_offsetx=757
+area0_offsety=884
+area0_width=13100
+area0_height=13100
+area0_desc=epic dungeon of Hibernia for level 30
+;
+; Albion 30
+[zone326]
+area_count=1
+area0_number=326
+area0_left=0
+area0_top=0
+area0_offsetx=18714
+area0_offsety=18800
+area0_width=14040
+area0_height=14040
+area0_desc=epic dungeon of Albion for level 30
+;
+; Midgard 30
+[zone328]
+area_count=1
+area0_number=328
+area0_left=0
+area0_top=0
+area0_offsetx=8333
+area0_offsety=14447
+area0_width=20228
+area0_height=20228
+area0_desc=epic dungeon of Midgard for level 30
+;
+; Hibernia 40
+[zone355]
+area_count=1
+area0_number=355
+area0_left=0
+area0_top=0
+area0_offsetx=14812
+area0_offsety=12795
+area0_width=13000
+area0_height=13000
+area0_desc=epic dungeon of Albion for levels 35-45
+
+; Albion 40
+[zone356]
+area_count=1
+area0_number=356
+area0_left=0
+area0_top=0
+area0_offsetx=20536
+area0_offsety=23586
+area0_width=10648
+area0_height=10648
+area0_desc= epic dungeon of Albion for levels 35-45
+;
+; Midgard 40
+[zone359]
+area_count=1
+area0_number=359
+area0_left=0
+area0_top=0
+area0_offsetx=12065
+area0_offsety=8392
+area0_width=17596
+area0_height=17596
+area0_desc=epic dungeon of Midgard for levels 35-45
+;
+; The Foothills of Albion
+[zone330]
+area_count=4
+area0_left=24122  ; (31362-7240)
+area0_top=33224	  ; (45078-11854)
+area0_width=5990
+area0_height=5990
+area0_name=King's Crossing
+area1_left=35194  ; (42434-7240)
+area1_top=17636	  ; (29490-11854)
+area1_width=4173
+area1_height=4173
+area1_name=Baron's Keep
+area2_left=18180  ; (25420-7240)
+area2_top=16971	  ; (28825-11854)
+area2_width=5970
+area2_height=5970
+area2_name=Craigsbluff
+area3_left=0
+area3_top=0
+area3_offsetx=7240
+area3_offsety=11854
+area3_width=49150
+area3_height=49150
+area3_desc=The Foothills of Albion
+;
+; The Foothills of Midgard
+[zone334]
+area_count=4
+area0_left=27515  ; (33898-6383)
+area0_top=35351	  ; (45759-10408)
+area0_width=5461
+area0_height=5461
+area0_name=Hagg Dalur
+area1_left=35457  ; (41840-6383)
+area1_top=19432	  ; (29840-10408)
+area1_width=4096
+area1_height=4096
+area1_name=Nephraal's Gaol
+area2_left=17533  ; (23936-6383)
+area2_top=19864   ; (30272-10408)
+area2_width=8192
+area2_height=8192
+area2_name=Gamanborg
+area3_left=0
+area3_top=0
+area3_offsetx=6383
+area3_offsety=10408
+area3_width=49800
+area3_height=49800
+area3_desc=The Foothills of Midgard
+;
+; The Foothills of Hibernia
+[zone335]
+area_count=4
+area0_left=24120  ; (31360-7240)
+area0_top=33036	  ; (44890-11854)
+area0_width=6013
+area0_height=6013
+area0_name=Clocha Liatha
+area1_left=34960  ; (42200-7240)
+area1_top=18632	  ; (30486-11854)
+area1_width=4092
+area1_height=4092
+area1_name=Morfesa's Keep
+area2_left=18184  ; (25424-7240)
+area2_top=16963	  ; (28817-11854)
+area2_width=5950
+area2_height=5950
+area2_name=Doiri Ban
+area3_left=0
+area3_top=0
+area3_offsetx=7240
+area3_offsety=11854
+area3_width=49150
+area3_height=49150
+area3_desc=The Foothills of Hibernia
+;
+; Darkness Rising Chapter 2 Dungeons Demonic Prison
+; Albion Chapter 2
+[zone336]
+area_count=1
+area0_number=336
+area0_left=0
+area0_top=0
+area0_offsetx=19292
+area0_offsety=11488
+area0_width=29174
+area0_height=29174
+area0_desc=Before Geryon's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Geryon and aid him in guarding the captive demonologist Anataeus.
+;
+; Midgard Chapter 2
+[zone337]
+area_count=1
+area0_number=337
+area0_left=0
+area0_top=0
+area0_offsetx=16422
+area0_offsety=5752
+area0_width=34913
+area0_height=34913
+area0_desc=Before Rugak's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Rugak and aid him in guarding the captive Keeper Iraeda.
+;
+; Hibernia Chapter 2
+[zone338]
+area_count=1
+area0_number=338
+area0_left=0
+area0_top=0
+area0_offsetx=2684
+area0_offsety=5120
+area0_width=41911
+area0_height=41911
+area0_desc=Before Bres' conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Bres and aid him in guarding the captive Keeper Garran and the Lia Fail.
+;
+; Darkness Rising Chapter 3 Dungeons
+;
+; Albion Chapter 3
+[zone339]
+area_count=1
+area0_number=339
+area0_left=0
+area0_top=0
+area0_offsetx=1738
+area0_offsety=-3856
+area0_width=45443
+area0_height=45443
+area0_desc=These fiery halls are home to horrors never before glimpsed by mortals from the world above. Amid the grotesque pillars and glowing embers dwells a demon host led by Azazel and his trusted Circle of Five.
+;
+; Midgard Chapter 3
+[zone340]
+area_count=1
+area0_number=340
+area0_left=0
+area0_top=0
+area0_offsetx=4479
+area0_offsety=1452
+area0_width=34115
+area0_height=34115
+area0_desc=The frozen Halls of Helgardh exist in a state of eternal winter far more cruel than any known in Midgard. Ceaseless snowfall, expansive ice, and fearsome foes greet all who would dare to challenge mighty Utgard-Lok and his Circle of Five in their lair.
+;
+; Hibernia Chapter 3
+[zone341]
+area_count=1
+area0_number=341
+area0_left=0
+area0_top=0
+area0_offsetx=4373
+area0_offsety=4140
+area0_width=39408
+area0_height=39408
+area0_desc=This legendary gateway to the Otherworld has been tainted by the influence of Crom Cruiach. Corruption, disease, and demonic influence run rampant throughout these caves where the demon lord and his Circle of Five lieutenants thrive.
+;
+[zone347]
+area_count=3
+area0_left=5660 ; 5307--353
+area0_top=38682 ; 44065-5383
+area0_width=7280
+area0_height=7280
+area0_name=MM347_00
+area1_left=19350 ; 18997--353
+area1_top=16061  ; 21444-5383
+area1_width=7280
+area1_height=7280
+area1_name=MM347_01
+area2_left=34038 ; 33685--353
+area2_top=1012   ; 6395-5383
+area2_width=7268
+area2_height=7268
+area2_name=MM347_02
+;
+; Mini Darkness Falls Map
+[zone489]
+area_count=1
+area0_number=489
+area0_left=0
+area0_top=0
+area0_offsetx=5225
+area0_offsety=20217
+area0_width=27836
+area0_height=27836
+area0_desc=Dungeons for low levels in Darkness Falls (1-4 Nergal's Breach, 5-9 Balban's Breach)
+;
+; #####################
+; # Albion Catacombs #
+; #####################
+;
+; ### Alb Glashtin Forge
+[zone059]
+area_count=1
+area0_number=59
+area0_left=0
+area0_top=0
+area0_offsetx=11952
+area0_offsety=9111
+area0_width=25459
+area0_height=25459
+area0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Roman Aqueducts
+[zone063]
+area_count=1
+area0_number=63
+area0_left=0
+area0_top=0
+area0_offsetx=5711
+area0_offsety=7644
+area0_width=30629
+area0_height=30629
+area0_desc=Built by the Romans during their rule, the Aqueducts are now occupied by the shunned followers of Pluto.  There they have revived the worship of Arawn alongside their own god.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Inconnu Crypt
+[zone065]
+area_count=1
+area0_number=65
+area0_left=0
+area0_top=0
+area0_offsetx=9061
+area0_offsety=16949
+area0_width=27838
+area0_height=27838
+area0_desc=Built by the Inconnu in service of their Lord Arawn, the Crypt serves as a homeland and waystation on the way to escorting the souls of the dead to the Underworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Underground Forest
+[zone066]
+area_count=1
+area0_number=66
+area0_left=0
+area0_top=0
+area0_offsetx=3125
+area0_offsety=4271
+area0_width=39870
+area0_height=39870
+area0_desc=Originally a secret entrance into the Lower Crypt, its discovery led to the destruction of the Crypt itself.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Deadlands of Annwn
+[zone067]
+area_count=1
+area0_number=67
+area0_left=0
+area0_top=0
+area0_offsetx=8070
+area0_offsety=5150
+area0_width=30515
+area0_height=30515
+area0_desc=The souls of the fallen dwell here, and their Lord Arawn ruled until they were possessed to rise against him.  Now Albion must battle to keep these renegade souls in check.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Lower Crypt
+[zone068]
+area_count=1
+area0_number=68
+area0_left=0
+area0_top=0
+area0_offsetx=6007
+area0_offsety=7138
+area0_width=25218
+area0_height=25218
+area0_desc=Intended to guard the Cauldron of Arawn, the lower crypt was invaded and destroyed by one who desired its power.  Now it lies in ruin and holds dangers untold.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Dark Spire
+[zone069]
+area_count=1
+area0_number=69
+area0_left=0
+area0_top=0
+area0_offsetx=3426
+area0_offsety=13397
+area0_width=24193
+area0_height=24193
+area0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Frontlines
+[zone109]
+area_count=1
+area0_number=109
+area0_left=0
+area0_top=0
+area0_offsetx=3238
+area0_offsety=1164
+area0_width=41943
+area0_height=41943
+area0_desc=A cavernous area on the outskirts of Albion control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Otherworld
+[zone196]
+area_count=1
+area0_number=196
+area0_left=0
+area0_top=0
+area0_offsetx=14979
+area0_offsety=6107
+area0_width=30347
+area0_height=30347
+area0_desc=A magical land, the Otherworld is a zone of violent magical maelstroms beyond the Veil.  Here, the Hibernian possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Alb Abandoned Mines
+[zone227]
+area_count=1
+area0_number=227
+area0_left=0
+area0_top=0
+area0_offsetx=3066
+area0_offsety=4232
+area0_width=43656
+area0_height=43656
+area0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Albion to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; #####################
+; # Midgard Catacombs #
+; #####################
+;
+; ### Mid Underground Forest
+[zone058]
+area_count=1
+area0_number=58
+area0_left=0
+area0_top=0
+area0_offsetx=2782
+area0_offsety=3286
+area0_width=40075
+area0_height=40075
+area0_desc=A connecting realm with passages to the surface, the Kobolds maintain a presence in this strange underground grove.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Frontlines
+[zone148]
+area_count=1
+area0_number=148
+area0_left=0
+area0_top=0
+area0_offsetx=1958
+area0_offsety=8772
+area0_width=35658
+area0_height=35658
+area0_desc=A cavernous mid-point between the Undercity and Nyttheim, the Frontlines have now become a battleground for control of the Kobold world and Midgard above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Nyttheim
+[zone149]
+area_count=1
+area0_number=149
+area0_left=0
+area0_top=0
+area0_offsetx=9665
+area0_offsety=7094
+area0_width=27919
+area0_height=27919
+area0_desc=Originally a settlement of Kobolds unwilling to welcome others to their city, Nyttheim is now a nightmare – a land filled with possessed Kobolds serving an unknown lord.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Deadlands of Annwn
+[zone162]
+area_count=1
+area0_number=162
+area0_left=0
+area0_top=0
+area0_offsetx=4385
+area0_offsety=-1104
+area0_width=28769
+area0_height=28769
+area0_desc=A land intended for the souls of the Midgard fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Midgard’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Dark Spire
+[zone188]
+area_count=1
+area0_number=188
+area0_left=0
+area0_top=0
+area0_offsetx=3426
+area0_offsety=13397
+area0_width=24193
+area0_height=24193
+area0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Glashtin Forge
+[zone189]
+area_count=1
+area0_number=189
+area0_left=0
+area0_top=0
+area0_offsetx=11703
+area0_offsety=9735
+area0_width=25708
+area0_height=25708
+area0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Otherworld
+[zone195]
+area_count=1
+area0_number=195
+area0_left=0
+area0_top=0
+area0_offsetx=11291
+area0_offsety=4059
+area0_width=38187
+area0_height=38187
+area0_desc=A magical land, the Otherworld is a region of violent magical maelstroms beyond the Veil.  Here, the Midgard possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Abandoned Mines
+[zone226]
+area_count=1
+area0_number=226
+area0_left=0
+area0_top=0
+area0_offsetx=952
+area0_offsety=4903
+area0_width=41705
+area0_height=41705
+area0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Midgard to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Burial Grounds
+[zone229]
+area_count=1
+area0_number=229
+area0_left=0
+area0_top=0
+area0_offsetx=11719
+area0_offsety=2541
+area0_width=35665
+area0_height=35665
+area0_desc=Beneath the city of Jordheim lie the Burial Grounds, a great cavern used for generations not only to bury, but also to honor, the fallen of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Mid Kobold Undercity
+[zone243]
+area_count=1
+area0_number=243
+area0_left=0
+area0_top=0
+area0_offsetx=12536
+area0_offsety=11852
+area0_width=27217
+area0_height=27217
+area0_desc=Built in the same series of caves that gave birth to the Burial Grounds, the Kobold Undercity remained a secret from the surface for hundreds of years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ######################
+; # Hibernia Catacombs #
+; ######################
+;
+; ### Hib Underground Forest
+[zone096]
+area_count=1
+area0_number=96
+area0_left=0
+area0_top=0
+area0_offsetx=3126
+area0_offsety=3529
+area0_width=39732
+area0_height=39732
+area0_desc=Discovered around the Queen’s Labyrinth, it led to the great deception that has haunted the Shar for years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Deadlands of Annwn
+[zone097]
+area_count=1
+area0_number=97
+area0_left=0
+area0_top=0
+area0_offsetx=4353
+area0_offsety=-1104
+area0_width=28769
+area0_height=28769
+area0_desc=A land intended for the souls of the Albion fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Albion’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Dark Spire
+[zone098]
+area_count=1
+area0_number=98
+area0_left=0
+area0_top=0
+area0_offsetx=3426
+area0_offsety=13397
+area0_width=24193
+area0_height=24193
+area0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Glashtin Forest
+[zone099]
+area_count=1
+area0_number=99
+area0_left=0
+area0_top=0
+area0_offsetx=10452
+area0_offsety=7974
+area0_width=28038
+area0_height=28038
+area0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Hibernia.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Abandoned Mines
+[zone228]
+area_count=1
+area0_number=228
+area0_left=0
+area0_top=0
+area0_offsetx=2056
+area0_offsety=1665
+area0_width=42333
+area0_height=42333
+area0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Hibernia to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Otherworld
+[zone197]
+area_count=1
+area0_number=197
+area0_left=0
+area0_top=0
+area0_offsetx=9113
+area0_offsety=6979
+area0_width=34444
+area0_height=34444
+area0_desc=The magical land where the Shar city was created, the Otherworld is a region of powerful and dangerous magical maelstroms, both empowering and threatening.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Veil Rift
+[zone092]
+area_count=1
+area0_number=92
+area0_left=0
+area0_top=0
+area0_offsetx=13706
+area0_offsety=5391
+area0_width=39019
+area0_height=39019
+area0_desc=The Rift is a magical barrier that separates the magical world from the natural one.  “Created” by the elves, it now serves as the entry point to the mysterious Shar homeworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Shar Labyrinth
+[zone093]
+area_count=1
+area0_number=93
+area0_left=0
+area0_top=0
+area0_offsetx=13698
+area0_offsety=13461
+area0_width=14363
+area0_height=14363
+area0_desc=Using the magic obtained from their time in the Veil, the Shar half-grew, half-built a magnificent city to be their seat of power.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Queen's Labyrinth
+[zone094]
+area_count=1
+area0_number=94
+area0_left=0
+area0_top=0
+area0_z=25000
+area0_offsetx=17223
+area0_offsety=11147
+area0_width=22745
+area0_height=22745
+area0_desc=Built as a temple for proper communication with the Shar god, its proximity to the magical forces of the Otherworld enabled it to be used as an instrument of great deception.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Hib Frontlines
+[zone095]
+area_count=1
+area0_number=95
+area0_left=0
+area0_top=0
+area0_offsetx=4860
+area0_offsety=7037
+area0_width=36240
+area0_height=36240
+area0_desc=A cavernous area on the outskirts of Hibernian control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = area Line
+;
+; ### Labyrinth of the Minotaur
+[zone245]
+area_count=5
+area0_left=0
+area0_top=0
+area0_z=29930
+area0_width=62268
+area0_height=62268
+area0_depth=4131
+area0_name=Entry Level
+area0_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area1_left=0
+area1_top=0
+area1_z=28885
+area1_width=62268
+area1_height=62268
+area1_depth=1045
+area1_name=Lev1 Clockwork
+area1_desc=Ancient devices of clockwork and dark magic maintain this portion of the Labyrinth, making constant repairs and guarding against intruders.  The Minotaur Construct is the greatest of these, maintaining unblinking watch over the Relics it was created to protect.  
+area2_left=0
+area2_top=0
+area2_z=27400
+area2_width=62268
+area2_height=62268
+area2_depth=1485
+area2_name=Lev2 Collapsed
+area2_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area3_left=0
+area3_top=0
+area3_z=25250
+area3_width=62268
+area3_height=62268
+area3_depth=2150
+area3_name=Lev3 Flooded U
+area3_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic. 
+area4_left=0
+area4_top=0
+area4_z=20900
+area4_width=62268
+area4_height=62268
+area4_depth=4350
+area4_name=Lev4 Flooded D
+area4_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic.

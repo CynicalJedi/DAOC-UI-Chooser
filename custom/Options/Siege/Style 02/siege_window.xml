@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>siege</Name>
+    <WindowId></WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>210</Width>
+    <Height>215</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>215</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>BackgroundImage</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>210</Width>
+      <Height>215</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>210</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>siege_title</Adapter>
+    </LabelDef>
+
+    <!-- Siege Condition controls -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_listbox_solid_bg</TemplateName>
+      <Width>190</Width>
+      <Height>67</Height>
+    </FullResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>30</X>
+        <Y>30</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>150</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Siege Hits</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>150</X>
+        <Y>30</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_buttons_small</FontName>
+      <Adapter>siege_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>170</X>
+        <Y>30</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>10</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>2</MaxCharacters>
+      <Data>%</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>24</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_endcap_left</TemplateName>
+    </ImageAreaDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>30</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>siege_hits</AdapterName>
+      <Width>150</Width>
+    </StatusBarDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>180</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_endcap_right</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Siege Timer controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>55</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>150</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Siege Timer</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>siege_timer_label</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>150</X>
+        <Y>55</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_buttons_small</FontName>
+      <Adapter>siege_timer</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>24</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_endcap_left</TemplateName>
+    </ImageAreaDef>
+
+    <StatusBarDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>30</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_green</TemplateName>
+      <AdapterName>siege_timer</AdapterName>
+      <Width>150</Width>
+    </StatusBarDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>180</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_endcap_right</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Siege Hints-->
+
+    <LabelDef>
+      <ControlId>1105</ControlId>
+      <Position>
+        <X>7</X>
+        <Y>76</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>SWING when full for more damage</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>102</Y>
+      </Position>
+      <Alignment>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_listbox_solid_bg</TemplateName>
+      <Width>190</Width>
+      <Height>64</Height>
+    </FullResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>102</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Ram - Use against doors</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>117</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Ballista - Use against siege</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>132</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Catapult - Use against players</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>147</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Trebuchet - Use against walls</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Siege Ammo ListBox -->
+
+    <ListBoxDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>102</Y>
+      </Position>
+      <Alignment>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <Width>190</Width>
+      <Height>64</Height>
+      <TemplateName>listbox_generic_small_solid</TemplateName>
+      <AdapterName>siege_ammo</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate></IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!--Salvage/Repair/Release Buttons -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Salvage</Label>
+      <onClickEvent>SiegeSalvage</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>74</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Repair</Label>
+      <onClickEvent>SiegeRepair</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Release</Label>
+      <onClickEvent>SiegeRelease</onClickEvent>
+    </ButtonDef>
+
+    <!-- Move/Aim/Swing Buttons -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Move</Label>
+      <onClickEvent>SiegeMove</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>74</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Aim</Label>
+      <onClickEvent>SiegeAim</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_size_62</TemplateName>
+      <Label>Swing</Label>
+      <onClickEvent>SiegeFire</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

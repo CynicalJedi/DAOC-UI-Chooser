@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Scroll Bar Thumb -->
+
+  <VerticalResizeImageTemplate>
+    <Name>VResizeImage_Scroll_Thumb</Name>
+    <Width>9</Width>
+    <TopHeight>8</TopHeight>
+    <RepeatHeight>80</RepeatHeight>
+    <BottomHeight>8</BottomHeight>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Top>
+        <X>216</X>
+        <Y>35</Y>
+      </Top>
+      <Repeat>
+        <X>216</X>
+        <Y>44</Y>
+      </Repeat>
+      <Bottom>
+        <X>226</X>
+        <Y>35</Y>
+      </Bottom>
+    </Texture>
+  </VerticalResizeImageTemplate>
+
+  <!-- Scroll Bar Gutter -->
+
+  <VerticalResizeImageTemplate>
+    <Name>VResizeImage_Scroll_Gutter</Name>
+    <Width>9</Width>
+    <TopHeight>12</TopHeight>
+    <RepeatHeight>80</RepeatHeight>
+    <BottomHeight>12</BottomHeight>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Top>
+        <X>176</X>
+        <Y>39</Y>
+      </Top>
+      <Repeat>
+        <X>226</X>
+        <Y>44</Y>
+      </Repeat>
+      <Bottom>
+        <X>176</X>
+        <Y>53</Y>
+      </Bottom>
+    </Texture>
+  </VerticalResizeImageTemplate>
+
+  <!-- Mount Window Bag BG -->
+
+  <VerticalResizeImageTemplate>
+    <Name>VResizeImage_Bag_BG</Name>
+    <Width>17</Width>
+    <TopHeight>0</TopHeight>
+    <RepeatHeight>32</RepeatHeight>
+    <BottomHeight>16</BottomHeight>
+    <Texture>
+      <TextureName>mountimages_01</TextureName>
+      <Top>
+        <X>0</X>
+        <Y>0</Y>
+      </Top>
+      <Repeat>
+        <X>1</X>
+        <Y>206</Y>
+      </Repeat>
+      <Bottom>
+        <X>1</X>
+        <Y>238</Y>
+      </Bottom>
+    </Texture>
+  </VerticalResizeImageTemplate>
+
+</Root_Element>

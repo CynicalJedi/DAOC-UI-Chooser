@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load HHelper Power Image -->
+
+  <Texture>
+    <Name>HealerHelper_05</Name>
+    <File>custom/Assets/Textures/HealerHelperImages_05.tga</File>
+  </Texture>
+
+  <!-- Load HHelper Power status Template -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HHelper_Power</Name>
+    <TextureName>healerhelper_05</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>64</Width>
+    <Height>64</Height>
+    <MaxLevels>16</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load HHelper Power Font -->
+
+  <Font>
+    <Name>Font_Power</Name>
+    <File>custom/Assets/Fonts/MythicText_10.tga</File>
+  </Font>
+
+</Root_Element>

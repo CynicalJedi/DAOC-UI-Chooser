@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load FloatingTargetHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>174</Width>
+    <Height>30</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background Image-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>174</Width>
+      <Height>30</Height>
+    </FullResizeImageDef>
+
+    <!-- Target Health Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_bar_target_hit_bg</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_bar_target_hit</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>138</X>
+        <Y>7</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>30</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!-- Face/Stick Buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>154</Width>
+      <Height>10</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

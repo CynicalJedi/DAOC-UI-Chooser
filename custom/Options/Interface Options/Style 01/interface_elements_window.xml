@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>interface_elements_window</Name>
+    <WindowId>Interface Options</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>44</TitleHeight>
+    <Width>310</Width>
+    <Height>406</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <FullResizeImageDef>
+      <ControlId>ImageBackground</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>406</Height>
+    </FullResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Interface Options</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!--Personal Info-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>142</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>142</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>99</MaxCharacters>
+      <Data>Personal Info:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>142</Width>
+      <Height>216</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Summary</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleSummary</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>66</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>New Summary</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleNewSummary</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>83</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Bonuses</Label>
+      <Width>130</Width>
+      <onClickEvent>Bonuses</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>100</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Floating Target</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleFloatTarget</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>117</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Level EXP</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleFloatLevelXP</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>134</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Realm EXP</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleFloatRealmXP</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>151</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Champion EXP</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleFloatChampXP</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>168</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Pet Window</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMiniPet</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>185</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Quiver</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleQuiver</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>202</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Title Window</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleTitle</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>219</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Mount Window</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMount</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>236</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label></Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleCustom0</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <!--Miscellaneous-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>264</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>142</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>265</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>130</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>99</MaxCharacters>
+      <Data>Miscellaneous:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>280</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>142</Width>
+      <Height>95</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>284</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Performance</Label>
+      <Width>130</Width>
+      <onClickEvent>TogglePerformanceMeter</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>301</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Clock</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleClock</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>318</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Compass</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleCompassWindow</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>335</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Command</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleCommandWindow</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>352</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Menu Bar</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMenuBar</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <!--Groups and Buffs-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>142</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>142</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>99</MaxCharacters>
+      <Data>Groups &amp; Buffs:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>142</Width>
+      <Height>114</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Concentration</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleConcentration</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>66</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Group Benifits</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleGroupBuffs</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>83</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Floating Group</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleNewGroup</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>100</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Mini Group</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMiniGroup</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>117</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Social Window</Label>
+      <Width>130</Width>
+      <onClickEvent>Community</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>134</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Mini Friends</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMiniFriends</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <!--Maps and Journals-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>162</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>142</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>162</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>142</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>99</MaxCharacters>
+      <Data>Maps &amp; Journals:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>177</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>142</Width>
+      <Height>82</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>185</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Master Levels</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMasterLevel</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>202</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Quest Journal</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleJournal</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>219</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Map</Label>
+      <Width>130</Width>
+      <onClickEvent>ToggleMap</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>236</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Warmap</Label>
+      <Width>130</Width>
+      <onClickEvent>ShowWarmap</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <!--Realm Info-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>264</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>142</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>264</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>142</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>99</MaxCharacters>
+      <Data>Realm Info:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>280</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>142</Width>
+      <Height>95</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>284</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Realm Bonuses</Label>
+      <Width>130</Width>
+      <onClickEvent>WarmapUpdateBonuses</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>301</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Relic Status</Label>
+      <Width>130</Width>
+      <onClickEvent>Relic</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>318</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Keep Status</Label>
+      <Width>130</Width>
+      <onClickEvent>Realm</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>336</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>130</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>time_of_day</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>164</X>
+        <Y>353</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>153</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>70</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>13</MaxCharacters>
+      <Data>Server Time:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>227</X>
+        <Y>353</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>153</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>70</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>10</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>game_time</Adapter>
+    </LabelDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>BobsUI</Label>
+      <onClickEvent>ToggleCustom0</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>2001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Close</Label>
+      <onClickEvent>ToggleInterfaceElements</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Large Compass Outer Frame Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_CompassLargeFrame</Name>
+    <TextureName>dialogimages_02</TextureName>
+    <Size>
+      <X>128</X>
+      <Y>32</Y>
+    </Size>
+    <TopLeft>
+      <X>383</X>
+      <Y>223</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Small Compass Outer Frame Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_CompassSmallFrame</Name>
+    <TextureName>dialogimages_02</TextureName>
+    <Size>
+      <X>64</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>447</X>
+      <Y>206</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Large Compass Combat Frame Images -->
+
+  <Texture>
+    <Name>CompassCombatFrameImages_01</Name>
+    <File>custom/assets/textures/CompassCombatFrameImages_01.tga</File>
+  </Texture>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Compass_LargeCombatFrame</Name>
+    <TextureName>compasscombatframeimages_01</TextureName>
+    <TextureStart>
+      <X>2</X>
+      <Y>2</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>32</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Small Compass Combat Frame Images -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Compass_SmallCombatFrame</Name>
+    <TextureName>compasscombatframeimages_01</TextureName>
+    <TextureStart>
+      <X>133</X>
+      <Y>2</Y>
+    </TextureStart>
+    <Width>64</Width>
+    <Height>16</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

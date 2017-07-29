@@ -1,0 +1,4197 @@
+; ### regions.dat
+;
+; ### Last update: 02.02.2007 by Valmerwolf
+; Thanks to MastaMappa for the offsets of the dungeons of Catacombs and DR
+; Thanks to Mythic for the original layouts of many instanced dungeons
+;
+; ###########################
+; # Albion Classic Mainland #
+; ###########################
+;
+[region001]
+zone_count=10
+zone_width=38
+zone_height=38
+region_desc=The center of culture and government in Albion is the city of Camelot, the former seat of the throne of Arthur. From there stretch the forests and plains of the Realm: to the west of Camelot lie huge plains, deep dark forests, trackless swamps, and haunted hills. To the north loom the mountains of Snowdonia, and frontier lands, dangerous and unpredictable. 
+;
+; ### Camelot Hills
+zone0_number=0
+zone0_left=176
+zone0_top=84
+zone0_desc=
+;
+; ### Salisbury Plains
+zone1_number=1
+zone1_left=176
+zone1_top=122
+zone1_desc=
+;
+; ### Black Mountains South
+zone2_number=2
+zone2_left=138
+zone2_top=56
+zone2_desc=
+;
+; ### Black Mountains North
+zone3_number=3
+zone3_left=138
+zone3_top=18
+zone3_desc=
+;
+; ### Dartmoor
+zone4_number=4
+zone4_left=62
+zone4_top=206
+zone4_desc=
+;
+; ### Cornwall
+zone5_number=6
+zone5_left=62
+zone5_top=168
+zone5_desc=
+;
+; ### Llyn Barfog
+zone6_number=7
+zone6_left=100
+zone6_top=18
+zone6_desc=
+;
+; ### Campacorentin forest
+zone7_number=8
+zone7_left=138
+zone7_top=141
+zone7_desc=
+;
+; ### Avalon marsh
+zone8_number=9
+zone8_left=100
+zone8_top=159
+zone8_desc=
+;
+; ### Lyonesse
+zone9_number=10
+zone9_left=24
+zone9_top=168
+zone9_desc=
+;
+; ############################
+; # Midgard Classic Mainland #
+; ############################
+;
+[region100]
+zone_count=10
+zone_width=38
+zone_height=38
+region_desc=Midgard is made of low swampy marshlands, deep evergreen forests, flat areas dotted by glacial lakes, soaring snow-capped mountains, and snowy wastes. Centered around the capital city of Jordheim, the various races and creatures of Midgard have a diverse geography in which to adventure and explore.
+;
+; ### Vale of Mularn
+zone0_number=100
+zone0_left=141
+zone0_top=35
+zone0_desc=
+;
+; ### East Svealand
+zone1_number=101
+zone1_left=122
+zone1_top=73
+zone1_desc=
+;
+; ### West Svealand
+zone2_number=102
+zone2_left=84
+zone2_top=73
+zone2_desc=
+;
+; ### Gotar
+zone3_number=103
+zone3_left=122
+zone3_top=111
+zone3_desc=
+;
+; ### Muspelheim
+zone4_number=104
+zone4_left=179
+zone4_top=17
+zone4_desc=
+;
+; ### Myrkwood Forest
+zone5_number=105
+zone5_left=142
+zone5_top=149
+zone5_desc=
+;
+; ### Skona Ravine
+zone6_number=106
+zone6_left=104
+zone6_top=169
+zone6_desc=
+;
+; ### Vanern Swamp
+zone7_number=107
+zone7_left=66
+zone7_top=150
+zone7_desc=
+;
+; ### Raumarik
+zone8_number=108
+zone8_left=46
+zone8_top=73
+zone8_desc=
+;
+; ### Malmohus
+zone9_number=116;
+zone9_left=104
+zone9_top=207
+zone9_desc=
+;
+; #############################
+; # Hibernia Classic Mainland #
+; #############################
+;
+[region200]
+zone_count=10
+zone_width=43
+zone_height=43
+region_desc=From the capital city of Tir na Nog, located in the heart of the Realm, the lands of Hibernia stretch away to the north and south. Hibernia is made of rolling hills, lakes, and rivers. Far away from the civilized sections of the Realm lie deep forest, more mountainous hills, and deadly creatures. 
+;
+; ### Lough Derg
+zone0_number=200
+zone0_left=99
+zone0_top=53
+zone0_desc=
+;
+; ### Silvermine Mountains
+zone1_number=201
+zone1_left=99
+zone1_top=96
+zone1_desc=
+;
+; ### Shannon Estuary
+zone2_number=202
+zone2_left=78
+zone2_top=139
+zone2_desc=
+;
+; ### Cliffs of Moher
+zone3_number=203
+zone3_left=35
+zone3_top=10
+zone3_desc=
+;
+; ### Lough Gur
+zone4_number=204
+zone4_left=78
+zone4_top=182
+zone4_desc=
+;
+; ### Bog of Cullen
+zone5_number=205
+zone5_left=121
+zone5_top=202
+zone5_desc=
+;
+; ### Valley of Bri Leith
+zone6_number=206
+zone6_left=142
+zone6_top=53
+zone6_desc=
+;
+; ### Connacht
+zone7_number=207
+zone7_left=78
+zone7_top=10
+zone7_desc=
+;
+; ### Cursed Forest
+zone8_number=208
+zone8_left=185
+zone8_top=53
+zone8_desc=
+;
+; ### Sheeroe Hills
+zone9_number=216
+zone9_left=121
+zone9_top=159
+zone9_desc=
+;
+; ###########################
+; # Albion Classic Dungeons #
+; ###########################
+;
+; ### Stonehenge 
+[region020]
+zone_count=1
+zone0_number=19
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15365
+zone0_offsety=13245
+zone0_width=13340
+zone0_height=13340
+zone0_desc=
+;
+; ### Tomb of Mithra
+[region021]
+zone_count=1
+zone0_number=21
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12045
+zone0_offsety=17880
+zone0_width=13390
+zone0_height=13390
+zone0_desc=
+;
+; ### Keltoi Fogou
+[region022]
+zone_count=1
+zone0_number=22
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21570
+zone0_offsety=19605
+zone0_width=8155
+zone0_height=8155
+zone0_desc=
+;
+; ### Catacombs of Cardova
+[region023]
+zone_count=1
+zone0_number=23
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15225
+zone0_offsety=20695
+zone0_width=17150
+zone0_height=17150
+zone0_desc=
+;
+; ### Tepok's Mine
+[region024]
+zone_count=1
+zone0_number=24
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20315
+zone0_offsety=16085
+zone0_width=11085
+zone0_height=11085
+zone0_desc=
+;
+; ############################
+; # Midgard Classic Dungeons #
+; ############################
+;
+; ### Spindelhalla
+[region125]
+zone_count=1
+zone0_number=125
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18330
+zone0_offsety=17500
+zone0_width=11838
+zone0_height=11838
+;
+; ### Vendo Caverns
+[region126]
+zone_count=1
+zone0_number=126
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17105
+zone0_offsety=19925
+zone0_width=8250
+zone0_height=8250
+;
+; ### Varulvhamn
+[region127]
+zone_count=1
+zone0_number=127
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7110
+zone0_offsety=10660
+zone0_width=20880
+zone0_height=20880
+zone0_desc=
+;
+; ### Cursed Tomb
+[region128]
+zone_count=1
+zone0_number=128
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21570
+zone0_offsety=19610
+zone0_width=8155
+zone0_height=8155
+zone0_desc=
+;
+; ### Nisse's Lair
+[region129]
+zone_count=1
+zone0_number=129
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16830
+zone0_offsety=20350
+zone0_width=12535
+zone0_height=12535
+zone0_desc=
+;
+; #############################
+; # Hibernia Classic Dungeons #
+; #############################
+;
+; ### Muire Tomb
+[region221]
+zone_count=1
+zone0_number=221
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19205
+zone0_offsety=18275
+zone0_width=12485
+zone0_height=12485
+zone0_desc=
+;
+; ### Spraggon Den
+[region222]
+zone_count=1
+zone0_number=222
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17635
+zone0_offsety=17065
+zone0_width=12725
+zone0_height=12725
+zone0_desc=
+;
+; ### Koalinth Caverns
+[region223]
+zone_count=1
+zone0_number=223
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17580
+zone0_offsety=15955
+zone0_width=13290
+zone0_height=13290
+zone0_desc=
+;
+; ### Treibh Caillte
+[region224]
+zone_count=1
+zone0_number=224
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18275
+zone0_offsety=18125
+zone0_width=9930
+zone0_height=9930
+zone0_desc=
+;
+; ### Coruscating Mines
+[region220]
+zone_count=1
+zone0_number=220
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18040
+zone0_offsety=13350
+zone0_width=12985
+zone0_height=12985
+zone0_desc=
+;
+; ##################################
+; # Albion Shrouded Isles (Avalon) #
+; ##################################
+;
+[region051]
+zone_count=7
+zone_width=46
+zone_width=46
+region_desc=Albion has long been plagued by the evil forces led by Morgana. Now, she's gone one step further and forged an alliance with the Drakoran, a race of dragon-men. The Drakoran, rumored to be led by a real dragon of fearsome size and strength, have laid waste to the island of Avalon, ruining its beautiful capital city, the center of learning for all of Albion.
+;
+; ### Isle of Glass
+zone0_number=51
+zone0_left=204
+zone0_top=156
+zone0_desc=
+;
+; ### Avalon Isle
+zone1_number=52
+zone1_left=158
+zone1_top=121
+zone1_desc=
+;
+; ### Dales of Devwy
+zone2_number=53
+zone2_left=123
+zone2_top=75
+zone2_desc=
+;
+; ### Caldey
+zone3_number=54
+zone3_left=77
+zone3_top=68
+zone3_desc=
+;
+; ### Gwyddneau
+zone4_number=55
+zone4_left=66
+zone4_top=114
+zone4_desc=
+;
+; ### Aldland
+zone5_number=56
+zone5_left=112
+zone5_top=147
+zone5_desc=
+;
+; ### Inishail Island
+zone6_number=57
+zone6_left=20
+zone6_top=117
+zone6_desc=
+;
+; ##################################
+; # Midgard Shrouded Isles (Aegir) #
+; ##################################
+;
+[region151]
+zone_count=7
+zone_width=46
+zone_height=46
+region_desc=Troll and Kobold myths tell of the Troll Fathers, a race of ancient and wise creatures who were the precursors to both of these underground races. Then one day, out of the pages of myth, a lone warrior brought  disturbing news of  a race of prehistoric savages, the Morvalt,  who swept across Aegir, destroying all in their path. The people of Aegir call upon all of Midgard to aid them.
+;
+; ### Aegir's Landing
+zone0_number=151
+zone0_left=23
+zone0_top=101
+zone0_desc=
+;
+; ### Gripklosa Mountains
+zone1_number=152
+zone1_left=46
+zone1_top=55
+zone1_desc=
+;
+; ### Delling Crater
+zone2_number=153
+zone2_left=92
+zone2_top=67
+zone2_desc=
+;
+; ### Faraheim
+zone3_number=154
+zone3_left=104
+zone3_top=113
+zone3_desc=
+;
+; ### Munin Sound
+zone4_number=155
+zone4_left=58
+zone4_top=147
+zone4_desc=
+;
+; ### Iarnwood
+zone5_number=156
+zone5_left=127
+zone5_top=159
+zone5_desc=
+;
+; ### Modernagrav
+zone6_number=158
+zone6_left=170
+zone6_top=113
+zone6_desc=
+;
+; ######################################
+; # Hibernia Shrouded Isles (Hybrasil) #
+; ######################################
+;
+[region181]
+zone_count=7
+zone_width=46
+zone_height=46
+region_desc=The island of HyBrasil was generally considered to be a long-lost myth enclosed in the depths of time. For generations, folklore told around the campfires of the Realm spoke of the beautiful wooded paradise of Hy Brasil, homeland to the Sylvan.. The Sylvan emissaries brought a tale of invasion by a race of creatures called Fomorians, who seek to destroy the Sylvan
+;
+; ### Domnann
+zone0_number=181
+zone0_left=152
+zone0_top=191
+zone0_desc=
+;
+; ### Caillte Garran
+zone1_number=182
+zone1_left=106
+zone1_top=168
+zone1_desc=
+;
+; ### Vale of Balor
+zone2_number=183
+zone2_left=60
+zone2_top=145
+zone2_desc=
+;
+; ### Cothrom Gorge
+zone3_number=184
+zone3_left=71
+zone3_top=99
+zone3_desc=
+;
+; ### World's End
+zone4_number=185
+zone4_left=117
+zone4_top=76
+zone4_desc=
+;
+; ### Vigilant Rock
+zone5_number=186
+zone5_left=141
+zone5_top=122
+zone5_desc=
+;
+; ### Allta Fearann
+zone6_number=187
+zone6_left=118
+zone6_top=20
+zone6_desc=
+;
+; ##################################
+; # Albion Shrouded Isles Dungeons #
+; ##################################
+;
+; ### Avalon City
+[region050]
+zone_count=1
+zone0_number=50
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10130
+zone0_offsety=11915
+zone0_width=28840
+zone0_height=28840
+zone0_desc=
+;
+; ### Caer Sidi
+[region060]
+zone_count=1
+zone0_number=60
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13970
+zone0_offsety=15230
+zone0_width=21105
+zone0_height=21105
+;
+; ### Krondon
+[region061]
+zone_count=1
+zone0_number=61
+zone0_left=0
+zone0_top=0
+zone0_offsetx=605
+zone0_offsety=8415
+zone0_width=55920
+zone0_height=55920
+;
+; ### Crystal Cave
+[region062]
+zone_count=1
+zone0_number=62
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19350
+zone0_offsety=21285
+zone0_width=7400
+zone0_height=7400
+zone0_desc=
+;
+; ###################################
+; # Midgard Shrouded Isles Dungeons #
+; ###################################
+;
+; ### Trollheim
+[region150]
+zone_count=1
+zone0_number=150
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3025
+zone0_offsety=-350
+zone0_width=46240
+zone0_height=46240
+zone0_desc=
+;
+; ### Tuscaren
+[region160]
+zone_count=1
+zone0_number=160
+zone0_left=0
+zone0_top=0
+zone0_offsetx=155
+zone0_offsety=5200
+zone0_width=50925
+zone0_height=50925
+;
+; ### Iarnvidiur's Lair
+[region161]
+zone_count=1
+zone0_number=161
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2600
+zone0_offsety=-965
+zone0_width=35290
+zone0_height=35290
+;
+; ####################################
+; # Hibernia Shrouded Isles Dungeons #
+; ####################################
+;
+; ### Fomor
+[region180]
+zone_count=1
+zone0_number=180
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16135
+zone0_offsety=13034
+zone0_width=18040
+zone0_height=18040
+;
+; ### Tur Suil
+[region190]
+zone_count=1
+zone0_number=190
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10305
+zone0_offsety=5665
+zone0_width=26000
+zone0_height=26000
+;
+; ### Galladoria
+[region191]
+zone_count=1
+zone0_number=191
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8605
+zone0_offsety=17027
+zone0_width=43065
+zone0_height=43065
+;
+; ##################
+; # Albion Housing #
+; ##################
+;
+[region002]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+;
+; ### Caerwent
+zone0_number=13
+zone0_left=170
+zone0_top=85
+zone0_desc=
+;
+; ### Old Sarum
+zone1_number=16
+zone1_left=170
+zone1_top=170
+zone1_desc=
+;
+; ### Rilan
+zone2_number=17
+zone2_left=170
+zone2_top=0
+zone2_desc=
+;
+; ### Dalton
+zone3_number=18
+zone3_left=85
+zone3_top=85
+zone3_desc=
+;
+; ### Brisworthy
+zone4_number=20
+zone4_left=85
+zone4_top=0
+zone4_desc=
+;
+; ### Aylesbury
+zone5_number=64
+zone5_left=85
+zone5_top=170
+zone5_desc=
+;
+; ### Chiltern
+zone6_number=260
+zone6_left=0
+zone6_top=85
+zone6_desc=
+;
+; ### Sherborne
+zone7_number=261
+zone7_left=0
+zone7_top=170
+zone7_desc=
+;
+; ### Stoneleigh
+zone8_number=262
+zone8_left=0
+zone8_top=0
+zone8_desc=
+;
+; ###################
+; # Midgard Housing #
+; ###################
+;
+[region102]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+;
+; ### Erikstaad
+zone0_number=114
+zone0_left=0
+zone0_top=85
+zone0_desc=
+;
+; ### Arothi
+zone1_number=117
+zone1_left=0
+zone1_top=0
+zone1_desc=
+;
+; ### Carlingford
+zone2_number=118
+zone2_left=85
+zone2_top=85
+zone2_desc=
+;
+; ### Wyndham
+zone3_number=119
+zone3_left=0
+zone3_top=170
+zone3_desc=
+;
+; ### Frisia
+zone4_number=121
+zone4_left=85
+zone4_top=170
+zone4_desc=
+;
+; ### Kaupang
+zone5_number=122
+zone5_left=85
+zone5_top=0
+zone5_desc=
+;
+; ### Holmestrand
+zone6_number=266
+zone6_left=170
+zone6_top=85
+zone6_desc=
+;
+; ### Nittedal
+zone7_number=267
+zone7_left=170
+zone7_top=170
+zone7_desc=
+;
+; ### Stavgaard
+zone8_number=268
+zone8_left=170
+zone8_top=0
+zone8_desc=
+;
+; ####################
+; # Hibernia Housing #
+; ####################
+;
+[region202]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+;
+; ### Meath
+zone0_number=213
+zone0_left=85
+zone0_top=0
+zone0_desc=
+;
+; ### Dunshire
+zone1_number=215
+zone1_left=0
+zone1_top=0
+zone1_desc=
+;
+; ### Torrylin
+zone2_number=217
+zone2_left=85
+zone2_top=85
+zone2_desc=
+;
+; ### Kilcullen
+zone3_number=218
+zone3_left=170
+zone3_top=0
+zone3_desc=
+;
+; ### Saeranthal
+zone4_number=219
+zone4_left=0
+zone4_top=85
+zone4_desc=
+;
+; ### Aberillan
+zone5_number=225
+zone5_left=170
+zone5_top=85
+zone5_desc=
+;
+; ### Tullamore
+zone6_number=272
+zone6_left=85
+zone6_top=170
+zone6_desc=
+;
+; ### Moycullen
+zone7_number=273
+zone7_left=0
+zone7_top=170
+zone7_desc=
+;
+; ### Broughshane
+zone8_number=274
+zone8_left=170
+zone8_top=170
+zone8_desc=
+;
+; ################################
+; # Albion Atlantis Remnant Zone #
+; ################################
+;
+[region070]
+zone_count=1
+; ### Ruins of Atlantis
+zone0_number=70
+zone0_left=0
+zone0_top=0
+zone0_desc=
+;
+; #################################
+; # Midgard Atlantis Remnant Zone #
+; #################################
+;
+[region071]
+zone_count=1
+; ### Ruins of Atlantis (ruinerar av atlantis)
+zone0_number=71
+zone0_left=0
+zone0_top=0
+zone0_desc=
+;
+; ##################################
+; # Hibernia Atlantis Remnant Zone #
+; ##################################
+;
+[region072]
+zone_count=1
+; ### Ruins of Atlantis (scrios de atlantis)
+zone0_number=72
+zone0_left=0
+zone0_top=0
+zone0_desc=
+;
+; ###################
+; # Albion Atlantis #
+; ###################
+;
+[region073]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+;
+; ### Oceanus Hesperos
+zone0_number=73
+zone0_left=25
+zone0_top=105
+zone0_desc=
+;
+; ### Mesothalassa
+zone1_number=74
+zone1_left=71
+zone1_top=105
+zone1_desc=
+;
+; ### Oceanus Boreal
+zone2_number=75
+zone2_left=71
+zone2_top=59
+zone2_desc=
+;
+; ### Oceanus Notos
+zone3_number=76
+zone3_left=71
+zone3_top=151
+zone3_desc=
+;
+; ### Oceanus Anatole
+zone4_number=77
+zone4_left=117
+zone4_top=105
+zone4_desc=
+;
+; ### Stygian Delta
+zone5_number=81
+zone5_left=47
+zone5_top=13
+zone5_desc=
+;
+; ### Land of Atum
+zone6_number=82
+zone6_left=1
+zone6_top=13
+zone6_desc=
+;
+; ### Typhon's Reach
+zone7_number=84
+zone7_left=163
+zone7_top=105
+zone7_desc=
+;
+; ### Ashen Isles
+zone8_number=85
+zone8_left=209
+zone8_top=105
+zone8_desc=
+;
+; ### Green Glades
+zone9_number=86
+zone9_left=94
+zone9_top=197
+zone9_desc=
+;
+; ### Arbor Glen
+zone10_number=87
+zone10_left=140
+zone10_top=197
+zone10_desc=
+;
+; ####################
+; # Midgard Atlantis #
+; ####################
+;
+[region030]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+;
+; ### Oceanus Hesperos
+zone0_number=30
+zone0_left=25
+zone0_top=105
+zone0_desc=
+;
+; ### Mesothalassa
+zone1_number=31
+zone1_left=71
+zone1_top=105
+zone1_desc=
+;
+; ### Oceanus Boreal
+zone2_number=32
+zone2_left=71
+zone2_top=59
+zone2_desc=
+;
+; ### Oceanus Notos
+zone3_number=33
+zone3_left=71
+zone3_top=151
+zone3_desc=
+;
+; ### Oceanus Anatole
+zone4_number=34
+zone4_left=117
+zone4_top=105
+zone4_desc=
+;
+; ### Stygian Delta
+zone5_number=38
+zone5_left=47
+zone5_top=13
+zone5_desc=
+;
+; ### Land of Atum
+zone6_number=39
+zone6_left=1
+zone6_top=13
+zone6_desc=
+;
+; ### Typhon's Reach
+zone7_number=41
+zone7_left=163
+zone7_top=105
+zone7_desc=
+;
+; ### Ashen Isles
+zone8_number=42
+zone8_left=209
+zone8_top=105
+zone8_desc=
+;
+; ### Green Glades
+zone9_number=43
+zone9_left=94
+zone9_top=197
+zone9_desc=
+;
+; ### Arbor Glen
+zone10_number=44
+zone10_left=140
+zone10_top=197
+zone10_desc=
+;
+; #####################
+; # Hibernia Atlantis #
+; #####################
+;
+[region130]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+;
+; ### Oceanus Hesperos
+zone0_number=130
+zone0_left=25
+zone0_top=105
+zone0_desc=
+;
+; ### Mesothalassa
+zone1_number=131
+zone1_left=71
+zone1_top=105
+zone1_desc=
+;
+; ### Oceanus Boreal
+zone2_number=132
+zone2_left=71
+zone2_top=59
+zone2_desc=
+;
+; ### Oceanus Notos
+zone3_number=133
+zone3_left=71
+zone3_top=151
+zone3_desc=
+;
+; ### Oceanus Anatole
+zone4_number=134
+zone4_left=117
+zone4_top=105
+zone4_desc=
+;
+; ### Stygian Delta
+zone5_number=138
+zone5_left=47
+zone5_top=13
+zone5_desc=
+;
+; ### Land of Atum
+zone6_number=139
+zone6_left=1
+zone6_top=13
+zone6_desc=
+;
+; ### Typhon's Reach
+zone7_number=141
+zone7_left=163
+zone7_top=105
+zone7_desc=
+;
+; ### Ashen Isles
+zone8_number=142
+zone8_left=209
+zone8_top=105
+zone8_desc=
+;
+; ### Green Glades
+zone9_number=143
+zone9_left=94
+zone9_top=197
+zone9_desc=
+;
+; ### Arbor Glen
+zone10_number=144
+zone10_left=140
+zone10_top=197
+zone10_desc=
+;
+; #######################
+; # Albion ToA Dungeons #
+; #######################
+;
+; ### Cetus Pit
+[region035]
+zone_count=1
+zone0_number=035
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18265
+zone0_offsety=21520
+zone0_width=10155
+zone0_height=10155
+;
+; ### Sobekite Eternal
+[region036]
+zone_count=1
+zone0_number=036
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7340
+zone0_offsety=705
+zone0_width=38285
+zone0_height=38285
+;
+; ### Temple of Twilight
+[region037]
+zone_count=1
+zone0_number=037
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16485
+zone0_offsety=-855
+zone0_width=46790
+zone0_height=46790
+;
+; ### Halls of Maati
+[region040]
+zone_count=1
+zone0_number=040
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2560
+zone0_offsety=11175
+zone0_width=42385
+zone0_height=42385
+;
+; ### Great Pyramid
+[region045]
+zone_count=1
+zone0_number=045
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19945
+zone0_offsety=19455
+zone0_width=7730
+zone0_height=7730
+;
+; ### Deep Volcanus (Heart of Volcanus)
+[region046]
+zone_count=1
+zone0_number=046
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7770
+zone0_offsety=-455
+zone0_width=37760
+zone0_height=37760
+;
+; ### City of Aerus
+[region047]
+zone_count=1
+zone0_number=047
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7060
+zone0_offsety=2850
+zone0_width=44215
+zone0_height=44215
+;
+; ########################
+; # Midgard ToA Dungeons #
+; ########################
+;
+; ### Cetus Pit
+[region078]
+zone_count=1
+zone0_number=078
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18265
+zone0_offsety=21520
+zone0_width=10155
+zone0_height=10155
+;
+; ### Sobekite Eternal
+[region079]
+zone_count=1
+zone0_number=079
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7340
+zone0_offsety=705
+zone0_width=38285
+zone0_height=38285
+;
+; ### Temple of Twilight
+[region080]
+zone_count=1
+zone0_number=080
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16485
+zone0_offsety=-855
+zone0_width=46790
+zone0_height=46790
+;
+; ### Halls of Maati
+[region083]
+zone_count=1
+zone0_number=083
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2560
+zone0_offsety=11175
+zone0_width=42385
+zone0_height=42385
+;
+; ### Great Pyramid
+[region088]
+zone_count=1
+zone0_number=088
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19945
+zone0_offsety=19455
+zone0_width=7730
+zone0_height=7730
+;
+; ### Deep Volcanus (Heart of Volcanus)
+[region089]
+zone_count=1
+zone0_number=089
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7770
+zone0_offsety=-455
+zone0_width=37760
+zone0_height=37760
+;
+; ### City of Aerus
+[region090]
+zone_count=1
+zone0_number=090
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7060
+zone0_offsety=2850
+zone0_width=44215
+zone0_height=44215
+;
+; #########################
+; # Hibernia ToA Dungeons #
+; #########################
+;
+; ### Cetus Pit
+[region135]
+zone_count=1
+zone0_number=135
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18265
+zone0_offsety=21520
+zone0_width=10155
+zone0_height=10155
+;
+; ### Sobekite Eternal
+[region136]
+zone_count=1
+zone0_number=136
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7340
+zone0_offsety=705
+zone0_width=38285
+zone0_height=38285
+;
+; ### Temple of Twilight
+[region137]
+zone_count=1
+zone0_number=137
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16485
+zone0_offsety=-855
+zone0_width=46790
+zone0_height=46790
+;
+; ### Halls of Maati
+[region140]
+zone_count=1
+zone0_number=140
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2560
+zone0_offsety=11175
+zone0_width=42385
+zone0_height=42385
+;
+; ### Great Pyramid
+[region145]
+zone_count=1
+zone0_number=145
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19945
+zone0_offsety=19455
+zone0_width=7730
+zone0_height=7730
+;
+; ### Deep Volcanus (Heart of Volcanus)
+[region146]
+zone_count=1
+zone0_number=146
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7770
+zone0_offsety=-455
+zone0_width=37760
+zone0_height=37760
+;
+; ### City of Aerus
+[region147]
+zone_count=1
+zone0_number=147
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7060
+zone0_offsety=2850
+zone0_width=44215
+zone0_height=44215
+;
+; ###########################
+; # Capital Citys - Classic #
+; ###########################
+;
+; ### Tir na Nog
+[region201]
+zone_count=1
+zone0_number=209
+zone0_top=0
+zone0_left=0
+zone0_offsetx=9125
+zone0_offsety=14988
+zone0_width=18300
+zone0_height=18300
+zone0_desc=
+;
+; ### Camelot City
+[region010]
+zone_count=1
+zone0_number=26
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21900
+zone0_offsety=13350
+zone0_width=11200
+zone0_height=11200
+zone0_desc=
+;
+; ### Jordheim
+[region101]
+zone_count=1
+zone0_number=120
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18660
+zone0_offsety=17907
+zone0_width=11105
+zone0_height=11105
+zone0_desc=
+;
+; ######################
+; # RvR - New Frontier #
+; ######################
+;
+[region163]
+zone_count=14
+zone_width=43
+zone_height=43
+region_desc=Land of legendary battles and defeat, the Frontiers are home to the unstable outposts of the realms.  Hibernia, Albion, and Midgard wage constant war here, in effort to push borders to their own advantage, and gain keeps and relics to empower their own countrymen.  Laden with unknown creatures and miles of wild and untamed lands, the Frontiers offer great challenge and opportunity for fame and glory.
+;
+; ### North Sea
+zone0_number=163
+zone0_top=85
+zone0_left=96
+;
+; ### Irish Sea
+zone1_number=164
+zone1_top=127
+zone1_left=96
+;
+; ### Odin's Gate
+zone2_number=167
+zone2_top=43
+zone2_left=117
+;
+; ### Jamtland Mountains
+zone3_number=168
+zone3_top=43
+zone3_left=159
+;
+; ### Yggdra Forest
+zone4_number=169
+zone4_top=43
+zone4_left=201
+;
+; ### Uppland
+zone5_number=170
+zone5_top=1
+zone5_left=159
+;
+; ### Emain Macha
+zone6_number=171
+zone6_top=127
+zone6_left=54
+;
+; ### Breifine
+zone7_number=172
+zone7_top=169
+zone7_left=54
+;
+; ### Cruachon Gorge
+zone8_number=173
+zone8_top=169
+zone8_left=12
+;
+; ### Mount Collory
+zone9_number=174
+zone9_top=212
+zone9_left=54
+;
+; ### Snowdonia
+zone10_number=175
+zone10_top=212
+zone10_left=138
+;
+; ### Forest Sauvage
+zone11_number=176
+zone11_top=169
+zone11_left=180
+;
+; ### Pennine Mountains
+zone12_number=177
+zone12_top=169
+zone12_left=138
+;
+; ### Hadrian's Wall
+zone13_number=178
+zone13_top=127
+zone13_left=138
+;
+; #######################
+; # RvR - Battlegrounds #
+; #######################
+;
+; ### Proving Grounds
+[region234]
+zone_count=1
+zone0_number=234
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+;
+; ### Lions Den
+[region235]
+zone_count=1
+zone0_number=235
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 5-9 only.  The center keep can be claimed once per level for experience
+;
+; ### Hills of Claret
+[region236]
+zone_count=1
+zone0_number=236
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 10-14 only.  The center keep can be claimed once per level for experience
+;
+; ### Killaloe
+[region237]
+zone_count=1
+zone0_number=237
+zone0_left=0
+zone0_top=0
+zone0_desc=This region is for levels 15-19 only. capRP=125(1L3). The center keep can be claimed once per level for experience
+;
+; ### Thidranki
+[region238]
+zone_count=1
+zone0_number=238
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 20-24 only. capRP=750(1L5).  The center keep can be claimed once per level for experience
+;
+; ### Braemar
+[region239]
+zone_count=1
+zone0_number=239
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 25-29 only. capRP=7.125(2L0) The center keep can be claimed once per level for experience
+;
+; ### Wilton
+[region240]
+zone_count=1
+zone0_number=240
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 30-34 only. capRP=25.375(2L5) The center keep can be claimed once per level for experience
+;
+; ### Molvik
+[region241]
+zone_count=1
+zone0_number=241
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 35-39 only. capRP=61.750 (3L0) The center keep can be claimed once per level for experience
+;
+; ### Leirvik
+[region242]
+zone_count=1
+zone0_number=254
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 40-44 only. capRP=213.875 (4L0). The center keep can be claimed once per level for experience
+;
+; ### Cathal Valley
+[region165]
+zone_count=1
+zone0_number=165
+zone0_top=0
+zone0_left=0
+zone0_desc=This region is for levels 45-49 only. capRP=475.475 (4L9). ML5
+;
+; ##########
+; ################
+; # RvR Dungeons #
+; ################
+;
+; ### Passage of Conflict
+[region244]
+zone_count=1
+zone0_number=244
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4860
+zone0_offsety=3970
+zone0_width=44705
+zone0_height=44705
+;
+; ### Summoners Hall
+[region233]
+zone_count=1
+zone0_number=233
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12930
+zone0_offsety=14425
+zone0_width=25270
+zone0_height=25270
+;
+; ### Celestius (ToA)
+[region091]
+zone_count=1
+zone0_number=091
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19870
+zone0_offsety=20230
+zone0_width=7500
+zone0_height=7500
+;
+; ####################
+; # Albion Catacombs #
+; ####################
+;
+; ### Alb Glashtin Forge
+[region059]
+zone_count=1
+zone0_number=59
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11952
+zone0_offsety=9111
+zone0_width=25459
+zone0_height=25459
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Roman Aqueducts
+[region063]
+zone_count=1
+zone0_number=63
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5711
+zone0_offsety=7644
+zone0_width=30629
+zone0_height=30629
+zone0_desc=Built by the Romans during their rule, the Aqueducts are now occupied by the shunned followers of Pluto.  There they have revived the worship of Arawn alongside their own god.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Inconnu Crypt
+[region065]
+zone_count=1
+zone0_number=65
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9061
+zone0_offsety=16949
+zone0_width=27838
+zone0_height=27838
+zone0_desc=Built by the Inconnu in service of their Lord Arawn, the Crypt serves as a homeland and waystation on the way to escorting the souls of the dead to the Underworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Underground Forest
+[region066]
+zone_count=1
+zone0_number=66
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3125
+zone0_offsety=4271
+zone0_width=39870
+zone0_height=39870
+zone0_desc=Originally a secret entrance into the Lower Crypt, its discovery led to the destruction of the Crypt itself.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Deadlands of Annwn
+[region067]
+zone_count=1
+zone0_number=67
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8070
+zone0_offsety=5150
+zone0_width=30515
+zone0_height=30515
+zone0_desc=The souls of the fallen dwell here, and their Lord Arawn ruled until they were possessed to rise against him.  Now Albion must battle to keep these renegade souls in check.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Lower Crypt
+[region068]
+zone_count=1
+zone0_number=68
+zone0_left=0
+zone0_top=0
+zone0_offsetx=6007
+zone0_offsety=7138
+zone0_width=25218
+zone0_height=25218
+zone0_desc=Intended to guard the Cauldron of Arawn, the lower crypt was invaded and destroyed by one who desired its power.  Now it lies in ruin and holds dangers untold.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Dark Spire
+[region069]
+zone_count=1
+zone0_number=69
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Frontlines
+[region109]
+zone_count=1
+zone0_number=109
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3238
+zone0_offsety=1164
+zone0_width=41943
+zone0_height=41943
+zone0_desc=A cavernous area on the outskirts of Albion control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Otherworld
+[region196]
+zone_count=1
+zone0_number=196
+zone0_left=0
+zone0_top=0
+zone0_offsetx=14979
+zone0_offsety=6107
+zone0_width=30347
+zone0_height=30347
+zone0_desc=A magical land, the Otherworld is a region of violent magical maelstroms beyond the Veil.  Here, the Hibernian possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Alb Abandoned Mines
+[region227]
+zone_count=1
+zone0_number=227
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3066
+zone0_offsety=4232
+zone0_width=43656
+zone0_height=43656
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Albion to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; #####################
+; # Midgard Catacombs #
+; #####################
+;
+; ### Mid Underground Forest
+[region058]
+zone_count=1
+zone0_number=58
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2782
+zone0_offsety=3286
+zone0_width=40075
+zone0_height=40075
+zone0_desc=A connecting realm with passages to the surface, the Kobolds maintain a presence in this strange underground grove.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Burial Grounds
+[region229]
+zone_count=1
+zone0_number=229
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11719
+zone0_offsety=2541
+zone0_width=35665
+zone0_height=35665
+zone0_desc=Beneath the city of Jordheim lie the Burial Grounds, a great cavern used for generations not only to bury, but also to honor, the fallen of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Kobold Undercity
+[region243]
+zone_count=1
+zone0_number=243
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12536
+zone0_offsety=11852
+zone0_width=27217
+zone0_height=27217
+zone0_desc=Built in the same series of caves that gave birth to the Burial Grounds, the Kobold Undercity remained a secret from the surface for hundreds of years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Abandoned Mines
+[region226]
+zone_count=1
+zone0_number=226
+zone0_left=0
+zone0_top=0
+zone0_offsetx=952
+zone0_offsety=4903
+zone0_width=41705
+zone0_height=41705
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Midgard to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Dark Spire
+[region188]
+zone_count=1
+zone0_number=188
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Glashtin Forge
+[region189]
+zone_count=1
+zone0_number=189
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11703
+zone0_offsety=9735
+zone0_width=25708
+zone0_height=25708
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Otherworld
+[region195]
+zone_count=1
+zone0_number=195
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11291
+zone0_offsety=4059
+zone0_width=38187
+zone0_height=38187
+zone0_desc=A magical land, the Otherworld is a region of violent magical maelstroms beyond the Veil.  Here, the Midgard possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Frontlines
+[region148]
+zone_count=1
+zone0_number=148
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1958
+zone0_offsety=8772
+zone0_width=35658
+zone0_height=35658
+zone0_desc=A cavernous mid-point between the Undercity and Nyttheim, the Frontlines have now become a battleground for control of the Kobold world and Midgard above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Nyttheim
+[region149]
+zone_count=1
+zone0_number=149
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9665
+zone0_offsety=7094
+zone0_width=27919
+zone0_height=27919
+zone0_desc=Originally a settlement of Kobolds unwilling to welcome others to their city, Nyttheim is now a nightmare – a land filled with possessed Kobolds serving an unknown lord.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Mid Deadlands of Annwn
+[region162]
+zone_count=1
+zone0_number=162
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4385
+zone0_offsety=-1104
+zone0_width=28769
+zone0_height=28769
+zone0_desc=A land intended for the souls of the Midgard fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Midgard’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ######################
+; # Hibernia Catacombs #
+; ######################
+;
+; ### Hib Underground Forest
+[region096]
+zone_count=1
+zone0_number=96
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3126
+zone0_offsety=3529
+zone0_width=39732
+zone0_height=39732
+zone0_desc=Discovered around the Queen’s Labyrinth, it led to the great deception that has haunted the Shar for years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Deadlands of Annwn
+[region097]
+zone_count=1
+zone0_number=97
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4353
+zone0_offsety=-1104
+zone0_width=28769
+zone0_height=28769
+zone0_desc=A land intended for the souls of the Albion fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Albion’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Dark Spire
+[region098]
+zone_count=1
+zone0_number=98
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Glashtin Forest
+[region099]
+zone_count=1
+zone0_number=99
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10452
+zone0_offsety=7974
+zone0_width=28038
+zone0_height=28038
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Hibernia.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Abandoned Mines
+[region228]
+zone_count=1
+zone0_number=228
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2056
+zone0_offsety=1665
+zone0_width=42333
+zone0_height=42333
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Hibernia to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Otherworld
+[region197]
+zone_count=1
+zone0_number=197
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9113
+zone0_offsety=6979
+zone0_width=34444
+zone0_height=34444
+zone0_desc=The magical land where the Shar city was created, the Otherworld is a region of powerful and dangerous magical maelstroms, both empowering and threatening.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Veil Rift
+[region092]
+zone_count=1
+zone0_number=92
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13706
+zone0_offsety=5391
+zone0_width=39019
+zone0_height=39019
+zone0_desc=The Rift is a magical barrier that separates the magical world from the natural one.  “Created” by the elves, it now serves as the entry point to the mysterious Shar homeworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Shar Labyrinth
+[region093]
+zone_count=1
+zone0_number=93
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13698
+zone0_offsety=13461
+zone0_width=14363
+zone0_height=14363
+zone0_desc=Using the magic obtained from their time in the Veil, the Shar half-grew, half-built a magnificent city to be their seat of power.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Queen's Labyrinth
+[region094]
+zone_count=1
+zone0_number=94
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17223
+zone0_offsety=11147
+zone0_width=22745
+zone0_height=22745
+zone0_desc=Built as a temple for proper communication with the Shar god, its proximity to the magical forces of the Otherworld enabled it to be used as an instrument of great deception.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ### Hib Frontlines
+[region095]
+zone_count=1
+zone0_number=95
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4860
+zone0_offsety=7037
+zone0_width=36240
+zone0_height=36240
+zone0_desc=A cavernous area on the outskirts of Hibernian control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+;
+; ################################
+; # INSTANCED DUNGEONS CATACOMBS #
+; ################################
+;
+[region000]
+zone_count=190
+;
+; ########################################
+; # Midgard Instanced Dungeons Catacombs #
+; ########################################
+;
+; ### Caverns of Madness - (Nyttheim)
+zone0_number=327
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11300
+zone0_offsety=14250
+zone0_width=17030
+zone0_height=17030
+;
+; ### Jarlsbergs Hideout - (Burial Grounds)
+zone1_number=329
+zone1_left=0
+zone1_top=0
+zone1_offsetx=19650
+zone1_offsety=13600
+zone1_width=20550
+zone1_height=20550
+;
+; ### Thieves Den - (Burial Grounds)
+zone2_number=331
+zone2_left=0
+zone2_top=0
+zone2_offsetx=11850
+zone2_offsety=7100
+zone2_width=24050
+zone2_height=24050
+;
+; ### Rebel Half Orc Lair - (Abandoned Mines)
+zone3_number=332
+zone3_left=0
+zone3_top=0
+zone3_offsetx=9500
+zone3_offsety=13300
+zone3_width=19100
+zone3_height=19100
+;
+; ### The Haunted Halls - (Abandoned Mines)
+zone4_number=333
+zone4_left=0
+zone4_top=0
+zone4_offsetx=19580
+zone4_offsety=15650
+zone4_width=20000
+zone4_height=20000
+;
+; ### Tomte Prison - (Nisse's Lair)
+zone5_number=345
+zone5_left=0
+zone5_top=0
+zone5_offsetx=15750
+zone5_offsety=22150
+zone5_width=16650
+zone5_height=16650
+;
+; ### Nisse's Retreat - (Nisse's Lair)
+zone6_number=346
+zone6_left=0
+zone6_top=0
+zone6_offsetx=14850
+zone6_offsety=18700
+zone6_width=11900
+zone6_height=11900
+;
+; ### Lios's Eternal Rest - (Cursed Tomb)
+zone7_number=349
+zone7_left=0
+zone7_top=0
+zone7_offsetx=20000
+zone7_offsety=21750
+zone7_width=8670
+zone7_height=8670
+;
+; ### Liche's Unrest - (Cursed Tomb)
+zone8_number=350
+zone8_left=0
+zone8_top=0
+zone8_offsetx=18500
+zone8_offsety=20530
+zone8_width=12150
+zone8_height=12150
+;
+; ### Den of Bones - (vendo Caverns)
+zone9_number=353
+zone9_left=0
+zone9_top=0
+zone9_offsetx=19550
+zone9_offsety=22100
+zone9_width=15000
+zone9_height=15000
+;
+; ### The Ritual Chamber <- The Lost Burrow ??? whats the correct name ?? - (vendo Caverns)
+zone10_number=354
+zone10_left=0
+zone10_top=0
+zone10_offsetx=21550
+zone10_offsety=12050
+zone10_width=22100
+zone10_height=22100
+;
+; ### The Cursed Lair - (Varulfhamn)
+zone11_number=357
+zone11_left=0
+zone11_top=0
+zone11_offsetx=19175
+zone11_offsety=16150
+zone11_width=11300
+zone11_height=11300
+;
+; ### The Burrow - (Varulfhamn)
+zone12_number=358
+zone12_left=0
+zone12_top=0
+zone12_offsetx=17560
+zone12_offsety=17900
+zone12_width=9425
+zone12_height=9425
+;
+; ### Arachnids Labyrinth - (Spindelhalla)
+zone13_number=361
+zone13_left=0
+zone13_top=0
+zone13_offsetx=16700
+zone13_offsety=19750
+zone13_width=17730
+zone13_height=17730
+;
+; ### The Masters Lair - (Spindelhalla)
+zone14_number=362
+zone14_left=0
+zone14_top=0
+zone14_offsetx=21100
+zone14_offsety=21350
+zone14_width=11930
+zone14_height=11930
+;
+; ### Passage of Echoes - (Nyttheim)
+zone15_number=373
+zone15_left=0
+zone15_top=0
+zone15_offsetx=22950
+zone15_offsety=20400
+zone15_width=18290
+zone15_height=18290
+;
+; ### Unrestful Tomb - (Deadlands of Annwn)
+zone16_number=374
+zone16_left=0
+zone16_top=0
+zone16_offsetx=19250
+zone16_offsety=17600
+zone16_width=12700
+zone16_height=12700
+;
+; ### Lost Passages - (Otherworld)
+zone17_number=375
+zone17_left=0
+zone17_top=0
+zone17_offsetx=12975
+zone17_offsety=21750
+zone17_width=24125
+zone17_height=24125
+;
+; ### Wolak's Crucible - (Glashtin Forge)
+zone18_number=439
+zone18_left=0
+zone18_top=0
+zone18_offsetx=16750
+zone18_offsety=16850
+zone18_width=14400
+zone18_height=14400
+;
+; ### Marik's Workroom - (Glashtin Forge)
+zone19_number=440
+zone19_left=0
+zone19_top=0
+zone19_offsetx=18520
+zone19_offsety=19450
+zone19_width=9940
+zone19_height=9940
+;
+; #########################################
+; # Hibernia Instanced Dungeons Catacombs #
+; #########################################
+;
+; ### Rugnog's Haven - (Abandoned Mines)
+zone20_number=49
+zone20_left=0
+zone20_top=0
+zone20_offsetx=20700
+zone20_offsety=13000
+zone20_width=20100
+zone20_height=20100
+;
+; ### Hammerer Hugak's Smithy - (Glashtin Forge)
+zone21_number=437
+zone21_left=0
+zone21_top=0
+zone21_offsetx=21550
+zone21_offsety=20600
+zone21_width=10775
+zone21_height=10775
+;
+; ### The Goblin's Workshop - (Glashtin Forge)
+zone22_number=438
+zone22_left=0
+zone22_top=0
+zone22_offsetx=21500
+zone22_offsety=17000
+zone22_width=12125
+zone22_height=12125
+;
+; ### 442 The Steward's Crypt - (Muire Tomb)
+zone23_number=442
+zone23_left=0
+zone23_top=0
+zone23_offsetx=13400
+zone23_offsety=17950
+zone23_width=11700
+zone23_height=11700
+;
+; ### 443 Serf's Folly - (Muire Tomb)
+zone24_number=443
+zone24_left=0
+zone24_top=0
+zone24_offsetx=18300
+zone24_offsety=23530
+zone24_width=10800
+zone24_height=10800
+;
+; ### Blathnait's Refuge - (Veil Rift)
+;
+zone25_number=446
+zone25_left=0
+zone25_top=0
+zone25_offsetx=1880
+zone25_offsety=500
+zone25_width=33150
+zone25_height=33150
+;
+; ### Broken Mirrors - (Veil Rift)
+zone26_number=447
+zone26_left=0
+zone26_top=0
+zone26_offsetx=3690
+zone26_offsety=600
+zone26_width=27500
+zone26_height=27500
+;
+; ### Rise of Spraggons - (Spraggon Den)
+zone27_number=475
+zone27_left=0
+zone27_top=0
+zone27_offsetx=19400
+zone27_offsety=21130
+zone27_width=9325
+zone27_height=9325
+;
+; ### The Warrens - (Spraggon Den)
+zone28_number=476
+zone28_left=0
+zone28_top=0
+zone28_offsetx=18400
+zone28_offsety=22120
+zone28_width=8300
+zone28_height=8300
+;
+; ### Ancient's Reatrait -(Treibh Caillte)
+zone29_number=479
+zone29_left=0
+zone29_top=0
+zone29_offsetx=16950
+zone29_offsety=14110
+zone29_width=11800
+zone29_height=11800
+;
+; ### Shaman's Inner Sanctum - (Treibh Caillte)
+zone30_number=480
+zone30_left=0
+zone30_top=0
+zone30_offsetx=15400
+zone30_offsety=19140
+zone30_width=11500
+zone30_height=11500
+;
+; ### The Brawler's Den - (Koalinth)
+zone31_number=483
+zone31_left=0
+zone31_top=0
+zone31_offsetx=18825
+zone31_offsety=13540
+zone31_width=10650
+zone31_height=10650
+;
+; ### Felena's Sorrows - (Koalinth)
+zone32_number=484
+zone32_left=0
+zone32_top=0
+zone32_offsetx=15130
+zone32_offsety=23340
+zone32_width=10725
+zone32_height=10725
+;
+; ### Pit of Despair - (Coruscating Mines)
+zone33_number=487
+zone33_left=0
+zone33_top=0
+zone33_offsetx=11000
+zone33_offsety=22000
+zone33_width=27270
+zone33_height=27270
+;
+; ### Forgotten Vein - (Coruscating Mines)
+zone34_number=488
+zone34_left=0
+zone34_top=0
+zone34_offsetx=22200
+zone34_offsety=17600
+zone34_width=12375
+zone34_height=12375
+;
+; ### Maze of Madness - (Queen's Labyrinth)
+zone35_number=491
+zone35_left=0
+zone35_top=0
+zone35_offsetx=17050
+zone35_offsety=23800
+zone35_width=12400
+zone35_height=12400
+;
+; ### Shattered Lands - (Queen's Labyrinth)
+zone36_number=492
+zone36_left=0
+zone36_top=0
+zone36_offsetx=13800
+zone36_offsety=25330
+zone36_width=16220
+zone36_height=16220
+;
+; ### Wolves Den - (Abandoned Mines)
+zone37_number=494
+zone37_left=0
+zone37_top=0
+zone37_offsetx=22650
+zone37_offsety=19325
+zone37_width=15600
+zone37_height=15600
+;
+; ### Inner Sanctum - (Deadlands)
+zone38_number=495
+zone38_left=0
+zone38_top=0
+zone38_offsetx=18000
+zone38_offsety=19425
+zone38_width=10200
+zone38_height=10200
+;
+; ### The Deep - (Frontlines)
+zone39_number=496
+zone39_left=0
+zone39_top=0
+zone39_offsetx=24575
+zone39_offsety=13950
+zone39_width=19280
+zone39_height=19280
+;
+; #######################################
+; # Albion Instanced Dungeons Catacombs #
+; #######################################
+;
+; ### Goblin's Cookery - (Tepok's Mine)
+zone40_number=376
+zone40_left=0
+zone40_top=0
+zone40_offsetx=16430
+zone40_offsety=23140
+zone40_width=18600
+zone40_height=18600
+;
+; ### The Beastmaster Den - (Tepok's Mine)
+zone41_number=377
+zone41_left=0
+zone41_top=0
+zone41_offsetx=16480
+zone41_offsety=21950
+zone41_width=21120
+zone41_height=21120
+;
+; ### Lair of Doom - (Cardova)
+zone42_number=380
+zone42_left=0
+zone42_top=0
+zone42_offsetx=14970
+zone42_offsety=5620
+zone42_width=18680
+zone42_height=18680
+;
+; ### The Arena - (Carvoda)
+zone43_number=381
+zone43_left=0
+zone43_top=0
+zone43_offsetx=22800
+zone43_offsety=14160
+zone43_width=18400
+zone43_height=18400
+;
+; ### The Ritual Hall - (Keltoi Fogou)
+zone44_number=384
+zone44_left=0
+zone44_top=0
+zone44_offsetx=21850
+zone44_offsety=17520
+zone44_width=13280
+zone44_height=13280
+;
+; ### The Betrayer's Den - (Keltoi Fogou)
+zone45_number=385
+zone45_left=0
+zone45_top=0
+zone45_offsetx=19950
+zone45_offsety=19930
+zone45_width=9390
+zone45_height=9390
+;
+; ### Shafts of Tenebrae - (Abandoned Mines)
+zone46_number=389
+zone46_left=0
+zone46_top=0
+zone46_offsetx=19150
+zone46_offsety=14875
+zone46_width=18120
+zone46_height=18120
+;
+; ### Lair of the Exiled - (Abandoned Mines)
+zone47_number=390
+zone47_left=0
+zone47_top=0
+zone47_offsetx=24630
+zone47_offsety=21350
+zone47_width=14370
+zone47_height=14370
+;
+; ### Hall of Reawakening - (Tomb of Mithra)
+zone48_number=392
+zone48_left=0
+zone48_top=0
+zone48_offsetx=20180
+zone48_offsety=16480
+zone48_width=9850
+zone48_height=9850
+;
+; ### The Hidden Crypt - (Tomb of Mithra)
+zone49_number=393
+zone49_left=0
+zone49_top=0
+zone49_offsetx=16530
+zone49_offsety=17660
+zone49_width=9590
+zone49_height=9590
+;
+; ### The Depth of Despair - (Lower Crypt)
+zone50_number=396
+zone50_left=0
+zone50_top=0
+zone50_offsetx=17600
+zone50_offsety=18700
+zone50_width=10970
+zone50_height=10970
+;
+; ### Realm of the Damned - (Lower Crypt)
+zone51_number=397
+zone51_left=0
+zone51_top=0
+zone51_offsetx=19500
+zone51_offsety=17600
+zone51_width=14200
+zone51_height=14200
+;
+; ### Lost Wing - (Stonehenge Barrows)
+zone52_number=425
+zone52_left=0
+zone52_top=0
+zone52_offsetx=9040
+zone52_offsety=14150
+zone52_width=15580
+zone52_height=15580
+;
+; ### Deliah's Sanctuary - (Stonehenge Barrows)
+zone53_number=426
+zone53_left=0
+zone53_top=0
+zone53_offsetx=7740
+zone53_offsety=13610
+zone53_width=17030
+zone53_height=17030
+;
+; ### Snyblem's Lair - (Roman Aqueduct)
+zone54_number=429
+zone54_left=0
+zone54_top=0
+zone54_offsetx=14800
+zone54_offsety=16900
+zone54_width=15640
+zone54_height=15640
+;
+; ### Plutonian Shore - (Roman Aqueduct)
+zone55_number=430
+zone55_left=0
+zone55_top=0
+zone55_offsetx=14790
+zone55_offsety=17770
+zone55_width=16250
+zone55_height=16250
+;
+; ### Snarg's Grotto - (Frontlines)
+zone56_number=433
+zone56_left=0
+zone56_top=0
+zone56_offsetx=11950
+zone56_offsety=11110
+zone56_width=27800
+zone56_height=27800
+;
+; ### Maze of Tribulation - (Otherworld)
+zone57_number=434
+zone57_left=0
+zone57_top=0
+zone57_offsetx=11400
+zone57_offsety=20630
+zone57_width=14370
+zone57_height=14370
+;
+; ### The Smelting Pot - (Glashtin Forge) 
+zone58_number=435
+zone58_left=0
+zone58_top=0
+zone58_offsetx=20765
+zone58_offsety=20140
+zone58_width=10430
+zone58_height=10430
+;
+; ### Forges of Flames - (Glashtin Forge)
+zone59_number=436
+zone59_left=0
+zone59_top=0
+zone59_offsetx=19800
+zone59_offsety=18435
+zone59_width=10785
+zone59_height=10785
+;
+;
+; #######################################
+; # Albion Task Dungeons Catacombs #
+; #######################################
+;
+; Burial Tomb
+zone60_number=400
+zone60_left=0
+zone60_top=0
+zone60_offsetx=20263
+zone60_offsety=18019
+zone60_width=6057
+zone60_height=6057
+zone60_desc=Burial Tomb
+; Burial Tomb
+zone61_number=401
+zone61_left=0
+zone61_top=0
+zone61_offsetx=22141
+zone61_offsety=21966
+zone61_width=2669
+zone61_height=2669
+zone61_desc=Burial Tomb
+; Burial Tomb
+zone62_number=402
+zone62_left=0
+zone62_top=0
+zone62_offsetx=21548
+zone62_offsety=22453
+zone62_width=3750
+zone62_height=3750
+zone62_desc=Burial Tomb
+; Burial Tomb
+zone63_number=403
+zone63_left=0
+zone63_top=0
+zone63_offsetx=22712
+zone63_offsety=22846
+zone63_width=3458
+zone63_height=3458
+zone63_desc=Burial Tomb
+; Burial Tomb
+zone64_number=404
+zone64_left=0
+zone64_top=0
+zone64_offsetx=22498
+zone64_offsety=22424
+zone64_width=4043
+zone64_height=4043
+zone64_desc=Burial Tomb
+; Burial Tomb
+zone65_number=293
+zone65_left=0
+zone65_top=0
+zone65_offsetx=17903
+zone65_offsety=15147
+zone65_width=6560
+zone65_height=6560
+zone65_desc=Burial Tomb
+; Burial Tomb
+zone66_number=294
+zone66_left=0
+zone66_top=0
+zone66_offsetx=20370
+zone66_offsety=19031
+zone66_width=6482
+zone66_height=6482
+zone66_desc=Burial Tomb
+; Burial Tomb
+zone67_number=295
+zone67_left=0
+zone67_top=0
+zone67_offsetx=17608
+zone67_offsety=16280
+zone67_width=6864
+zone67_height=6864
+zone67_desc=Burial Tomb
+;
+; Desecrated Grounds
+zone68_number=405
+zone68_left=0
+zone68_top=0
+zone68_offsetx=20145
+zone68_offsety=21347
+zone68_width=4553
+zone68_height=4553
+zone68_desc=Desecrated Grounds
+; Desecrated Grounds
+zone69_number=406
+zone69_left=0
+zone69_top=0
+zone69_offsetx=22604
+zone69_offsety=20567
+zone69_width=4932
+zone69_height=4932
+zone69_desc=Desecrated Grounds
+; Desecrated Grounds
+zone70_number=407
+zone70_left=0
+zone70_top=0
+zone70_offsetx=20468
+zone70_offsety=21268
+zone70_width=3906
+zone70_height=3906
+zone70_desc=Desecrated Grounds
+; Desecrated Grounds
+zone71_number=408
+zone71_left=0
+zone71_top=0
+zone71_offsetx=22970
+zone71_offsety=22451
+zone71_width=4031
+zone71_height=4031
+zone71_desc=Desecrated Grounds
+; Desecrated Grounds
+zone72_number=409
+zone72_left=0
+zone72_top=0
+zone72_offsetx=22450
+zone72_offsety=22424
+zone72_width=4302
+zone72_height=4302
+zone72_desc=Desecrated Grounds
+; Desecrated Grounds
+zone73_number=296
+zone73_left=0
+zone73_top=0
+zone73_offsetx=20193
+zone73_offsety=21236
+zone73_width=4669
+zone73_height=4669
+zone73_desc=Desecrated Grounds
+; Desecrated Grounds
+zone74_number=297
+zone74_left=0
+zone74_top=0
+zone74_offsetx=21033
+zone74_offsety=20497
+zone74_width=7423
+zone74_height=7423
+zone74_desc=Desecrated Grounds
+; Desecrated Grounds
+zone75_number=298
+zone75_left=0
+zone75_top=0
+zone75_offsetx=20375
+zone75_offsety=20843
+zone75_width=4245
+zone75_height=4245
+zone75_desc=Desecrated Grounds
+;
+; Forgotten Mines
+zone76_number=410
+zone76_left=0
+zone76_top=0
+zone76_offsetx=19816
+zone76_offsety=22713
+zone76_width=6641
+zone76_height=6641
+zone76_desc=Forgotten Mines
+; Forgotten Mines
+zone77_number=411
+zone77_left=0
+zone77_top=0
+zone77_offsetx=21904
+zone77_offsety=21440
+zone77_width=6374
+zone77_height=6374
+zone77_desc=Forgotten Mines
+; Forgotten Mines
+zone78_number=412
+zone78_left=0
+zone78_top=0
+zone78_offsetx=20332
+zone78_offsety=21595
+zone78_width=6065
+zone78_height=6065
+zone78_desc=Forgotten Mines
+; Forgotten Mines
+zone79_number=413
+zone79_left=0
+zone79_top=0
+zone79_offsetx=21619
+zone79_offsety=23710
+zone79_width=3775
+zone79_height=3775
+zone79_desc=Forgotten Mines
+; Forgotten Mines
+zone80_number=414
+zone80_left=0
+zone80_top=0
+zone80_offsetx=23075
+zone80_offsety=22384
+zone80_width=5664
+zone80_height=5664
+zone80_desc=Forgotten Mines
+; Forgotten Mines
+zone81_number=256
+zone81_left=0
+zone81_top=0
+zone81_offsetx=19131
+zone81_offsety=22637
+zone81_width=7462
+zone81_height=7462
+zone81_desc=Forgotten Mines
+; Forgotten Mines
+zone82_number=257
+zone82_left=0
+zone82_top=0
+zone82_offsetx=16449
+zone82_offsety=23021
+zone82_width=10276
+zone82_height=10276
+zone82_desc=Forgotten Mines
+; Forgotten Mines
+zone83_number=258
+zone83_left=0
+zone83_top=0
+zone83_offsetx=20729
+zone83_offsety=23002
+zone83_width=10826
+zone83_height=10826
+zone83_desc=Forgotten Mines
+;
+; The Funerary Hall
+zone84_number=415
+zone84_left=0
+zone84_top=0
+zone84_offsetx=22393
+zone84_offsety=20465
+zone84_width=5532
+zone84_height=5532
+zone84_desc=The Funerary Hall
+; The Funerary Hall
+zone85_number=416
+zone85_left=0
+zone85_top=0
+zone85_offsetx=19864
+zone85_offsety=21729
+zone85_width=4158
+zone85_height=4158
+zone85_desc=The Funerary Hall
+; The Funerary Hall
+zone86_number=417
+zone86_left=0
+zone86_top=0
+zone86_offsetx=23091
+zone86_offsety=21493
+zone86_width=3077
+zone86_height=3077
+zone86_desc=The Funerary Hall
+; The Funerary Hall
+zone87_number=418
+zone87_left=0
+zone87_top=0
+zone87_offsetx=20962
+zone87_offsety=19230
+zone87_width=5939
+zone87_height=5939
+zone87_desc=The Funerary Hall
+; The Funerary Hall
+zone88_number=419
+zone88_left=0
+zone88_top=0
+zone88_offsetx=20614
+zone88_offsety=21393
+zone88_width=4447
+zone88_height=4447
+zone88_desc=The Funerary Hall
+; The Funerary Hall 1.83
+zone89_number=379
+zone89_left=0
+zone89_top=0
+zone89_offsetx=18560
+zone89_offsety=20674
+zone89_width=6272
+zone89_height=6272
+zone89_desc=The Funerary Hall
+; The Funerary Hall 1.83
+zone90_number=382
+zone90_left=0
+zone90_top=0
+zone90_offsetx=19200
+zone90_offsety=22829
+zone90_width=4773
+zone90_height=4773
+zone90_desc=The Funerary Hall
+; The Funerary Hall 1.83
+zone91_number=383
+zone91_left=0
+zone91_top=0
+zone91_offsetx=19072
+zone91_offsety=19821
+zone91_width=4901
+zone91_height=4901
+zone91_desc=The Funerary Hall
+;
+; the Sundered Tombs
+zone92_number=420
+zone92_left=0
+zone92_top=0
+zone92_offsetx=23464
+zone92_offsety=22741
+zone92_width=3600
+zone92_height=3600
+zone92_desc=the Sundered Tombs
+; the Sundered Tombs
+zone93_number=421
+zone93_left=0
+zone93_top=0
+zone93_offsetx=20069
+zone93_offsety=20251
+zone93_width=4077
+zone93_height=4077
+zone93_desc=the Sundered Tombs
+; the Sundered Tombs
+zone94_number=422
+zone94_left=0
+zone94_top=0
+zone94_offsetx=22610
+zone94_offsety=19578
+zone94_width=5324
+zone94_height=5324
+zone94_desc=the Sundered Tombs
+; the Sundered Tombs
+zone95_number=423
+zone95_left=0
+zone95_top=0
+zone95_offsetx=21460
+zone95_offsety=21102
+zone95_width=5667
+zone95_height=5667
+zone95_desc=the Sundered Tombs
+; the Sundered Tombs
+zone96_number=424
+zone96_left=0
+zone96_top=0
+zone96_offsetx=23075
+zone96_offsety=22398
+zone96_width=3768
+zone96_height=3768
+zone96_desc=the Sundered Tombs
+; the Sundered Tombs
+zone97_number=386
+zone97_left=0
+zone97_top=0
+zone97_offsetx=22449
+zone97_offsety=20705
+zone97_width=6139
+zone97_height=6139
+zone97_desc=the Sundered Tombs
+; the Sundered Tombs
+zone98_number=387
+zone98_left=0
+zone98_top=0
+zone98_offsetx=16880
+zone98_offsety=17142
+zone98_width=7611
+zone98_height=7611
+zone98_desc=the Sundered Tombs
+; the Sundered Tombs
+zone99_number=388
+zone99_left=0
+zone99_top=0
+zone99_offsetx=19427
+zone99_offsety=14867
+zone99_width=6141
+zone99_height=6141
+zone99_desc=the Sundered Tombs
+;
+; #######################################
+; # Midgard Task Dungeons Catacombs #
+; #######################################
+;
+; Damp Cavern
+zone100_number=300
+zone100_left=0
+zone100_top=0
+zone100_offsetx=23191
+zone100_offsety=19962
+zone100_width=4807
+zone100_height=4807
+zone100_desc=Damp Cavern
+; Damp Cavern
+zone101_number=301
+zone101_left=0
+zone101_top=0
+zone101_offsetx=17200
+zone101_offsety=16082
+zone101_width=8157
+zone101_height=8157
+zone101_desc=Damp Cavern
+; Damp Cavern
+zone102_number=302
+zone102_left=0
+zone102_top=0
+zone102_offsetx=19112
+zone102_offsety=21715
+zone102_width=6337
+zone102_height=6337
+zone102_desc=Damp Cavern
+; Damp Cavern
+zone103_number=303
+zone103_left=0
+zone103_top=0
+zone103_offsetx=21411
+zone103_offsety=21866
+zone103_width=5816
+zone103_height=5816
+zone103_desc=Damp Cavern
+; Damp Cavern
+zone104_number=304
+zone104_left=0
+zone104_top=0
+zone104_offsetx=21023
+zone104_offsety=20088
+zone104_width=4784
+zone104_height=4784
+zone104_desc=Damp Cavern
+; Damp Cavern
+zone105_number=278
+zone105_left=0
+zone105_top=0
+zone105_offsetx=19951
+zone105_offsety=16286
+zone105_width=8295
+zone105_height=8295
+zone105_desc=Damp Cavern
+; Damp Cavern
+zone106_number=279
+zone106_left=0
+zone106_top=0
+zone106_offsetx=21878
+zone106_offsety=18192
+zone106_width=6320
+zone106_height=6320
+zone106_desc=Damp Cavern
+; Damp Cavern
+zone107_number=280
+zone107_left=0
+zone107_top=0
+zone107_offsetx=19999
+zone107_offsety=18450
+zone107_width=6064
+zone107_height=6064
+zone107_desc=Damp Cavern
+;
+; Forgotten Sepulchre
+zone108_number=305
+zone108_left=0
+zone108_top=0
+zone108_offsetx=22819
+zone108_offsety=22119
+zone108_width=3000
+zone108_height=3000
+zone108_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone109_number=306
+zone109_left=0
+zone109_top=0
+zone109_offsetx=22099
+zone109_offsety=21978
+zone109_width=3146
+zone109_height=3146
+zone109_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone110_number=307
+zone110_left=0
+zone110_top=0
+zone110_offsetx=21357
+zone110_offsety=21613
+zone110_width=4900
+zone110_height=4900
+zone110_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone111_number=308
+zone111_left=0
+zone111_top=0
+zone111_offsetx=22294
+zone111_offsety=21550
+zone111_width=3491
+zone111_height=3491
+zone111_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone112_number=309
+zone112_left=0
+zone112_top=0
+zone112_offsetx=21102
+zone112_offsety=21457
+zone112_width=3736
+zone112_height=3736
+zone112_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone113_number=281
+zone113_left=0
+zone113_top=0
+zone113_offsetx=16312
+zone113_offsety=17880
+zone113_width=6799
+zone113_height=6799
+zone113_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone114_number=282
+zone114_left=0
+zone114_top=0
+zone114_offsetx=15595
+zone114_offsety=18887
+zone114_width=7537
+zone114_height=7537
+zone114_desc=Forgotten Sepulchre
+; Forgotten Sepulchre
+zone115_number=283
+zone115_left=0
+zone115_top=0
+zone115_offsetx=16003
+zone115_offsety=19535
+zone115_width=7116
+zone115_height=7116
+zone115_desc=Forgotten Sepulchre
+;
+; Concealed Guardhouse
+zone116_number=310
+zone116_left=0
+zone116_top=0
+zone116_offsetx=19340
+zone116_offsety=19544
+zone116_width=6524
+zone116_height=6524
+zone116_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone117_number=311
+zone117_left=0
+zone117_top=0
+zone117_offsetx=21140
+zone117_offsety=20777
+zone117_width=3543
+zone117_height=3543
+zone117_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone118_number=312
+zone118_left=0
+zone118_top=0
+zone118_offsetx=19607
+zone118_offsety=20705
+zone118_width=5365
+zone118_height=5365
+zone118_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone119_number=313
+zone119_left=0
+zone119_top=0
+zone119_offsetx=20829
+zone119_offsety=18283
+zone119_width=8337
+zone119_height=8337
+zone119_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone120_number=314
+zone120_left=0
+zone120_top=0
+zone120_offsetx=22959
+zone120_offsety=23001
+zone120_width=4412
+zone120_height=4412
+zone120_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone121_number=284
+zone121_left=0
+zone121_top=0
+zone121_offsetx=19975
+zone121_offsety=20860
+zone121_width=5169
+zone121_height=5169
+zone121_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone122_number=285
+zone122_left=0
+zone122_top=0
+zone122_offsetx=21323
+zone122_offsety=19457
+zone122_width=6098
+zone122_height=6098
+zone122_desc=Concealed Guardhouse
+; Concealed Guardhouse
+zone123_number=286
+zone123_left=0
+zone123_top=0
+zone123_offsetx=19728
+zone123_offsety=20440
+zone123_width=5636
+zone123_height=5636
+zone123_desc=Concealed Guardhouse
+;
+; The Gossamer Grotto
+zone124_number=315
+zone124_left=0
+zone124_top=0
+zone124_offsetx=21051
+zone124_offsety=21225
+zone124_width=5524
+zone124_height=5524
+zone124_desc=The Gossamer Grotto
+; The Gossamer Grotto
+zone125_number=316
+zone125_left=0
+zone125_top=0
+zone125_offsetx=20916
+zone125_offsety=22206
+zone125_width=5842
+zone125_height=5842
+zone125_desc=The Gossamer Grotto
+; The Gossamer Grotto
+zone126_number=317
+zone126_left=0
+zone126_top=0
+zone126_offsetx=20829
+zone126_offsety=21983
+zone126_width=5694
+zone126_height=5694
+zone126_desc=The Gossamer Grotto
+; The Gossamer Grotto
+zone127_number=318
+zone127_left=0
+zone127_top=0
+zone127_offsetx=19812
+zone127_offsety=18993
+zone127_width=7210
+zone127_height=7210
+zone127_desc=The Gossamer Grotto
+; The Gossamer Grotto
+zone128_number=319
+zone128_left=0
+zone128_top=0
+zone128_offsetx=20811
+zone128_offsety=18273
+zone128_width=8346
+zone128_height=8346
+zone128_desc=The Gossamer Grotto
+; The Gossamer Grotto 1.83
+zone129_number=287
+zone129_left=0
+zone129_top=0
+zone129_offsetx=19597
+zone129_offsety=19744
+zone129_width=8421
+zone129_height=8421
+zone129_desc=The Gossamer Grotto
+; The Gossamer Grotto 1.83
+zone130_number=288
+zone130_left=0
+zone130_top=0
+zone130_offsetx=21893
+zone130_offsety=22335
+zone130_width=6196
+zone130_height=6196
+zone130_desc=The Gossamer Grotto
+; The Gossamer Grotto 1.83
+zone131_number=289
+zone131_left=0
+zone131_top=0
+zone131_offsetx=19684
+zone131_offsety=22335
+zone131_width=5537
+zone131_height=5537
+zone131_desc=The Gossamer Grotto
+;
+; Underground Tunnel
+zone132_number=320
+zone132_left=0
+zone132_top=0
+zone132_offsetx=18952
+zone132_offsety=23299
+zone132_width=5998
+zone132_height=5998
+zone132_desc=Underground Tunnel
+; Underground Tunnel
+zone133_number=321
+zone133_left=0
+zone133_top=0
+zone133_offsetx=21894
+zone133_offsety=23240
+zone133_width=5579
+zone133_height=5579
+zone133_desc=Underground Tunnel
+; Underground Tunnel
+zone134_number=322
+zone134_left=0
+zone134_top=0
+zone134_offsetx=19761
+zone134_offsety=18655
+zone134_width=8221
+zone134_height=8221
+zone134_desc=Underground Tunnel
+; Underground Tunnel
+zone135_number=323
+zone135_left=0
+zone135_top=0
+zone135_offsetx=23436
+zone135_offsety=21119
+zone135_width=4495
+zone135_height=4495
+zone135_desc=Underground Tunnel
+; Underground Tunnel
+zone136_number=324
+zone136_left=0
+zone136_top=0
+zone136_offsetx=21624
+zone136_offsety=18531
+zone136_width=6175
+zone136_height=6175
+zone136_desc=Underground Tunnel
+; Underground Tunnel
+zone137_number=290
+zone137_left=0
+zone137_top=0
+zone137_offsetx=19654
+zone137_offsety=23289
+zone137_width=6278
+zone137_height=6278
+zone137_desc=Underground Tunnel
+; Underground Tunnel
+zone138_number=291
+zone138_left=0
+zone138_top=0
+zone138_offsetx=22117
+zone138_offsety=22312
+zone138_width=6146
+zone138_height=6146
+zone138_desc=Underground Tunnel
+; Underground Tunnel
+zone139_number=292
+zone139_left=0
+zone139_top=0
+zone139_offsetx=21013
+zone139_offsety=19041
+zone139_width=7462
+zone139_height=7462
+zone139_desc=Underground Tunnel
+;
+; #######################################
+; # Hibernia Task Dungeons Catacombs #
+; #######################################
+;
+; The Cursed Burrow
+zone140_number=450
+zone140_left=0
+zone140_top=0
+zone140_offsetx=20511
+zone140_offsety=21397
+zone140_width=4284
+zone140_height=4284
+zone140_desc=The Cursed Burrow
+; The Cursed Burrow
+zone141_number=451
+zone141_left=0
+zone141_top=0
+zone141_offsetx=21696
+zone141_offsety=20918
+zone141_width=3590
+zone141_height=3590
+zone141_desc=The Cursed Burrow
+; The Cursed Burrow
+zone142_number=452
+zone142_left=0
+zone142_top=0
+zone142_offsetx=20685
+zone142_offsety=21911
+zone142_width=4048
+zone142_height=4048
+zone142_desc=The Cursed Burrow
+; The Cursed Burrow
+zone143_number=453
+zone143_left=0
+zone143_top=0
+zone143_offsetx=21951
+zone143_offsety=21559
+zone143_width=3072
+zone143_height=3072
+zone143_desc=The Cursed Burrow
+; The Cursed Burrow
+zone144_number=454
+zone144_left=0
+zone144_top=0
+zone144_offsetx=21422
+zone144_offsety=21944
+zone144_width=3747
+zone144_height=3747
+zone144_desc=The Cursed Burrow
+; The Cursed Burrow
+zone145_number=427
+zone145_left=0
+zone145_top=0
+zone145_offsetx=19593
+zone145_offsety=21373
+zone145_width=4584
+zone145_height=4584
+zone145_desc=The Cursed Burrow
+; The Cursed Burrow
+zone146_number=428
+zone146_left=0
+zone146_top=0
+zone146_offsetx=19325
+zone146_offsety=21245
+zone146_width=5125
+zone146_height=5125
+zone146_desc=The Cursed Burrow
+; The Cursed Burrow
+zone147_number=431
+zone147_left=0
+zone147_top=0
+zone147_offsetx=19829
+zone147_offsety=21237
+zone147_width=5396
+zone147_height=5396
+zone147_desc=The Cursed Burrow
+;
+; Dismal Grotto
+zone148_number=455
+zone148_left=0
+zone148_top=0
+zone148_offsetx=21702
+zone148_offsety=23167
+zone148_width=5047
+zone148_height=5047
+zone148_desc=Dismal Grotto
+; Dismal Grotto
+zone149_number=456
+zone149_left=0
+zone149_top=0
+zone149_offsetx=23191
+zone149_offsety=21462
+zone149_width=4439
+zone149_height=4439
+zone149_desc=Dismal Grotto
+; Dismal Grotto
+zone150_number=457
+zone150_left=0
+zone150_top=0
+zone150_offsetx=20773
+zone150_offsety=19671
+zone150_width=5561
+zone150_height=5561
+zone150_desc=Dismal Grotto
+; Dismal Grotto
+zone151_number=458
+zone151_left=0
+zone151_top=0
+zone151_offsetx=22289
+zone151_offsety=20861
+zone151_width=4464
+zone151_height=4464
+zone151_desc=Dismal Grotto
+; Dismal Grotto
+zone152_number=459
+zone152_left=0
+zone152_top=0
+zone152_offsetx=19618
+zone152_offsety=22907
+zone152_width=5944
+zone152_height=5944
+zone152_desc=Dismal Grotto
+; Dismal Grotto
+zone153_number=432
+zone153_left=0
+zone153_top=0
+zone153_offsetx=20265
+zone153_offsety=23127
+zone153_width=6378
+zone153_height=6378
+zone153_desc=Dismal Grotto
+; Dismal Grotto
+zone154_number=441
+zone154_left=0
+zone154_top=0
+zone154_offsetx=20173
+zone154_offsety=23088
+zone154_width=7841
+zone154_height=7841
+zone154_desc=Dismal Grotto
+; Dismal Grotto
+zone155_number=444
+zone155_left=0
+zone155_top=0
+zone155_offsetx=20192
+zone155_offsety=23101
+zone155_width=7300
+zone155_height=7300
+zone155_desc=Dismal Grotto
+;
+; The Accursed Caves
+zone156_number=460
+zone156_left=0
+zone156_top=0
+zone156_offsetx=23162
+zone156_offsety=20977
+zone156_width=5409
+zone156_height=5409
+zone156_desc=The Accursed Caves
+; The Accursed Caves
+zone157_number=461
+zone157_left=0
+zone157_top=0
+zone157_offsetx=22493
+zone157_offsety=20835
+zone157_width=5421
+zone157_height=5421
+zone157_desc=The Accursed Caves
+; The Accursed Caves
+zone158_number=462
+zone158_left=0
+zone158_top=0
+zone158_offsetx=21834
+zone158_offsety=21070
+zone158_width=6248
+zone158_height=6248
+zone158_desc=The Accursed Caves
+; The Accursed Caves
+zone159_number=463
+zone159_left=0
+zone159_top=0
+zone159_offsetx=18437
+zone159_offsety=21482
+zone159_width=4371
+zone159_height=4371
+zone159_desc=The Accursed Caves
+; The Accursed Caves
+zone160_number=464
+zone160_left=0
+zone160_top=0
+zone160_offsetx=19990
+zone160_offsety=21743
+zone160_width=7297
+zone160_height=7297
+zone160_desc=The Accursed Caves
+; The Accursed Caves 1.83
+zone161_number=477
+zone161_left=0
+zone161_top=0
+zone161_offsetx=20700
+zone161_offsety=20734
+zone161_width=4680
+zone161_height=4680
+zone161_desc=The Accursed Caves
+; The Accursed Caves 1.83
+zone162_number=478
+zone162_left=0
+zone162_top=0
+zone162_offsetx=22170
+zone162_offsety=21684
+zone162_width=6361
+zone162_height=6361
+zone162_desc=The Accursed Caves
+; The Accursed Caves 1.83
+zone163_number=481
+zone163_left=0
+zone163_top=0
+zone163_offsetx=20109
+zone163_offsety=21002
+zone163_width=6830
+zone163_height=6830
+zone163_desc=The Accursed Caves
+;
+; Dark Cavern
+zone164_number=465
+zone164_left=0
+zone164_top=0
+zone164_offsetx=21696
+zone164_offsety=22710
+zone164_width=4011
+zone164_height=4011
+zone164_desc=Dark Cavern
+; Dark Cavern
+zone165_number=466
+zone165_left=0
+zone165_top=0
+zone165_offsetx=22884
+zone165_offsety=22703
+zone165_width=3744
+zone165_height=3744
+zone165_desc=Dark Cavern
+; Dark Cavern
+zone166_number=467
+zone166_left=0
+zone166_top=0
+zone166_offsetx=22343
+zone166_offsety=22504
+zone166_width=3950
+zone166_height=3950
+zone166_desc=Dark Cavern
+; Dark Cavern
+zone167_number=468
+zone167_left=0
+zone167_top=0
+zone167_offsetx=20605
+zone167_offsety=21925
+zone167_width=5404
+zone167_height=5404
+zone167_desc=Dark Cavern
+; Dark Cavern
+zone168_number=469
+zone168_left=0
+zone168_top=0
+zone168_offsetx=21088
+zone168_offsety=21073
+zone168_width=5350
+zone168_height=5350
+zone168_desc=Dark Cavern
+; Dark Cavern
+zone169_number=445
+zone169_left=0
+zone169_top=0
+zone169_offsetx=18982
+zone169_offsety=21245
+zone169_width=7675
+zone169_height=7675
+zone169_desc=Dark Cavern
+; Dark Cavern
+zone170_number=448
+zone170_left=0
+zone170_top=0
+zone170_offsetx=21867
+zone170_offsety=21950
+zone170_width=5011
+zone170_height=5011
+zone170_desc=Dark Cavern
+; Dark Cavern
+zone171_number=449
+zone171_left=0
+zone171_top=0
+zone171_offsetx=20784
+zone171_offsety=19283
+zone171_width=8415
+zone171_height=8415
+zone171_desc=Dark Cavern
+;
+; Unused Mine
+zone172_number=048
+zone172_left=0
+zone172_top=0
+zone172_offsetx=18175
+zone172_offsety=20564
+zone172_width=7758
+zone172_height=7758
+zone172_desc=Unused Mine
+; Unused Mine
+zone173_number=471
+zone173_left=0
+zone173_top=0
+zone173_offsetx=22735
+zone173_offsety=21625
+zone173_width=5221
+zone173_height=5221
+zone173_desc=Unused Mine
+; Unused Mine
+zone174_number=472
+zone174_left=0
+zone174_top=0
+zone174_offsetx=19766
+zone174_offsety=21365
+zone174_width=5399
+zone174_height=5399
+zone174_desc=Unused Mine
+; Unused Mine
+zone175_number=473
+zone175_left=0
+zone175_top=0
+zone175_offsetx=23521
+zone175_offsety=22729
+zone175_width=6078
+zone175_height=6078
+zone175_desc=Unused Mine
+; Unused Mine
+zone176_number=474
+zone176_left=0
+zone176_top=0
+zone176_offsetx=21596
+zone176_offsety=21084
+zone176_width=5513
+zone176_height=5513
+zone176_desc=Unused Mine
+; Unused Mine
+zone177_number=482
+zone177_left=0
+zone177_top=0
+zone177_offsetx=18668
+zone177_offsety=20910
+zone177_width=7971
+zone177_height=7971
+zone177_desc=Unused Mine
+; Unused Mine
+zone178_number=485
+zone178_left=0
+zone178_top=0
+zone178_offsetx=21049
+zone178_offsety=21560
+zone178_width=7562
+zone178_height=7562
+zone178_desc=Unused Mine
+; Unused Mine
+zone179_number=486
+zone179_left=0
+zone179_top=0
+zone179_offsetx=22462
+zone179_offsety=20974
+zone179_width=7563
+zone179_height=7563
+zone179_desc=Unused Mine
+;
+; #################
+; # Epic dungeons #
+; #################
+;
+zone180_number=325
+zone180_left=0
+zone180_top=0
+zone180_offsetx=757
+zone180_offsety=884
+zone180_width=13100
+zone180_height=13100
+zone180_desc=epic dungeon of Hibernia for level 30
+;
+zone181_number=355
+zone181_left=0
+zone181_top=0
+zone181_offsetx=14812
+zone181_offsety=12795
+zone181_width=13000
+zone181_height=13000
+zone181_desc=epic dungeon of Hibernia for levels 35-45
+;
+zone182_number=328
+zone182_left=0
+zone182_top=0
+zone182_offsetx=8333
+zone182_offsety=14447
+zone182_width=20228
+zone182_height=20228
+zone182_desc=epic dungeon of Midgard for level 30
+;
+zone183_number=359
+zone183_left=0
+zone183_top=0
+zone183_offsetx=12065
+zone183_offsety=8392
+zone183_width=17596
+zone183_height=17596
+zone183_desc=epic dungeon of Midgard for levels 35-45
+;
+zone184_number=326
+zone184_left=0
+zone184_top=0
+zone184_offsetx=18714
+zone184_offsety=18800
+zone184_width=14040
+zone184_height=14040
+zone184_desc=epic dungeon of Albion for level 30
+;
+zone185_number=356
+zone185_left=0
+zone185_top=0
+zone185_offsetx=20536
+zone185_offsety=23586
+zone185_width=10648
+zone185_height=10648
+zone185_desc= epic dungeon of Albion for levels 35-45
+;
+; ### Alb, Mid, Hib - DR Co5 insta
+zone186_number=347
+zone186_left=0
+zone186_top=0
+zone186_offsetx=-353
+zone186_offsety=5383
+zone186_width=46966
+zone186_height=46966
+zone186_desc=MM347 DR CO5 insta
+;
+; ### Alb, Mid, Hib - Foothills
+zone187_number=330
+zone187_left=0
+zone187_top=0
+zone187_offsetx=7240
+zone187_offsety=11854
+zone187_width=49150
+zone187_height=49150
+zone187_desc=The Foothills of Albion
+;
+zone188_number=334
+zone188_left=0
+zone188_top=0
+zone188_offsetx=6383
+zone188_offsety=10408
+zone188_width=49800
+zone188_height=49800
+zone188_desc=The Foothills of Midgard
+;
+zone189_number=335
+zone189_left=0
+zone189_top=0
+zone189_offsetx=7240
+zone189_offsety=11854
+zone189_width=49150
+zone189_height=49150
+zone189_desc=The Foothills of Hibernia
+;
+; #################
+; # Tutorial Zone #
+; #################
+;
+[region27]
+zone_count=3
+zone0_number=27
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12536
+zone0_offsety=11852
+zone0_width=27217
+zone0_height=27217
+zone0_desc=This is alb land
+;
+zone1_number=28
+zone1_left=0
+zone1_top=0
+zone1_offsetx=12536
+zone1_offsety=11852
+zone1_width=27217
+zone1_height=27217
+zone1_desc=This is mid land
+;
+zone2_number=29
+zone2_left=0
+zone2_top=0
+zone2_offsetx=12536
+zone2_offsety=11852
+zone2_width=27217
+zone2_height=27217
+zone2_desc=This is Hib land
+;
+; ###################
+; # Darkness Rising #
+; ###################
+;
+; Darkness Rising Chapter 3 Dungeons
+[region249]
+zone_count=4
+; Albion Chapter 3
+zone0_number=339
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1738
+zone0_offsety=-3856
+zone0_width=45443
+zone0_height=45443
+zone0_desc=These fiery halls are home to horrors never before glimpsed by mortals from the world above. Amid the grotesque pillars and glowing embers dwells a demon host led by Azazel and his trusted Circle of Five.
+zone0_realm=0
+; Midgard Chapter 3
+zone1_number=340
+zone1_left=0
+zone1_top=0
+zone1_offsetx=4479
+zone1_offsety=1452
+zone1_width=34115
+zone1_height=34115
+zone1_desc=The frozen Halls of Helgardh exist in a state of eternal winter far more cruel than any known in Midgard. Ceaseless snowfall, expansive ice, and fearsome foes greet all who would dare to challenge mighty Utgard-Lok and his Circle of Five in their lair.
+zone1_realm=0
+; Hibernia Chapter 3
+zone2_number=341
+zone2_left=0
+zone2_top=0
+zone2_offsetx=4373
+zone2_offsety=4140
+zone2_width=39408
+zone2_height=39408
+zone2_desc=This legendary gateway to the Otherworld has been tainted by the influence of Crom Cruiach. Corruption, disease, and demonic influence run rampant throughout these caves where the demon lord and his Circle of Five lieutenants thrive.
+zone2_realm=0
+; ### Darkness Falls
+zone3_number=249
+zone3_left=0
+zone3_top=0
+zone3_offsetx=-800
+zone3_offsety=150
+zone3_width=45145
+zone3_height=45145
+;
+[region336]
+zone_count=1
+zone0_number=336
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19292
+zone0_offsety=11488
+zone0_width=29174
+zone0_height=29174
+zone0_desc=Before Geryon's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Geryon and aid him in guarding the captive demonologist Anataeus.
+;
+; Midgard Chapter 2 Demonic Prison
+[region337]
+zone_count=1
+zone0_number=337
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16422
+zone0_offsety=5752
+zone0_width=34913
+zone0_height=34913
+zone0_desc=Before Rugak's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Rugak and aid him in guarding the captive Keeper Iraeda.
+;
+; Hibernia Chapter 2 Demonic Prison
+[region338]
+zone_count=1
+zone0_number=338
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2684
+zone0_offsety=5120
+zone0_width=41911
+zone0_height=41911
+zone0_desc=Before Bres' conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Bres and aid him in guarding the captive Keeper Garran and the Lia Fail.
+;
+; Baron's Gaol
+[region348]
+zone_count=1
+zone0_number=348
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1002
+zone0_offsety=11712
+zone0_width=12260
+zone0_height=12260
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Eddington Keep has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the Keep, much to the Baron's regret.
+;
+; Nephraal's Gaol
+[region351]
+zone_count=1
+zone0_number=351
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22281
+zone0_offsety=16352
+zone0_width=8172
+zone0_height=8172
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Ei-Forr Keep has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the Keep, much to Nephraal's regret.
+;
+; Morfesa's Gaol
+[region352]
+zone_count=1
+zone0_number=352
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15516
+zone0_offsety=15912
+zone0_width=10166
+zone0_height=10166
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Dun Chaoin has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the castle, much to Morfesa's regret.
+;
+; DR Throne Rooms Midgard
+[region360]
+zone_count=1
+zone0_number=360
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21188
+zone0_offsety=22143
+zone0_width=5907
+zone0_height=5907
+zone0_desc=Visitors to the halls of King Eirik are greeted by brightly glowing braziers and magnificent statues. The newly-crowned ruler of Midgard holds court with Athr Hasetti Theyr, the Royal Illuminator, Quartermaster Dreiki, and Weaponmaster Kord beneath the symbols of Midgard.
+;
+; DR Throne Rooms Albion
+[region394]
+zone_count=1
+zone0_number=394
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21863
+zone0_offsety=23428
+zone0_width=4554
+zone0_height=4554
+zone0_desc=Once the seat of Arthur, the throne room of King Constantine sits deep within Camelot Castle.  Amid impressive statuary and tapestries, King Constantine struggles to restore Albion to greatness with the help of Chamberlain Harlen, Quartermaster Mills, Weaponmaser Mann, the Royal Illuminator, Sir Norcross and Advisor Wacian.
+;
+; DR Throne Rooms Hibernia
+[region395]
+zone_count=1
+zone0_number=395
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21954
+zone0_offsety=23438
+zone0_width=4375
+zone0_height=4375
+zone0_desc=The Elven King's opulent throne room is lined with statues of Hibernian heroes and banners of the realm. Here, King Lug Lamfhota meets with his closest advisors, including Seneschal Desmond, Quartermaster Kindrey, Weaponmaster Gwydion, and his Royal Illuminator.
+;
+; Anataeus Sanctuary
+[region363]
+zone_count=1
+zone0_number=363
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21950
+zone0_offsety=21000
+zone0_width=3750
+zone0_height=3750
+zone0_desc=The Sanctuarium of Anataeus
+;
+; Keeper Iraedas
+[region364]
+zone_count=1
+zone0_number=364
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21950
+zone0_offsety=21000
+zone0_width=3750
+zone0_height=3750
+zone0_desc=The Sanctuarium of Keeper Iraedas
+;
+; Keeper Garran
+[region378]
+zone_count=1
+zone0_number=378
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21950
+zone0_offsety=21000
+zone0_width=3750
+zone0_height=3750
+zone0_desc=The Sanctuarium of Keeper Garran
+;
+; Mini Darkness Falls Map
+[region489]
+zone_count=1
+zone0_number=489
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5225
+zone0_offsety=20217
+zone0_width=27836
+zone0_height=27836
+zone0_desc=Dungeons for low levels in Darkness Falls (1-4 Nergal's Breach, 5-9 Balban's Breach)
+;
+; Bandits Lair
+[region365]
+zone_count=1
+zone0_number=365
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Bandits Lair
+;
+; Gnolls Lair
+[region366]
+zone_count=1
+zone0_number=366
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Gnolls Lair
+;
+; Vandrs Bane
+[region367]
+zone_count=1
+zone0_number=367
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22810
+zone0_offsety=21952
+zone0_width=3716
+zone0_height=3716
+zone0_desc=Vandrs Bane
+;
+; Past and Present
+[region368]
+zone_count=1
+zone0_number=368
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22058
+zone0_offsety=23118
+zone0_width=3489
+zone0_height=3489
+zone0_desc=Past and Present
+;
+;Mini Half Orc Camp Map - Midgard - Quest
+; Nyttheim - Midgard - Catacombs
+[region369]
+zone_count=1
+; Half Orc Camp
+zone0_number=369
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20492
+zone0_offsety=20522
+zone0_width=5055
+zone0_height=5055
+zone0_desc=You are within a Half Orc Camp.
+;
+;Mini Brutal Realization Map - Albion - Quest
+; Abandoned Mines - Albion - Catacombs
+[region370]
+zone_count=1
+; Brutal Realization
+zone0_number=370
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Brutal Realization
+;
+;History Repeats Itself
+[region371]
+zone_count=1
+zone0_number=371
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20351
+zone0_offsety=21341
+zone0_width=5113
+zone0_height=5113
+zone0_desc=History Repeats Itself: Instance
+;
+;Hounds of Arawn
+[region372]
+zone_count=1
+zone0_number=372
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19451
+zone0_offsety=22103
+zone0_width=6013
+zone0_height=6013
+zone0_desc=Hounds of Arawn: Instance
+; Half Orc Command Post
+[region470]
+zone_count=1
+zone0_number=470
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=You are within a Half Orc Command Post.
+;
+;
+; Labyrinth Expansion Dungeon
+[region245]
+zone_count=1
+zone0_number=245
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2036
+zone0_offsety=1429
+zone0_width=62268
+zone0_height=62268
+zone0_desc=This immense complex has served many purposes in its lifetime, acting as home, capitol, fortress and prison to the Minotaur race. Much of its architecture was shaped by the Relics, first designed for their protection and later twisted by their dark power.  Sealed for centuries, corruption and chaos now rule these echoing halls.
+zone0_realm=0
+;
+; Labyrinth Albion Tower Instance
+[region391]
+zone_count=1
+zone0_number=391
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20729
+zone0_offsety=20970
+zone0_width=3883
+zone0_height=3883
+zone0_desc=
+zone0_realm=0
+; Labyrinth Midgard Tower Instance
+[region398]
+zone_count=1
+zone0_number=398
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20729
+zone0_offsety=20970
+zone0_width=3883
+zone0_height=3883
+zone0_desc=
+zone0_realm=0
+; Labyrinth Hibernia Tower Instance
+[region399]
+zone_count=1
+zone0_number=399
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20729
+zone0_offsety=20970
+zone0_width=3883
+zone0_height=3883
+zone0_desc=
+zone0_realm=0
+;
+;
+; Labyrinth Albion Cave Instance
+[region192]
+zone_count=1
+zone0_number=192
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=
+zone0_realm=0
+; Labyrinth Midgard Cave Instance
+[region193]
+zone_count=1
+zone0_number=193
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=
+zone0_realm=0
+; Labyrinth Hibernia Cave Instance
+[region194]
+zone_count=1
+zone0_number=194
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=
+zone0_realm=0

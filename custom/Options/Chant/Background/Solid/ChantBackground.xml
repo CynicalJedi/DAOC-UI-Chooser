@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Chant Background Template -->
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Chant</Name>
+    <TopHeight>8</TopHeight>
+    <MiddleHeight>20</MiddleHeight>
+    <BottomHeight>8</BottomHeight>
+    <LeftWidth>8</LeftWidth>
+    <MiddleWidth>20</MiddleWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_02</TextureName>
+      <TopLeft>
+        <X>317</X>
+        <Y>97</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>326</X>
+        <Y>97</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>347</X>
+        <Y>97</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>317</X>
+        <Y>106</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>326</X>
+        <Y>106</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>347</X>
+        <Y>106</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>317</X>
+        <Y>127</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>326</X>
+        <Y>127</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>347</X>
+        <Y>127</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+</Root_Element>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+<!--This popup is used from Sub Chat window once 10 chat windows are open -->
+<!--  New Window option is disabled when limit reached -->
+  
+  <!-- Sub Chat Window -->
+
+  <WindowTemplate>
+    <Name>chat_no_new_context</Name>
+    <WindowId>ContextChat</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>130</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>130</Width>
+    <Height>172</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>130</MinWidth>
+    <MinHeight>172</MinHeight>
+
+    <!--Background-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>130</Width>
+      <Height>172</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>110</Width>
+      <Height>152</Height>
+    </FullResizeImageDef>
+
+    <!--Command Buttons-->
+
+    <ButtonDef>
+      <ControlId>1007</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>15</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Channel</Label>
+      <onClickEvent>ContextOnDefaultChannel</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>33</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Messages</Label>
+      <onClickEvent>ContextOnMessageAndChannel</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Font Size</Label>
+      <onClickEvent>ContextOnFontSize</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Font Alpha</Label>
+      <onClickEvent>ContextOnFontAlpha</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>87</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Window Alpha</Label>
+      <onClickEvent>ContextOnWindowAlpha</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>105</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide_disabled</TemplateName>
+      <Label>New Window</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>123</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Delete Window</Label>
+      <onClickEvent>ContextOnDeleteChatWindow</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>141</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Rename Window</Label>
+      <onClickEvent>ContextOnRenameChatWindow</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+</Root_Element>

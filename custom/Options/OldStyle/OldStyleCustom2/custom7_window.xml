@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>custom7 - Interact</Name>
+    <WindowId>custom7_window</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>296</Width>
+    <Height>439</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>296</Width>
+      <Height>439</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>286</Width>
+      <Height>399</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>278</X>
+        <Y>36</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_consignment_thumb</TemplateName>
+      <Width>8</Width>
+      <Height>357</Height>
+    </FullResizeImageDef>
+
+  </WindowTemplate>
+
+</Root_Element>

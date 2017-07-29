@@ -1,0 +1,309 @@
+Things NOT done:
+
+- Realm Ranks -
+Added new Realm Rank Levels
+What is new RR14 title?
+
+- Title -
+Added some new title information.
+
+-Option Chooser -
+Update New/Changed items.
+Check for version update not working (will not pull file from my website hmm)
+
+
+
+
+[** Changes from v6.00 to v7.0x BETA **]
+
+[ Options]
+
+- Casual Group Finder -
+Added new window for Game Client v1.117C.
+
+- Channel Window -
+Changed channel label /bchat to /bgchat (battlegroup).
+
+- Emoticons -
+Added 8 new emoticons at top of window.
+  Note:  Broadsword did not assign ToolTipIds for them so none are shown :(.
+
+- Group Option -
+Added new window for Game Client v1.117C.
+
+- Mini Group -
+Fixed "Normal-zMythic" style that would cause game client to crash when seleted.
+   Note:  There was an extra line of code at top of XML file that did not belong.
+
+- Realmwar Agramon -
+Changed window to allow teleporting to Agramon.
+  Note:  It should work now but I did not test each portal location.
+
+- Realm Bonuses -
+Changed window for new bonuses.
+ 
+- Realm War -
+Changed default Maps to Style 08 (Mythic/Tekner) maps
+
+-Stats Group -
+Added new "Grp Finder" and "Grp Options" button at top
+  Note:  Not sure if I like the buttons at that location.
+
+- Main Menu -
+Changed version number in title
+Changed Help button so it now toggles window
+
+
+
+
+[** Changes from v5.0xBeta to v6.00 **]
+
+[** Option Changes **]
+
+- Audio and Video Options -
+Changed window title to Audio and Video Options
+Added new Tooltip Delay settings
+Added new Tooltip Transparency settings
+Added tabbed style window - new default
+Disabled the Conceal and Disable styles as they caused game client to crash.
+
+- Concentration -
+Fixed -1 issue with each option
+
+- Floating Champ Exp -
+Added new window for Game Client v1.110
+
+- Floating Group -
+Added new window for Game Client v1.110
+Added Conceal, Disable, Style 1 through 4 options
+
+-Floating HealthEndPwr -
+Fixed -1 issue with each option
+
+- Floating Level Exp -
+Added new window for Game Client v1.110
+
+- Floating Realm Exp -
+Added new window for Game Client v1.110
+
+- Floating Target -
+Added new window for Game Client v1.110
+Added Conceal, Disable, Style 1 and 2 options
+
+- Group Buffs -
+Fixed -1 issue with each option
+
+- Healer Helpers -
+Fixed -1 issue with each option
+
+- Help -
+Changed Cancel button caption to Close for clarity
+
+- Icons -
+Added new icons to each set for Game Client v1.110
+
+- Interface Options -
+Added new window for Game Client v1.110
+Added Conceal, Disable, Style 1, and Style 2 options
+Style 2 Note:  Cannot track if windows are open or closed windows so Checkmarks are NOT used
+
+- Keyboard Options -
+Changed window title to Keyboard Options
+Added new Quickbinds button for Game Client v1.110
+
+- Keep Upgrade -
+Changed Cancel button caption to Close for clarity
+
+- Main Menu (ESC) -
+Added new window for Game Client v1.110
+
+- Map -
+Added quest completer icon
+
+- Master Level -
+Added new default style
+  New style has Close button at bottom of window
+
+- Menu Bar -
+Added new window for Game Client v1.110
+Added Conceal, Disable, and Style 1 options
+
+- Mini Group -
+Fixed -1 issue with each option
+
+- Mini Pet -
+Fixed -1 issue with each option
+
+- Quest -
+Added changes for Game Client v1.110
+Changed Continue button caption to Close for clarity
+
+- Quest Journal -
+Reordered option styles
+Added new default Style 1 option
+  Style 1 has different images at top of window
+
+- Realm Ranks -
+Changed Cancel button caption to Close for clarity
+
+- Realm War -
+Added Teleport "placeholder" button
+ (Select keep to enable button)
+
+ - Release Timer -
+Added new window for Game Client v1.110
+Added window options
+  Style 1 with new /release buttons
+  Style 2 without new /release buttons
+
+- Siege -
+Fixed -1 issue with each option
+
+- Stats Attributes -
+Added window options
+Added Conceal, Disable, Style 1, and Style 2 options
+  Style 1 has Mythic’s new button arrangement at bottom
+  Style 2 has Mythic’s original button arrangement at bottom
+
+- Stats Combat Styles-
+Added window options
+Added Conceal, Disable, and Style 1
+
+- Stats Group -
+Added window options
+Added Conceal, Disable, Style 1, Style 2, and Style 3 options
+  Style 1 has Follow, Stick and Face buttons at bottom
+  Style 2 has Assist, Stick and Face buttons at bottom
+  Style 3 is the original layout with no buttons at bottom
+
+- Stats Skills -
+Added window options
+Added Conceal, Disable, and Style 1 options
+
+- Stats Spells -
+Added window options
+Added Style 1 option
+
+- Summary -
+Fixed -1 issue with each option
+Added Close button in upper right corner to some options
+
+- Timer -
+Reordered option styles
+Added new default Style 1
+  Style 1 smaller than previous window and similar to Style 2 Release Timer window
+
+- Training -
+Added respec buttons at bottom of window
+Added additional changes for Game Client v1.110
+Tweaked appearance of hslider bar to add end caps
+
+- Value Chooser -
+Fixed -1 issue with each option
+
+
+[** Maintenance Changes **]
+
+- Buttons -
+Darkened color of Classic buttons
+
+- Icons -
+Corrected frame on one of the Item icon files for zMythic (Classic) option
+
+- Mini Pet -
+Corrected screenshot for option 9 and 10 in OptionChooser
+
+- Quest - 
+Corrected some tag name issues on windows
+
+- Quest Journal - 
+Tweaked default size of window to fix recenter title issue when rezone
+
+- Train - 
+Modified Train button so it grays out if selections exceed number of points available
+
+
+-- Previous Patch Notes --
+
+
+Back to the Classics..
+
+[** Changes from v4.03 to v5.0xBeta **] 
+
+[** Option Chooser Program **]
+Recompiled with Delphi 2009
+Added more "Awareness" of Vista and Windows 7
+Added User Account Control Prompt
+
+Note:
+  The “Publisher” field in the UAC window will indicate “Unknown” as it is too expensive for me to register with a company such as VeriSign to make it say something different.  I have no problem providing personal information to these types of companies to register my work but I dislike the idea of having to pay hundreds of dollar in fees each year to maintain my personal information in their database.
+
+
+[** Option Changes **]
+
+- Map Pack -
+Removed GOA map option 6
+  (Mythic has now made them the default maps)
+
+- Icon Pack 1 -
+Added Cobalt Icon sets
+
+- Button Skin -
+Made Classic button skin the default
+Added Andaron skin option
+Added Bobs (New) Skin option
+Added Gothic Skin option
+
+- Chant -
+Removed Dual Chant window options as game client no longer supports them
+
+- Crafting - 
+Added Crafting window option
+  (uses graphics from EggiSohwyn's UI (older crafting window))
+
+- Dialog Skins -
+Made Classic Dialog skin the default
+
+Added Andaron skin option
+Added Atlantis (New) skin option
+Added Bobs (New) skin option
+Added Classic (New) skin option
+Added Gothic Death Flowers skin option
+Added Gothic Garden skin option
+Added Gothic Grandma skin option
+Added numbers to several oldstyle horizontal and vertical QuickBar skins
+
+- Market Explorer -
+Added new Market Explorer window
+
+- Options -
+Added new Spell Buffs/Effects Icon Grid Settings
+
+- Performance
+Made Classic performance meter the default
+
+Added new style with classic icons
+
+- Quickbars -
+Added numbers to horizontal and vertical skins
+
+- Realm War -
+Added new Mythic maps as Map Style 8 option
+
+- Status Index -
+Added new style (Blue buttons)
+
+- Train -
+Added new Training window options
+ (will be introduced in v1.105 of the game client)
+
+
+[** Maintenance Changes **]
+
+Corrected issue with ICZ Dark Blue button skin.  Oldstyle was not being displayed correctly.
+
+Changed look of hresizebar with some skin styles
+ (used for alternating background in social window, label backgrounds, etc)
+
+Corrected issue with original Training window
+  (Selected item at top would not "deselect" when an item was selected at bottom)

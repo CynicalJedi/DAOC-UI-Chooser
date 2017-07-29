@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!--Load Background Image-->
+
+  <Include>CommandBarBackground.xml</Include>
+
+  <!-- Load CommandBar window -->
+
+  <WindowTemplate>
+    <Name>custom10_window</Name>
+    <WindowId>Command Bar</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>371</Width>
+    <Height>20</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background Image-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_commandbar</TemplateName>
+      <Width>371</Width>
+      <Height>20</Height>
+    </FullResizeImageDef>
+
+    <!--Command Buttons-->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>3</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Stick</Label>
+      <onClickEvent>Stick</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>64</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Follow</Label>
+      <onClickEvent>Follow</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>125</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Face</Label>
+      <onClickEvent>Face</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>186</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Sprint</Label>
+      <onClickEvent>Sprint</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>247</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Sit</Label>
+      <onClickEvent>ToggleSitting</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>308</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Release</Label>
+      <onClickEvent>Release</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

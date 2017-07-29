@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Sprint Buttom Images -->
+
+  <Texture>
+    <Name>Buttons_Sprint</Name>
+    <File>custom/assets/textures/ButtonImages_Chant_01.tga</File>
+  </Texture>
+
+  <!--Load Background Image-->
+
+  <Include>ChantBackground.xml</Include>
+
+  <!--Define Button Templates-->
+
+  <ButtonTemplate>
+    <Name>Button_Chant_Sprint</Name>
+    <Size>
+      <X>32</X>
+      <Y>32</Y>
+    </Size>
+    <Font>
+      <Name></Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>buttons_sprint</TextureName>
+      <Normal>
+        <X>0</X>
+        <Y>0</Y>
+      </Normal>
+      <Pressed>
+        <X>32</X>
+        <Y>0</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>0</X>
+        <Y>0</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>32</X>
+        <Y>0</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>0</X>
+        <Y>0</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+
+  <ButtonTemplate>
+    <Name>Button_Chant_Attack</Name>
+    <Size>
+      <X>32</X>
+      <Y>32</Y>
+    </Size>
+    <Font>
+      <Name></Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>buttons_sprint</TextureName>
+      <Normal>
+        <X>0</X>
+        <Y>32</Y>
+      </Normal>
+      <Pressed>
+        <X>32</X>
+        <Y>32</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>0</X>
+        <Y>32</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>32</X>
+        <Y>32</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>0</X>
+        <Y>32</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+
+  <!-- Load Chant Window -->
+
+  <WindowTemplate>
+    <Name>custom12_window</Name>
+    <WindowId>custom12_window</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>72</Width>
+    <Height>40</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background Image-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_chant</TemplateName>
+      <Width>72</Width>
+      <Height>40</Height>
+    </FullResizeImageDef>
+
+    <!-- Sprint/Attack Buttons -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>4</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_chant_sprint</TemplateName>
+      <Label></Label>
+      <onClickEvent>Sprint</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>36</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_chant_attack</TemplateName>
+      <Label></Label>
+      <onClickEvent>ToggleAttackMode</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

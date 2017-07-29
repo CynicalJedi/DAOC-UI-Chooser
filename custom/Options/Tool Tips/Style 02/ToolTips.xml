@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Tooltip Background -->
+
+  <FullResizeImageTemplate>
+    <Name>tool_tip_background</Name>
+    <TopHeight>8</TopHeight>
+    <MiddleHeight>20</MiddleHeight>
+    <BottomHeight>8</BottomHeight>
+    <LeftWidth>8</LeftWidth>
+    <MiddleWidth>20</MiddleWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_01</TextureName>
+      <TopLeft>
+        <X>2</X>
+        <Y>166</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>2</X>
+        <Y>166</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>2</X>
+        <Y>166</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>2</X>
+        <Y>166</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>2</X>
+        <Y>166</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>2</X>
+        <Y>166</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>2</X>
+        <Y>166</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>2</X>
+        <Y>166</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>2</X>
+        <Y>166</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+</Root_Element>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Quest Images -->
+
+  <Texture>
+    <Name>QuestImages_01</Name>
+    <File>custom/assets/textures/QuestImages_01.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <!-- Quest Journal Title Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Quest_Title</Name>
+    <TextureName>questimages_01</TextureName>
+    <Size>
+      <X>111</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Quest Journal Left Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Quest_Title_Left</Name>
+    <TextureName>questimages_01</TextureName>
+    <Size>
+      <X>20</X>
+      <Y>13</Y>
+    </Size>
+    <TopLeft>
+      <X>2</X>
+      <Y>50</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Quest Journal Right Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Quest_Title_Right</Name>
+    <TextureName>questimages_01</TextureName>
+    <Size>
+      <X>20</X>
+      <Y>13</Y>
+    </Size>
+    <TopLeft>
+      <X>24</X>
+      <Y>50</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Load Window -->
+
+  <WindowTemplate>
+    <Name>new_quest_journal</Name>
+    <WindowId>Quest Journal</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>512</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>512</Width>
+    <Height>200</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>450</MinWidth>
+    <MinHeight>200</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>512</Width>
+      <Height>200</Height>
+    </FullResizeImageDef>
+
+    <!-- Mermaid Images -->
+
+    <ImageAreaDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_quest_title_left</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_quest_title_right</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Title Image -->
+
+    <ImageAreaDef>
+      <ControlId>1004</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <CenterHorizontally>true</CenterHorizontally>
+      </Alignment>
+      <TemplateName>imagearea_quest_title</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Journal section -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>492</Width>
+      <Height>142</Height>
+    </FullResizeImageDef>
+
+    <TreeControlDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>treecontrol_generic</TemplateName>
+      <AdapterName>new_quest_journal_entries</AdapterName>
+      <Width>492</Width>
+      <Height>142</Height>
+      <Column1Width>470</Column1Width>
+      <Column1Offset>10</Column1Offset>
+      <Column2Width>355</Column2Width>
+      <Column2Offset>125</Column2Offset>
+    </TreeControlDef>
+
+    <!-- Remove Quest section -->
+
+    <ButtonDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_size_110</TemplateName>
+      <Label>Remove Quest -&gt;</Label>
+      <onClickEvent>RemoveQuest</onClickEvent>
+    </ButtonDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>125</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>377</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId>1005</ControlId>
+      <Position>
+        <X>127</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>192</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>373</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>256</MaxCharacters>
+      <Data>No Quest Selected</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

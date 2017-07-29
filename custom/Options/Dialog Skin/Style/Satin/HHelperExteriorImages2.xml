@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load HHelper Exterior Images -->
+
+  <!-- The A images have square corners and B images have rounded corners -->
+
+  <!-- The decision to use square or round depends on dialog image selected -->
+
+  <Texture>
+    <Name>HealerHelper_03</Name>
+    <File>custom/Assets/Textures/HealerHelperImages_03a.tga</File>
+  </Texture>
+
+</Root_Element>

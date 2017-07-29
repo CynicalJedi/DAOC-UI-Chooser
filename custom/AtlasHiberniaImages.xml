@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Hibernia Atlas Map Images -->
+
+  <!-- Option is disabled no maps loaded-->
+
+  <!-- Realm BG Mask -->
+
+  <Texture>
+    <Name>Atlas_RealmMask_01</Name>
+    <File>custom/assets/atlas/shared/RealmMask_01.tga</File>
+  </Texture>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Atlas_RealmMaskHib</Name>
+    <TextureName>atlas_realmmask_01</TextureName>
+    <Size>
+      <X>165</X>
+      <Y>300</Y>
+    </Size>
+    <TopLeft>
+      <X>0</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Realm No Map Image -->
+
+  <CheckBoxTemplate>
+    <Name>CheckBox_Atlas_RealmImageHib</Name>
+    <Size>
+      <X>64</X>
+      <Y>64</Y>
+    </Size>
+    <Font>
+      <Name></Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+      <TextOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </TextOffset>
+      <TextAlignment>
+        <TopLeft>true</TopLeft>
+      </TextAlignment>
+      <ChangeFontColor>false</ChangeFontColor>
+    </Font>
+    <Texture>
+      <TextureName>realmimages_01</TextureName>
+      <Normal>
+        <X>0</X>
+        <Y>0</Y>
+      </Normal>
+      <Pressed>
+        <X>0</X>
+        <Y>0</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>64</X>
+        <Y>64</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>64</X>
+        <Y>64</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>0</X>
+        <Y>0</Y>
+      </Disabled>
+    </Texture>
+  </CheckBoxTemplate>
+
+</Root_Element>

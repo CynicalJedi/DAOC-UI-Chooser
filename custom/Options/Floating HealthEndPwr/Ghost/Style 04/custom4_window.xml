@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Templates -->
+
+  <Include>TargetImages2.xml</Include>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Ghost_Target</Name>
+    <ForegroundHResizeTemplate>hresizeimage_ghost_targetbar2fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_ghost_barbg</BackgroundHResizeTemplate>
+    <Height>13</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>1</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  
+
+  <!-- Load FloatingTargetHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>200</TitleWidth>
+    <TitleHeight>13</TitleHeight>
+    <Width>200</Width>
+    <Height>13</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>200</MinWidth>
+    <MinHeight>13</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+  
+
+    <!--Target Health Controls-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>174</X>
+        <Y>-1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>191</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+	  <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+    </ScalarLabelDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_ghost_target</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+      <Width>200</Width>
+    </StatusBarDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>-1</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>190</Width>
+      <Height>16</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

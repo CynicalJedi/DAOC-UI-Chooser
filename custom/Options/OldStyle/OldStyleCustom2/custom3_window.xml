@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <ButtonTemplate>
+    <Name>Button_Oldstyle_Nrm</Name>
+    <Size>
+      <X>58</X>
+      <Y>16</Y>
+    </Size>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Normal>
+        <X>41</X>
+        <Y>18</Y>
+      </Normal>
+      <Pressed>
+        <X>0</X>
+        <Y>240</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>0</X>
+        <Y>240</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>0</X>
+        <Y>240</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>0</X>
+        <Y>240</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+
+  <ButtonTemplate>
+    <Name>Button_Oldstyle_Hi</Name>
+    <Size>
+      <X>58</X>
+      <Y>16</Y>
+    </Size>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Normal>
+        <X>41</X>
+        <Y>1</Y>
+      </Normal>
+      <Pressed>
+        <X>0</X>
+        <Y>240</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>0</X>
+        <Y>240</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>0</X>
+        <Y>240</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>0</X>
+        <Y>238</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+
+  <WindowTemplate>
+    <Name>custom3 - Butons3</Name>
+    <WindowId>custom3_window</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>256</Width>
+    <Height>256</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+
+    <!-- Column 1 -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Hookpnts</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Remove</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Access</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Withdraw</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>96</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Set Price</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>112</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Next</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>128</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_nrm</TemplateName>
+      <Label>Previous</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Column 2 -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Hookpnts</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Remove</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Access</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Withdraw</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>96</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Set Price</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>112</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Next</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>58</X>
+        <Y>128</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_oldstyle_hi</TemplateName>
+      <Label>Previous</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Column 3 -->
+
+    <!-- Column 4 -->
+
+  </WindowTemplate>
+
+</Root_Element>

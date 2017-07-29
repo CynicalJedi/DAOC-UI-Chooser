@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <Texture>
+    <Name>ClickAndDrag</Name>
+    <File>custom/assets/textures/OldStyleClickAndDrag.tga</File>
+  </Texture>
+
+  <WindowTemplate>
+    <Name>custom19_window</Name>
+    <WindowId>custom19_window</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>250</TitleWidth>
+    <TitleHeight>100</TitleHeight>
+    <Width>512</Width>
+    <Height>256</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Stats Index BG-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>210</Width>
+      <Height>32</Height>
+    </FullResizeImageDef>
+
+    <!--Stats Group BG-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>34</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_blank</TemplateName>
+      <Width>210</Width>
+      <Height>117</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>190</Width>
+      <Height>106</Height>
+    </FullResizeImageDef>
+
+    <!--Mini Info Botom BG-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>153</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>312</Width>
+      <Height>78</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>163</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>292</Width>
+      <Height>41</Height>
+    </FullResizeImageDef>
+
+    <!--Map Info BG-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>280</Width>
+      <Height>93</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>260</Width>
+      <Height>73</Height>
+    </FullResizeImageDef>
+
+    <!--Sockets-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>239</X>
+        <Y>97</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large_active</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>278</X>
+        <Y>98</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>239</X>
+        <Y>133</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small_active</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>278</X>
+        <Y>133</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <!--Mini Group BG-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>191</X>
+        <Y>243</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_minigroup_bg</TemplateName>
+      <AdapterName></AdapterName>
+    </StatusIconDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>317</X>
+        <Y>154</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>114</Width>
+    </HorizontalResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>317</X>
+        <Y>137</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_quiver_selection_box_bg</TemplateName>
+      <Width>114</Width>
+      <Height>16</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>317</X>
+        <Y>97</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>tool_tip_background</TemplateName>
+      <Width>38</Width>
+      <Height>38</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>113</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_tiny</TemplateName>
+      <Width>75</Width>
+      <Height>75</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>1</X>
+        <Y>97</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>75</Width>
+    </HorizontalResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>clickanddrag</TextureName>
+      <Dimensions>
+        <X>512</X>
+        <Y>256</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>0</X>
+        <Y>0</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+  </WindowTemplate>
+
+</Root_Element>

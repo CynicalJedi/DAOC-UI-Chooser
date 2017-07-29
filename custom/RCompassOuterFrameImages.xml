@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Compass Outer Frame Images -->
+
+  <Texture>
+    <Name>CompassOuterFrameImages_01</Name>
+    <File>custom/assets/textures/RCompassOuterFrameImages_01.tga</File>
+  </Texture>
+
+  <!-- Compass Outer Frame Images -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Compass_Outer_Frames</Name>
+    <TextureName>compassouterframeimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>88</Width>
+    <Height>88</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>FloatingImages_Stained_01</Name>
+    <File>custom/assets/textures/FloatingImages_Stained_01.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedFloating_Health</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>109</Width>
+    <Height>11</Height>
+    <MaxLevels>105</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_FG1</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>19</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1157</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_BG1</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>17</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1417</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_FG2</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>35</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1177</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_BG2</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>33</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1417</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_FG3</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>51</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1213</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_BG3</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>49</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1417</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_FG4</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>67</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1265</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_BG4</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>65</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1417</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_FG5</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>83</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1333</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedFloating_BG5</Name>
+    <TextureName>floatingimages_stained_01</TextureName>
+    <Size>
+      <X>125</X>
+      <Y>81</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1417</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Load FloatingPlayerHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom1_window</Name>
+    <WindowId>Floating Player Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>125</Width>
+    <Height>35</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>125</MinWidth>
+    <MinHeight>35</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_stainedfloating_bg2</TemplateName>
+    </ImageAreaDef>
+
+    <!--Player Name-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>250</R>
+        <G>249</G>
+        <B>45</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>105</Width>
+      <Height>14</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>16</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_title</Adapter>
+    </LabelDef>
+
+    <!-- Player Health Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedfloating_health</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>18</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>125</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Foreground Image-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_stainedfloating_fg2</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Face/Stick Buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>95</Width>
+      <Height>11</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>95</Width>
+      <Height>11</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

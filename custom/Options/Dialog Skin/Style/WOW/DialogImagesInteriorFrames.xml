@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+  
+  <!-- Interior Frame Images -->
+  
+  <!-- Standard Interior Frame Templates -->
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Dlg_Interior</Name>
+    <TopHeight>10</TopHeight>
+    <MiddleHeight>140</MiddleHeight>
+    <BottomHeight>10</BottomHeight>
+    <LeftWidth>10</LeftWidth>
+    <MiddleWidth>140</MiddleWidth>
+    <RightWidth>10</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_01</TextureName>
+      <TopLeft>
+        <X>165</X>
+        <Y>1</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>176</X>
+        <Y>1</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>317</X>
+        <Y>1</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>165</X>
+        <Y>12</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>176</X>
+        <Y>12</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>317</X>
+        <Y>12</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>165</X>
+        <Y>153</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>176</X>
+        <Y>153</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>317</X>
+        <Y>153</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Dlg_Interior_Small</Name>
+    <TopHeight>10</TopHeight>
+    <MiddleHeight>140</MiddleHeight>
+    <BottomHeight>10</BottomHeight>
+    <LeftWidth>10</LeftWidth>
+    <MiddleWidth>140</MiddleWidth>
+    <RightWidth>10</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_01</TextureName>
+      <TopLeft>
+        <X>165</X>
+        <Y>1</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>176</X>
+        <Y>1</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>317</X>
+        <Y>1</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>165</X>
+        <Y>12</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>176</X>
+        <Y>12</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>317</X>
+        <Y>12</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>165</X>
+        <Y>153</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>176</X>
+        <Y>153</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>317</X>
+        <Y>153</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+</Root_Element>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>help</Name>
+    <WindowId>Help</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>310</Width>
+    <Height>310</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>310</MinWidth>
+    <MinHeight>310</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>310</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>200</MaxCharacters>
+      <Data>Help</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Help Text -->
+
+    <TextAreaDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>textarea_generic</TemplateName>
+      <AdapterName>help_text</AdapterName>
+      <HasHotspots>true</HasHotspots>
+      <MaxCharacters>32768</MaxCharacters>
+      <Width>290</Width>
+      <Height>252</Height>
+    </TextAreaDef>
+
+    <!-- Show on login switch -->
+
+    <CheckBoxDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName></AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Show on LOGIN</Data>
+      <LabelWidth>120</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <!-- Cancel button -->
+
+    <ButtonDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Close</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <VerticalScrollbarTemplate>
+    <Name>VScrollBar_Generic</Name>
+    <UpButtonTemplate>button_scroll_up</UpButtonTemplate>
+    <DownButtonTemplate>button_scroll_down</DownButtonTemplate>
+    <ThumbVResizeTemplate>vresizeimage_scroll_thumb</ThumbVResizeTemplate>
+    <GutterVResizeTemplate>vresizeimage_scroll_gutter</GutterVResizeTemplate>
+    <Width>13</Width>
+    <UpButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </UpButtonOffset>
+    <DownButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DownButtonOffset>
+    <ThumbOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ThumbOffset>
+    <ActiveZoneOffset>
+      <X>50</X>
+      <Y>50</Y>
+    </ActiveZoneOffset>
+  </VerticalScrollbarTemplate>
+
+  <VerticalScrollbarTemplate>
+    <Name>generic_vscroll</Name>
+    <UpButtonTemplate>button_scroll_up</UpButtonTemplate>
+    <DownButtonTemplate>button_scroll_down</DownButtonTemplate>
+    <ThumbVResizeTemplate>vresizeimage_scroll_thumb</ThumbVResizeTemplate>
+    <GutterVResizeTemplate>vresizeimage_scroll_gutter</GutterVResizeTemplate>
+    <Width>13</Width>
+    <UpButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </UpButtonOffset>
+    <DownButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DownButtonOffset>
+    <ThumbOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ThumbOffset>
+    <ActiveZoneOffset>
+      <X>50</X>
+      <Y>50</Y>
+    </ActiveZoneOffset>
+  </VerticalScrollbarTemplate>
+
+</Root_Element>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>group_results</Name>
+    <WindowId>LFG Results</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>550</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>550</Width>
+    <Height>154</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>550</MinWidth>
+    <MinHeight>154</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>550</Width>
+      <Height>154</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>550</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Players LFG (snapshot)</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Coumn Headings -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>530</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Name</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>95</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Class</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>133</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>LVL</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>156</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Location</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>259</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Duration</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>327</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Status</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>380</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>64</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Objective</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Invisible buttons (appear to do nothing)-->
+
+    <InvisibleButtonDef>
+      <ControlId>2000</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>73</Width>
+      <Height>15</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2001</ControlId>
+      <Position>
+        <X>93</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>33</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2002</ControlId>
+      <Position>
+        <X>131</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>24</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2003</ControlId>
+      <Position>
+        <X>156</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>100</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2004</ControlId>
+      <Position>
+        <X>257</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>65</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2005</ControlId>
+      <Position>
+        <X>328</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>50</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>2006</ControlId>
+      <Position>
+        <X>378</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>100</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <!-- Results List -->
+
+    <ListBoxDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <Width>530</Width>
+      <Height>80</Height>
+      <TemplateName>listbox_generic</TemplateName>
+      <AdapterName>group_results</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!-- Mystery Label (not sure what is shown here) -->
+
+    <LabelDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>5</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>365</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>200</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Send Msg to selected Player button -->
+
+    <ButtonDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic_wide</TemplateName>
+      <Label>Send Message</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

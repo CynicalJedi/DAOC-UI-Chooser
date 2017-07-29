@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Graph texture -->
+
+  <Texture>
+    <Name>StatusIcons_GRed_01</Name>
+    <File>custom/assets/textures/StatusIcons_Graph_Red.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_GRed_02</Name>
+    <File>custom/assets/textures/StatusIcons_Graph_Red_Inverted.tga</File>
+  </Texture>
+
+  <!-- Define StatusIcon -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_GRed_01</Name>
+    <TextureName>statusicons_GRed_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>40</Height>
+    <MaxLevels>41</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_GRed_02</Name>
+    <TextureName>statusicons_GRed_02</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>40</Height>
+    <MaxLevels>41</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load FloatingHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom1_window</Name>
+    <WindowId>Floating Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>128</Width>
+    <Height>96</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>250</R>
+        <G>249</G>
+        <B>45</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>128</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_title</Adapter>
+    </LabelDef>
+
+    <!-- Player Health Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_gred_01</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>128</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>187</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_gred_02</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <!-- Player Face/Stick buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>128</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>128</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

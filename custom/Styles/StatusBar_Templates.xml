@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <StatusBarTemplate>
+    <Name>StatusBar_XP_Blue</Name>
+    <ForegroundHResizeTemplate>hresizeimage_xp_blue_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_xp_blue_bg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Blue_Small</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_blue_fg_small</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_blue_bg_small</BackgroundHResizeTemplate>
+    <Height>3</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Red</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_red_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_red_bg</BackgroundHResizeTemplate>
+    <Height>6</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Green</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_green_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_green_bg</BackgroundHResizeTemplate>
+    <Height>6</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Yellow</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_yellow_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_yellow_bg</BackgroundHResizeTemplate>
+    <Height>6</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Green_Small</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_green_fg_small</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_green_bg_small</BackgroundHResizeTemplate>
+    <Height>3</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Yellow_Small</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_yellow_fg_small</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_yellow_bg_small</BackgroundHResizeTemplate>
+    <Height>3</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Orange_Small</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_orange_fg_small</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_orange_bg_small</BackgroundHResizeTemplate>
+    <Height>3</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_MiniGroup_End</Name>
+    <ForegroundHResizeTemplate>hresizeimage_minigroup_end_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_minigroup_end_bg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_MiniGroup_Pwr</Name>
+    <ForegroundHResizeTemplate>hresizeimage_minigroup_pwr_fg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_minigroup_pwr_bg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+</Root_Element>

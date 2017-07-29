@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Graph texture -->
+
+  <Texture>
+    <Name>StatusIcons_GGreen_01</Name>
+    <File>custom/assets/textures/StatusIcons_Graph_Green.tga</File>
+  </Texture>
+
+  <!-- Define StatusIcon -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_GGreen_01</Name>
+    <TextureName>statusicons_ggreen_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>40</Height>
+    <MaxLevels>41</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load FloatingEndurance Window -->
+
+  <WindowTemplate>
+    <Name>custom2_window</Name>
+    <WindowId>Floating Endurance</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>128</Width>
+    <Height>40</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Player Endurance Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_ggreen_01</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>127</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>0</R>
+        <G>187</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+    <!-- Load Images  -->
+
+  <Texture>
+    <Name>PerformanceImages_01s</Name>
+    <File>custom/assets/textures/PerformanceImages_01s.tga</File>
+  </Texture>
+
+  <!-- Define Templates  -->
+    
+  <StatusIconTemplate>
+    <Name>StatusIcon_Performance_Small</Name>
+    <TextureName>performanceimages_01s</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+  
+  <!-- Load Window  -->
+
+  <WindowTemplate>
+    <Name>clock</Name>
+    <WindowId>Clock</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>5</TitleHeight>
+    <Width>210</Width>
+    <Height>25</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>25</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>210</Width>
+      <Height>25</Height>
+    </FullResizeImageDef>
+
+    <!-- Server Time -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>        
+      </Alignment>
+      <Color>
+        <R>153</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>125</Width>
+      <Height>15</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>game_time</Adapter>
+    </LabelDef>
+
+    <!--Performance Meter-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>152</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_performance_small</TemplateName>
+      <AdapterName>performance_meter</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>168</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_performance_small</TemplateName>
+      <AdapterName>lag_meter</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>184</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_performance_small</TemplateName>
+      <AdapterName>framerate_meter</AdapterName>
+    </StatusIconDef>
+
+    <!-- Toggle Map window -->
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>ToggleMap</OnClickEvent>
+      <Width>190</Width>
+      <Height>15</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images  -->
+
+  <Texture>
+    <Name>MiniGroup_Original_01</Name>
+    <File>custom/assets/textures/MiniGroupImages_Original_01.tga</File>
+  </Texture>
+
+  <!-- Define Templates  -->
+
+  <!-- Mini Group Endurance Diamond -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Mini_Group_Endurance</Name>
+    <TextureName>minigroup_original_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>8</Height>
+    <MaxLevels>5</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Mini Group Power Diamond -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Mini_Group_Power</Name>
+    <TextureName>minigroup_original_01</TextureName>
+    <TextureStart>
+      <X>10</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>8</Height>
+    <MaxLevels>5</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Define Window  -->
+
+  <WindowTemplate>
+    <Name>mini_group</Name>
+    <WindowId>Mini Group</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>160</TitleWidth>
+    <TitleHeight>5</TitleHeight>
+    <Width>160</Width>
+    <Height>162</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>160</MinWidth>
+    <MinHeight>72</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>160</Width>
+      <Height>162</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>160</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>11</MaxCharacters>
+      <Data>Mini Group</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>140</Width>
+      <Height>125</Height>
+    </FullResizeImageDef>
+
+    <!-- Group Member Power-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>33</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power0</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power1</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>63</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power2</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>78</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power3</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>93</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power4</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>108</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power5</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>123</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power6</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>19</X>
+        <Y>138</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_power</TemplateName>
+      <AdapterName>group_power7</AdapterName>
+    </StatusIconDef>
+
+    <!-- Group Member Endurance-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>33</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance0</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance1</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>63</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance2</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>78</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance3</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>93</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance4</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>108</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance5</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>123</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance6</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>29</X>
+        <Y>138</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_mini_group_endurance</TemplateName>
+      <AdapterName>group_endurance7</AdapterName>
+    </StatusIconDef>
+
+    <!-- Group Member Health-->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>34</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health0</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health1</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>64</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health2</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>79</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health3</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>94</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health4</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>109</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health5</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>124</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health6</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>139</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>group_health7</AdapterName>
+      <Width>25</Width>
+    </StatusBarDef>
+
+    <!-- Group Member Names-->
+
+    <LabelDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color0</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group0</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name0</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>47</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color1</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group1</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name1</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>62</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color2</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group2</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name2</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>77</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color3</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group3</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name3</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1004</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>92</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color4</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group4</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name4</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1005</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>107</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color5</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group5</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name5</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1006</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color6</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group6</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name6</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1007</ControlId>
+      <Position>
+        <X>69</X>
+        <Y>137</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings_small</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter>group_color7</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>group7</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>group_name7</Adapter>
+    </LabelDef>
+
+    <!-- Invisible Group Member Select Buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>30</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember0</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>46</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember1</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>62</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember2</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>76</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember3</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>92</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember4</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>107</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember5</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>121</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember6</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>136</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>SelectGroupMember7</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

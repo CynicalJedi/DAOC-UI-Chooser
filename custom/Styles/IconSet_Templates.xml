@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <IconSetTemplate>
+    <Name>IconSet_Group_Buffs</Name>
+    <CellPadding>0</CellPadding>
+    <LinePadding>0</LinePadding>
+    <IconTemplate>icon_generic_small</IconTemplate>
+  </IconSetTemplate>
+
+</Root_Element>

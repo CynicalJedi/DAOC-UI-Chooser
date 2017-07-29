@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Target Bar Images -->
+
+  <!-- Load Graph texture -->
+
+  <Texture>
+    <Name>StatusIcons_GTarget_01</Name>
+    <File>custom/assets/textures/StatusIcons_Graph_Magenta.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_GTarget_02</Name>
+    <File>custom/assets/textures/StatusIcons_Graph_Magenta_Inverted.tga</File>
+  </Texture>
+
+  <!-- Define StatusIcon -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_GTarget_01</Name>
+    <TextureName>statusicons_gtarget_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>40</Height>
+    <MaxLevels>41</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_GTarget_02</Name>
+    <TextureName>statusicons_gtarget_02</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>40</Height>
+    <MaxLevels>41</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Bar_GTarget</Name>
+    <Height>10</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>128</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>statusbars_graph_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>34</Y>
+      </Left>
+      <Repeat>
+        <X>0</X>
+        <Y>34</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>34</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+</Root_Element>

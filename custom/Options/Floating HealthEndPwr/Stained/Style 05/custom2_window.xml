@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>FloatingImages_Stained_07</Name>
+    <File>custom/assets/textures/FloatingImages_Stained_07.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedEnd_EndBG</Name>
+    <TextureName>floatingimages_stained_07</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>27</Width>
+    <Height>11</Height>
+    <MaxLevels>13</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Stained_EndFG</Name>
+    <Height>11</Height>
+    <LeftWidth>1</LeftWidth>
+    <RepeatWidth>50</RepeatWidth>
+    <RightWidth>1</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_stained_05</TextureName>
+      <Left>
+        <X>1</X>
+        <Y>49</Y>
+      </Left>
+      <Repeat>
+        <X>2</X>
+        <Y>49</Y>
+      </Repeat>
+      <Right>
+        <X>52</X>
+        <Y>49</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_StainedEnd</Name>
+    <ForegroundHResizeTemplate>hresizeimage_stained_endfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_stained_healthbg</BackgroundHResizeTemplate>
+    <Height>11</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load FloatingPlayerEnd Window -->
+
+  <WindowTemplate>
+    <Name>custom2_window</Name>
+    <WindowId>Floating Player End</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>23</TitleHeight>
+    <Width>210</Width>
+    <Height>23</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>23</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_stained_frame</TemplateName>
+      <Width>210</Width>
+    </HorizontalResizeImageDef>
+
+    <!-- Player End Controls -->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>6</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_stainedend</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+      <Width>167</Width>
+    </StatusBarDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>177</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedend_endbg</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>7</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

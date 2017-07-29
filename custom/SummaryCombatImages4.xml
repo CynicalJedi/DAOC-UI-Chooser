@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Summary Combat Frame -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_WoW_CombatFrameLeft</Name>
+    <TextureName>summaryimages_wow_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>86</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_WoW_CombatFrameRight</Name>
+    <TextureName>summaryimages_wow_01</TextureName>
+    <TextureStart>
+      <X>128</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>86</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

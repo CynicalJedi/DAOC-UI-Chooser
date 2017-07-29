@@ -1,0 +1,147 @@
+Changes in 3.00
+
+[** New **] 
+
+-Icon Pack-
+  Added choices for additional icon sets
+  Updated Keegs Icons
+
+-Map Pack-
+  Added new Valmerwolf epic (Dragon) zone maps for each realm
+  (Now includes new Dragon zone information)
+
+Atlas
+  Updated epic (Dragon) zone maps for each realm
+
+Artifact Table
+  Added new tabs to artifact table
+    (updated Artifact icons in table and some text)
+    (includes bounty points prices and complete book names)
+
+Button Skins
+  Added War button skins
+  Added Ochi button skins
+  Added Quillixx button skins
+  Added option to select Stained skin buttons
+  Added option to select new Atlantis skin buttons
+
+Channel window
+  Added new channel select window for main chat window
+
+Chat windows
+  Added new style transparent chat window
+    (background does not appear when you mouse over it)
+
+Chat Config window
+  Added new Chat configuration window
+
+Chat Fonts
+  Added 28 new TTFont styles  
+    (each can be scaled while in game using the new Font Size popup to one of 10 different point sizes)
+
+Clock
+  Added option for Server Time with Lag Meter
+
+Command
+  Added Cube style option for window
+
+Concentration
+  Added disable option for window
+
+Context windows
+  Added the 12 new context or popup windows
+
+Dialog Skins
+  Added War Dialog skins
+  Added Ochi button skins
+  Added Quillixx button skins
+  Added option to disable/enable background and interior frames
+  Added option to select Stained UI skin dialogs
+  Added option to select new Atlantis skin dialogs
+  Added oldstyle Rename.bmp graphics for each skin for new rename chat window option
+  
+Emoticon window
+  Added new Emoticon window
+
+Floating Health - Target
+  Added option for Ochi Split ring that includes Target's name
+  Added several Ghost Style Options for Floating Player Health window
+
+Group Buffs
+  Added disable option for window
+ 
+Healer Helpers
+  Added disable all option for windows
+  Added disable option for Horizontal window
+  Added disable option for vertical window
+
+Mini Attributes
+  Added disable option for window
+
+Mini Resists
+  Added disable option for window
+
+RealmWar
+  Added option to change Map Key
+  Added option for Map Key with link to Labyrinth Keys
+  Added disable option for map and key windows
+
+Status Bar Skins
+  Added another Split Bar style
+
+Status Index
+  Added options to choose between two different styles of buttons
+  One style is the original button set, the other is a transparent one.
+
+Tabbed Xp
+  Added disable option for window
+
+
+Various Places
+  Corrected some additional centering issues caused by the 1.89b game client patch
+
+ 
+[** Updates **] 
+
+
+[** Changes **] 
+
+Alpha window
+  Changed Alpha enable/disable so it works with new alpha popup window
+
+Button Images
+  Changed close button with WOW skins so X is more defined
+
+Chat
+  Changed options so they work with new style chat window
+  Note:  You can no longer completely disable chat window but you can enable close button on it
+  Chat window will reappear after you relog or rezone.
+
+Chat Fonts
+  Moved Old Type fonts into separate option to split new and old type font options
+
+Dialog Skins
+  Changed Viddi skin style so it is more like the original one
+    (tighter corners and rolled frame edges)
+  Caden OldStyle Edit Box
+    Shrunk image so it is same size as the ones used with other skins
+
+RRank window
+  Added Realm Points, Title, and RRank on other tabs
+  Added RRank column on Title tab
+  Added Personal Bounty Point Total
+
+Summary window
+  Shortened Conc to Con in the summary windows that show player Concentration levels
+
+Stats Windows
+  Because of resize window changes, made stats attributes, combat/spell lists, and group window resizable in height only
+  Grab the bottom edge of these windows if you want to temporarily resize them
+
+Target Hits Color
+  Changed option so it also updates target health color bar in new Ghost style Floating health option
+
+ 	
+[** Fixes **]
+
+

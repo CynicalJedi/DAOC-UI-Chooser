@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Target Bar Images -->
+
+  <!-- Load Graph texture -->
+
+  <Texture>
+    <Name>StatusIcons_DTarget_01</Name>
+    <File>custom/assets/textures/FloatingImages_DragonStatus_06L.tga</File>
+  </Texture>
+  
+  </Root_Element>

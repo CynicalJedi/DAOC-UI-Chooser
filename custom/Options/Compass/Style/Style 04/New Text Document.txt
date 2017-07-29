@@ -1,0 +1,1 @@
+need to change option.ini file in the frame folders to disable it when this option is applied

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Textures -->
+
+  <Texture>
+    <Name>HUDImages_Zolen_01</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_Zolen_02</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_02.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_Zolen_03</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_03.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_Zolen_04</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_04.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_Zolen_05</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_05.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_Zolen_06</Name>
+    <File>custom/Assets/Textures/HUDImages_Zolen_06.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenHealthLeft</Name>
+    <TextureName>hudimages_zolen_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>85</Width>
+    <Height>250</Height>
+    <MaxLevels>23</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenHealthRight</Name>
+    <TextureName>hudimages_zolen_02</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>85</Width>
+    <Height>250</Height>
+    <MaxLevels>23</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenEnd</Name>
+    <TextureName>hudimages_zolen_03</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>50</Width>
+    <Height>125</Height>
+    <MaxLevels>20</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenPwr</Name>
+    <TextureName>hudimages_zolen_04</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>50</Width>
+    <Height>125</Height>
+    <MaxLevels>20</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenTargetLeft</Name>
+    <TextureName>hudimages_zolen_05</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>50</Width>
+    <Height>250</Height>
+    <MaxLevels>20</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDZolenTargetRight</Name>
+    <TextureName>hudimages_zolen_06</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>50</Width>
+    <Height>250</Height>
+    <MaxLevels>20</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Define Frames -->
+
+  <Include>SummaryHUDFrame1.xml</Include>
+
+  <!-- Load Summary HUD  Window -->
+
+  <WindowTemplate>
+    <Name>summary</Name>
+    <WindowId></WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>13</Width>
+    <Height>13</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Backgrounds-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-156</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudzolenbgleft</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>76</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudzolenbgright</TemplateName>
+    </ImageAreaDef>
+
+    <!--Player Info-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-9</X>
+        <Y>152</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>31</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>64</G>
+        <B>64</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-9</X>
+        <Y>166</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>31</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>92</R>
+        <G>230</G>
+        <B>127</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-9</X>
+        <Y>180</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_power</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>31</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>99</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-156</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolenhealthleft</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>84</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolenhealthright</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-113</X>
+        <Y>108</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolenend</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>76</X>
+        <Y>108</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolenpwr</TemplateName>
+      <AdapterName>summary_player_power</AdapterName>
+    </StatusIconDef>
+
+    <!--Target Info-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-118</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolentargetleft</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>81</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudzolentargetright</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-9</X>
+        <Y>247</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>31</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-156</X>
+        <Y>261</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>325</Width>
+      <Height>14</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <Include>CompassInnerImages.xml</Include>
+
+  <Include>CompassOuterImages.xml</Include>
+
+  <WindowTemplate>
+    <Name>compass</Name>
+    <WindowId>Compass</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>64</TitleWidth>
+    <TitleHeight>16</TitleHeight>
+    <Width>64</Width>
+    <Height>16</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+
+    <CompassControlDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>1</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>stripcompass</TemplateName>
+      <AdapterName>compass_heading</AdapterName>
+      <Width>62</Width>
+      <Height>14</Height>
+    </CompassControlDef>
+
+    <CompassControlDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>1</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>stripcompass</TemplateName>
+      <AdapterName>compass_heading</AdapterName>
+      <Width>62</Width>
+      <Height>14</Height>
+    </CompassControlDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_compasssmallframe</TemplateName>
+    </ImageAreaDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_compass_smallcombatframe</TemplateName>
+      <AdapterName>combat_mode</AdapterName>
+    </StatusIconDef>
+
+  </WindowTemplate>
+
+</Root_Element>

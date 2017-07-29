@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>TimerImages_01</Name>
+    <File>custom/assets/textures/TimerImages_Stained_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>TimerImages_02</Name>
+    <File>custom/assets/textures/TimerImages_Stained_02.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Timer_Frame</Name>
+    <Height>23</Height>
+    <LeftWidth>10</LeftWidth>
+    <RepeatWidth>75</RepeatWidth>
+    <RightWidth>39</RightWidth>
+    <Texture>
+      <TextureName>timerimages_01</TextureName>
+      <Left>
+        <X>1</X>
+        <Y>1</Y>
+      </Left>
+      <Repeat>
+        <X>12</X>
+        <Y>1</Y>
+      </Repeat>
+      <Right>
+        <X>88</X>
+        <Y>1</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Timer_StatusFG</Name>
+    <Height>11</Height>
+    <LeftWidth>1</LeftWidth>
+    <RepeatWidth>100</RepeatWidth>
+    <RightWidth>1</RightWidth>
+    <Texture>
+      <TextureName>timerimages_01</TextureName>
+      <Left>
+        <X>1</X>
+        <Y>25</Y>
+      </Left>
+      <Repeat>
+        <X>2</X>
+        <Y>25</Y>
+      </Repeat>
+      <Right>
+        <X>102</X>
+        <Y>25</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Timer_StatusBG</Name>
+    <Height>11</Height>
+    <LeftWidth>1</LeftWidth>
+    <RepeatWidth>100</RepeatWidth>
+    <RightWidth>1</RightWidth>
+    <Texture>
+      <TextureName>timerimages_01</TextureName>
+      <Left>
+        <X>1</X>
+        <Y>37</Y>
+      </Left>
+      <Repeat>
+        <X>2</X>
+        <Y>37</Y>
+      </Repeat>
+      <Right>
+        <X>102</X>
+        <Y>37</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Timer</Name>
+    <ForegroundHResizeTemplate>hresizeimage_timer_statusfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_timer_statusbg</BackgroundHResizeTemplate>
+    <Height>11</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Timer_TimeBG</Name>
+    <TextureName>timerimages_02</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>27</Width>
+    <Height>11</Height>
+    <MaxLevels>13</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load Timer Window -->
+
+  <WindowTemplate>
+    <Name>timer</Name>
+    <WindowId>Timer</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>5</TitleHeight>
+    <Width>210</Width>
+    <Height>23</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>23</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_timer_frame</TemplateName>
+      <Width>210</Width>
+    </HorizontalResizeImageDef>
+
+    <!-- Timer controls -->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>6</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_timer</TemplateName>
+      <AdapterName>timer_time</AdapterName>
+      <Width>167</Width>
+    </StatusBarDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>177</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_timer_timebg</TemplateName>
+      <AdapterName>timer_time</AdapterName>
+    </StatusIconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>100</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>timer_text</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>7</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>timer_time</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+    </ScalarLabelDef>
+
+    <!--Release Button-->
+
+    <InvisibleButtonDef>
+      <ControlId>Release</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Release</OnClickEvent>
+      <Width>210</Width>
+      <Height>11</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

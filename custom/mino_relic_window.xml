@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>mino_relic</Name>
+    <WindowId>Mino Relic</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>210</Width>
+    <Height>77</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>77</MinHeight>
+
+    <!-- Background -->
+
+    <FullResizeImageDef>
+      <ControlId>BackgroundImage</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>210</Width>
+      <Height>77</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>210</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>128</MaxCharacters>
+      <Data>Minotaur Relic Timer</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Timer section-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>190</Width>
+      <Height>40</Height>
+    </FullResizeImageDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>41</X>
+        <Y>33</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_bar_blue</TemplateName>
+      <AdapterName>mino_relic_time_percent</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>48</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <FontName>font_buttons</FontName>
+      <Adapter>mino_relic_time_percent</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>30</Width>
+      <Height>16</Height>
+      <MaxCharacters>10</MaxCharacters>
+      <Color>
+        <R>100</R>
+        <G>100</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+    </ScalarLabelDef>
+
+    <!-- Drop button -->
+
+    <ButtonDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>47</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Drop</Label>
+      <onClickEvent>MinoRelicDrop</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

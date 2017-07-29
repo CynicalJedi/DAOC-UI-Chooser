@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Templates -->
+
+  <EditBoxTemplate>
+    <Name>EditBox_NewName</Name>
+    <LinePadding>0</LinePadding>
+    <BackgroundTemplate>none</BackgroundTemplate>
+    <TextOffset>
+      <X>10</X>
+      <Y>5</Y>
+    </TextOffset>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorActive>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorActive>
+    </Font>
+    <ScrollbarOffset>
+      <X>3</X>
+      <Y>2</Y>
+    </ScrollbarOffset>
+    <ScrollbarSizeOffset>
+      <X>0</X>
+      <Y>-4</Y>
+    </ScrollbarSizeOffset>
+  </EditBoxTemplate>
+
+  <!-- Main Window -->
+
+  <WindowTemplate>
+    <Name>ChatRename</Name>
+    <WindowId>chatRenameWindow</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>250</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>250</Width>
+    <Height>86</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>250</MinWidth>
+    <MinHeight>86</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>250</Width>
+      <Height>86</Height>
+    </FullResizeImageDef>
+
+    <!--Title-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>250</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>25</MaxCharacters>
+      <Data>Rename Chat Tab</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!--Rename controls-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>230</Width>
+      <Height>28</Height>
+    </FullResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>63</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>25</MaxCharacters>
+      <Data>New Name:</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <EditBoxDef>
+      <ControlId>1004</ControlId>
+      <Position>
+        <X>84</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>editbox_newname</TemplateName>
+      <AdapterName>RenameChatText</AdapterName>
+      <Width>150</Width>
+      <Height>18</Height>
+      <MaxCharacters>32</MaxCharacters>
+    </EditBoxDef>
+
+    <!--Accept/Cancel buttons-->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>72</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Accept</Label>
+      <onClickEvent>ChatRenameOK</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Cancel</Label>
+      <onClickEvent>ChatRenameCancel</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

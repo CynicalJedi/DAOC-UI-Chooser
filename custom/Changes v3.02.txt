@@ -1,0 +1,61 @@
+Changes in 3.02
+
+
+[** New **] 
+
+-Icon Packs-
+  Added Edaethx's icon sets
+  Added Maliri's Emerikol (Round) icon sets
+  Added Maliri's Viddi Spell icon set
+
+-Map Packs-
+  Added update for Valmerwolf Map Packs
+
+Dialog Skins
+  Added skin from Gorm UI
+  Added skin from original Midgard UI
+
+Button Skins
+  Added skin from Gorm UI
+  Added skin from original Midgard UI
+
+Healer Helper Styles
+  Added Vertical 1x8 Mini Style
+  Added Horizontal 1x8 Mini style
+
+Mini Group window
+  Added 9 additional options for Ghost style window
+
+Siege window
+  Made siege window vertically resizable
+  Added optional Horizontal choice for siege window
+
+
+[** Changes **] 
+Keep Status window
+  Changed size so it is similar to Keep Upgrade window size
+
+Mini Info window
+  Changed number of characters allowed in title text
+
+
+[** Fixes **] 
+Summary
+  Fixed alignment of health status graphics in Stained Summary options
+
+Buttons - New Style - Ochi
+  Corrected screenshot that appears in Option Chooser program
+
+
+[** Changes for Game Client 1.90 **] 
+
+Siege Tower Status window
+  Added as a new window
+
+Keep Upgrade window
+  Removed Keep "Type" and "Level" selections
+
+
+[** Notes **] 
+
+In group window with Concentration, you still need to resize window slightly to get names to appear after a rezone.

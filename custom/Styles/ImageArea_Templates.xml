@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Dock Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Dock</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>80</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Bridge Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Bridge</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>32</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Impasse Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Impasse</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Dungeon Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Dungeon</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>147</X>
+      <Y>46</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Keep Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Keep</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>0</X>
+      <Y>16</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Tower Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Tower</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>0</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Relic Keep Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Relic</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>96</X>
+      <Y>16</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Under Siege Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Siege</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>16</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Active Battle Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Battle</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>48</X>
+      <Y>48</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Open Milegate Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_MileGate_Open</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>96</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Closed Milegate Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_MileGate_Closed</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>80</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Current Selection Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Selection</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>64</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Teleport Destination Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Destination</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>112</X>
+      <Y>48</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Large Current Selection Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Selection_Large</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>48</X>
+      <Y>48</Y>
+    </Size>
+    <TopLeft>
+      <X>0</X>
+      <Y>80</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Large Teleport Destination Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Destination_Large</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>48</X>
+      <Y>48</Y>
+    </Size>
+    <TopLeft>
+      <X>48</X>
+      <Y>80</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Large Under Siege Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Siege_Large</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>32</X>
+      <Y>32</Y>
+    </Size>
+    <TopLeft>
+      <X>96</X>
+      <Y>96</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Player Location Image -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Player</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>11</X>
+      <Y>11</Y>
+    </Size>
+    <TopLeft>
+      <X>110</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember1</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember2</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>13</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember3</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>25</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember4</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>37</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember5</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>49</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember6</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>61</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember7</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>73</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_GroupMember8</Name>
+    <TextureName>mapimages_02</TextureName>
+    <Size>
+      <X>8</X>
+      <Y>9</Y>
+    </Size>
+    <TopLeft>
+      <X>85</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Left</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>6</X>
+      <Y>6</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Right</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>6</X>
+      <Y>6</Y>
+    </Size>
+    <TopLeft>
+      <X>8</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Left_Thin</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>2</X>
+      <Y>6</Y>
+    </Size>
+    <TopLeft>
+      <X>16</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Right_Thin</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>2</X>
+      <Y>6</Y>
+    </Size>
+    <TopLeft>
+      <X>19</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Right_Tiny</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>3</X>
+      <Y>3</Y>
+    </Size>
+    <TopLeft>
+      <X>27</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Endcap_Left_Tiny</Name>
+    <TextureName>statusbars_01</TextureName>
+    <Size>
+      <X>3</X>
+      <Y>3</Y>
+    </Size>
+    <TopLeft>
+      <X>23</X>
+      <Y>57</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Group</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>7</X>
+      <Y>7</Y>
+    </Size>
+    <TopLeft>
+      <X>133</X>
+      <Y>4</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Face</Name>
+    <TextureName>healerhelper_01</TextureName>
+    <Size>
+      <X>46</X>
+      <Y>46</Y>
+    </Size>
+    <TopLeft>
+      <X>1</X>
+      <Y>79</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>mino_relic_1</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>128</X>
+      <Y>32</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>mino_relic_2</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>128</X>
+      <Y>48</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>mino_relic_3</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>128</X>
+      <Y>64</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_QuestGiver</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>13</X>
+      <Y>13</Y>
+    </Size>
+    <TopLeft>
+      <X>129</X>
+      <Y>2</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_QuestWaypoint</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>13</X>
+      <Y>13</Y>
+    </Size>
+    <TopLeft>
+      <X>129</X>
+      <Y>18</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_QuestCompleter</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>13</X>
+      <Y>13</Y>
+    </Size>
+    <TopLeft>
+      <X>148</X>
+      <Y>2</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Map_Labyrinth</Name>
+    <TextureName>mapimages_01</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>145</X>
+      <Y>32</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+</Root_Element>

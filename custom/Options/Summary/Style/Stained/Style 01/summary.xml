@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <Texture>
+    <Name>SummaryImages_Stained_01</Name>
+    <File>custom/assets/textures/SummaryImages_Stained_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_StainedSummary_01</Name>
+    <File>custom/assets/textures/StatusIcons_StainedSummary_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_StainedSummary_02</Name>
+    <File>custom/assets/textures/StatusIcons_StainedSummary_02.tga</File>
+  </Texture>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedSummary_BG</Name>
+    <TextureName>summaryimages_stained_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>125</Width>
+    <Height>71</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedSummary_Health</Name>
+    <TextureName>statusicons_stainedsummary_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>54</Width>
+    <Height>55</Height>
+    <MaxLevels>37</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedSummary_Power</Name>
+    <TextureName>statusicons_stainedsummary_01</TextureName>
+    <TextureStart>
+      <X>56</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>75</Width>
+    <Height>21</Height>
+    <MaxLevels>75</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedSummary_Endurance</Name>
+    <TextureName>statusicons_stainedsummary_01</TextureName>
+    <TextureStart>
+      <X>132</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>75</Width>
+    <Height>21</Height>
+    <MaxLevels>75</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedSummary_Concentration</Name>
+    <TextureName>statusicons_stainedsummary_02</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>6</Width>
+    <Height>55</Height>
+    <MaxLevels>56</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <WindowTemplate>
+    <Name>summary</Name>
+    <WindowId></WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>125</Width>
+    <Height>71</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>125</MinWidth>
+    <MinHeight>71</MinHeight>
+
+    <!--Background Image-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedsummary_bg</TemplateName>
+      <AdapterName>combat_mode</AdapterName>
+    </StatusIconDef>
+
+    <!--Player Status-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>8</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedsummary_concentration</TemplateName>
+      <AdapterName>concentration</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>22</X>
+        <Y>8</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedsummary_health</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>31</X>
+        <Y>29</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>8</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedsummary_power</TemplateName>
+      <AdapterName>summary_player_power</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>83</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_power</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>42</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedsummary_endurance</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>83</X>
+        <Y>46</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

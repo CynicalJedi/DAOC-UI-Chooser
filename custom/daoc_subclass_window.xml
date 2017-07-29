@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>daoc_subclass</Name>
+    <WindowId>Train Subclass</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>310</Width>
+    <Height>400</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>310</MinWidth>
+    <MinHeight>400</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>400</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>45</MaxCharacters>
+      <Data>Train Subclass Specializations</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Remaining Training Points -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>12</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>256</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>128</MaxCharacters>
+      <Data>Remaining Champion Points: 3</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>290</Width>
+      <Height>326</Height>
+    </FullResizeImageDef>
+
+    <!-- ICONS are used as references for positioning -->
+
+    <!-- Upper Left Icon Position -->
+
+    <IconDef>
+      <ControlId>2011</ControlId>
+      <Position>
+        <X>23</X>
+        <Y>53</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>icon_generic_large</TemplateName>
+      <AdapterName></AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <!-- Upper Right Icon Position -->
+
+    <IconDef>
+      <ControlId>2012</ControlId>
+      <Position>
+        <X>81</X>
+        <Y>53</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>icon_generic_large</TemplateName>
+      <AdapterName></AdapterName>
+      <IconId>1</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <!-- Lower Left Position -->
+
+    <IconDef>
+      <ControlId>2021</ControlId>
+      <Position>
+        <X>23</X>
+        <Y>112</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>icon_generic_large</TemplateName>
+      <AdapterName></AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <!--Skill Info/Train/Cancel Buttons -->
+
+    <ButtonDef>
+      <ControlId>1102</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>374</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Skill Info</Label>
+      <onClickEvent>SubclassDelve</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1101</ControlId>
+      <Position>
+        <X>178</X>
+        <Y>374</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Train</Label>
+      <onClickEvent>Train</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1100</ControlId>
+      <Position>
+        <X>240</X>
+        <Y>374</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Cancel</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

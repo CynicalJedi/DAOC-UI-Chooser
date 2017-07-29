@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>stats_spec_abil</Name>
+    <WindowId>Status Special Abilities</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>210</Width>
+    <Height>423</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>423</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>210</Width>
+      <Height>423</Height>
+    </FullResizeImageDef>
+
+    <!-- Specialization controls -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>190</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Specializations</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>5</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>75</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>pts: 300</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>stats_spec_points</Adapter>
+    </LabelDef>
+
+    <ListBoxDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Width>190</Width>
+      <Height>103</Height>
+      <TemplateName>listbox_generic</TemplateName>
+      <AdapterName>stats_specs</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!-- Abilities controls -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>131</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>190</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>132</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Abilities</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <ListBoxDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>147</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Width>190</Width>
+      <Height>121</Height>
+      <TemplateName>listbox_generic</TemplateName>
+      <AdapterName>stats_abil</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!-- Tradeskill controls -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>276</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>190</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>277</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data>Tradeskills -</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>78</X>
+        <Y>277</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>204</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>117</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>craft_title</Adapter>
+    </LabelDef>
+
+    <ListBoxDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>292</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Width>190</Width>
+      <Height>121</Height>
+      <TemplateName>listbox_generic</TemplateName>
+      <AdapterName>stats_trades</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>3</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Armor Resist Images -->
+
+  <Texture>
+    <Name>ArmorResistImages_01</Name>
+    <File>custom/assets/textures/ArmorResistImages_01.tga</File>
+  </Texture>
+
+  <!-- Main Window -->
+
+  <WindowTemplate>
+    <Name>custom13_window</Name>
+    <WindowId>custom13_window</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>490</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>490</Width>
+    <Height>155</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>490</MinWidth>
+    <MinHeight>155</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>490</Width>
+      <Height>155</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>490</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>15</MaxCharacters>
+      <Data>Armor Resists</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!--Interior controls -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>470</Width>
+      <Height>118</Height>
+    </FullResizeImageDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_divider</TemplateName>
+      <Width>470</Width>
+    </HorizontalResizeImageDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>14</X>
+        <Y>63</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>462</Width>
+    </HorizontalResizeImageDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>14</X>
+        <Y>95</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>462</Width>
+    </HorizontalResizeImageDef>
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>14</X>
+        <Y>127</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>462</Width>
+    </HorizontalResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>16</X>
+        <Y>30</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>armorresistimages_01</TextureName>
+      <Dimensions>
+        <X>458</X>
+        <Y>112</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+  </WindowTemplate>
+
+</Root_Element>

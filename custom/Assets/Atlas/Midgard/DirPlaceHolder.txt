@@ -1,0 +1,3 @@
+DirPlaceHolder.txt
+
+Do not remove this file otherwise installer won't embed this directory into the .exe file.

@@ -1,0 +1,80 @@
+   [** Changes from v4.00 to v4.01 **] 
+   
+   [** Option Chooser **]
+   New version 2.01
+   Revised splash screen
+   Added Check for Updates feature
+   Folders with new features can now be shown with a “Star” beside them
+    
+   [** Option Changes **]
+   
+   -BobsUI-
+   Added “Features” link
+   Added “General Information” page
+   
+   -Icon Pack-
+   Added Icon sets from the Icz UI
+   Updated Edaethx icons to 1.8.0
+   
+   -Map Pack-
+   Added Tekner Map option
+   Updated maps with Valmerwolf’s latest changes (02Feb2008)
+   
+   Atlas
+   Updated maps with Valmerwolf’s latest changes (02Feb2008)
+   
+   Button Skins
+   Added eight Icz button skin options
+   Added three Lotro button skin options
+   Added eleven Dragon button skin options
+   
+   Chant
+   Added dual chant options
+   Added Sprint/Attack button options
+   
+   Command Bar
+   Added Stick/Sprint/Face style bars
+   Added Sprint/Sit/Release style bars
+   
+   Concentration
+   Added a style that can be resized smaller
+   
+   Dialog Skin
+   Added eight Icz skin options
+   Added three Lotro skin options
+   Added eleven Dragon skin options 
+   
+   Floating HealthEndPwr
+   Added new Graph styles
+   Added additional Ochi styles
+   Added Necromancer health styles
+   Added Normal styles with Background
+   Added additional Stained style with Conc Bar
+   Added additional Ghost styles with Pwr/Conc Bar
+   Added additional Normal styles with Pwr/Conc Bar
+   Blanked End/Pwr windows when using WOW styles
+   Added additional Normal styles with no player name
+   
+   Group Buffs
+   Added two tabbed window options
+   
+   Healer Helper
+   Added Vertical 2x4 style with benefits 
+   Added Horizontal 4x2 style with benefits
+   
+   Status Bar Skins
+   Added new Split style skin option
+   Added three Icz style skin options
+   Added new Solid style skin option (marbled)
+   
+   Status Index
+   Added option for blue buttons
+   
+   Summary
+   Added several additional normal styles
+   
+   Timer
+   Added additional Stained UI style options 
+   
+   Title
+   Added Dragon Bane title (500 Dragon Kills)

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>float_target_window</Name>
+    <WindowId>float_target</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>150</Width>
+    <Height>70</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>3</Y>
+      </Position>
+      <Alignment>
+        <CenterHorizontally>true</CenterHorizontally>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>118</Width>
+      <Height>12</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>2</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_buttons_small</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>28</X>
+        <Y>17</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+      <Width>115</Width>
+    </StatusBarDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>4</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Face</Label>
+      <Width>44</Width>
+      <onClickEvent>Face</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>50</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Follow</Label>
+      <Width>48</Width>
+      <onClickEvent>Follow</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>102</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Stick</Label>
+      <Width>43</Width>
+      <onClickEvent>Stick</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>4</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Invite</Label>
+      <Width>44</Width>
+      <onClickEvent>GroupInvite</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>50</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Assist</Label>
+      <Width>48</Width>
+      <onClickEvent>AssistTarget</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <HorizontalResizeButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>102</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizebutton_generic</TemplateName>
+      <Label>Attack</Label>
+      <Width>43</Width>
+      <onClickEvent>ToggleAttackMode</onClickEvent>
+    </HorizontalResizeButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>150</Width>
+      <Height>14</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

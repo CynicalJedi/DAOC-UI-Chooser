@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>HUDImages_01</Name>
+    <File>custom/assets/Textures/HUDImages_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_02</Name>
+    <File>custom/assets/Textures/HUDImages_02.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_03</Name>
+    <File>custom/assets/Textures/HUDImages_03.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>HUDImages_04</Name>
+    <File>custom/assets/Textures/HUDImages_04.tga</File>
+  </Texture>
+
+    <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDHealth</Name>
+    <TextureName>hudimages_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>40</Width>
+    <Height>256</Height>
+    <MaxLevels>21</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDEnd</Name>
+    <TextureName>hudimages_02</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>40</Width>
+    <Height>256</Height>
+    <MaxLevels>21</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDPwr</Name>
+    <TextureName>hudimages_03</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>40</Width>
+    <Height>256</Height>
+    <MaxLevels>21</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HUDHealthTarget</Name>
+    <TextureName>hudimages_04</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>40</Width>
+    <Height>256</Height>
+    <MaxLevels>21</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Define Frames -->
+
+  <Include>SummaryHUDFrame2.xml</Include>
+
+  <!-- Load Summary Window -->
+
+  <WindowTemplate>
+    <Name>summary</Name>
+    <WindowId></WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>13</Width>
+    <Height>13</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Target Health Controls-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-217</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudhealthtarget</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-217</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudhealthtarget_overlay</TemplateName>
+    </ImageAreaDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-202</X>
+        <Y>256</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>40</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>224</R>
+        <G>224</G>
+        <B>224</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Player Health Controls-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-200</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudhealth</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-200</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudhealth_overlay</TemplateName>
+    </ImageAreaDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-175</X>
+        <Y>256</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>40</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>224</R>
+        <G>224</G>
+        <B>224</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Target Endurance Controls-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>166</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudend</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>167</X>
+        <Y>-3</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudend_overlay</TemplateName>
+    </ImageAreaDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>142</X>
+        <Y>256</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>40</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>224</R>
+        <G>224</G>
+        <B>224</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Target Power Controls-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>183</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_hudpwr</TemplateName>
+      <AdapterName>summary_player_power</AdapterName>
+    </StatusIconDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>184</X>
+        <Y>-3</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_hudpwr_overlay</TemplateName>
+    </ImageAreaDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>169</X>
+        <Y>256</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_power</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>40</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>224</R>
+        <G>224</G>
+        <B>224</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Target Name-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-244</X>
+        <Y>276</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>491</Width>
+      <Height>16</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>128</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>train</Name>
+    <WindowId>Train</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>310</Width>
+    <Height>400</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>310</MinWidth>
+    <MinHeight>400</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>400</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>45</MaxCharacters>
+      <Data>Train Specializations and Realm Abilities</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <!-- Specialization controls -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>145</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>26</MaxCharacters>
+      <Data>Remaining Specialization</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>140</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>80</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>16</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>train_skill_points</Adapter>
+    </LabelDef>
+
+    <ListBoxDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Width>290</Width>
+      <Height>100</Height>
+      <TemplateName>listbox_training</TemplateName>
+      <AdapterName>train_skills</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!-- Realm Ability controls -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>151</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>290</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>152</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>145</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>26</MaxCharacters>
+      <Data>Remaining Realm Ability</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>none</Adapter>
+    </LabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>139</X>
+        <Y>151</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>80</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>16</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>train_realm_skill_points</Adapter>
+    </LabelDef>
+
+    <ListBoxDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>167</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <Width>290</Width>
+      <Height>202</Height>
+      <TemplateName>listbox_training</TemplateName>
+      <AdapterName>train_realm</AdapterName>
+      <Sorting>false</Sorting>
+      <Columns>2</Columns>
+      <IconTemplate>plain_icon_small</IconTemplate>
+      <ShowIndicator>false</ShowIndicator>
+      <ShowDefaultToolTips>false</ShowDefaultToolTips>
+      <OnHeaderClickEvent></OnHeaderClickEvent>
+      <OnClickEvent></OnClickEvent>
+    </ListBoxDef>
+
+    <!-- Skill Info/Train Buttons -->
+
+    <ButtonDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Skill Info</Label>
+      <onClickEvent>TrainInfo</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Train</Label>
+      <onClickEvent>Train</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

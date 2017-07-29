@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>mini_pet</Name>
+    <WindowId>Mini Pet</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>420</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>420</Width>
+    <Height>71</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>420</Width>
+      <Height>71</Height>
+    </FullResizeImageDef>
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>400</Width>
+      <Height>51</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>148</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>156</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>mini_pet_title</Adapter>
+    </LabelDef>
+
+    <!-- Pet Health -->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>148</X>
+        <Y>29</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_red</TemplateName>
+      <AdapterName>mini_pet_life</AdapterName>
+      <Width>156</Width>
+    </StatusBarDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>308</X>
+        <Y>25</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_buttons_small</FontName>
+      <Adapter>mini_pet_life</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>20</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>64</G>
+        <B>64</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>328</X>
+        <Y>25</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>64</G>
+        <B>64</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>25</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>2</MaxCharacters>
+      <Data>%</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Invisible Pet Select Button -->
+
+    <InvisibleButtonDef>
+      <ControlId>1009</ControlId>
+      <Position>
+        <X>148</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>PetTarget</OnClickEvent>
+      <Width>156</Width>
+      <Height>23</Height>
+    </InvisibleButtonDef>
+
+    <!-- Pet Combat Posture -->
+
+    <CheckBoxDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>83</X>
+        <Y>13</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_combat0</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Aggro</Data>
+      <LabelWidth>47</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <CheckBoxDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>83</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_combat2</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Passive</Data>
+      <LabelWidth>47</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <CheckBoxDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>83</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_combat1</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Defense</Data>
+      <LabelWidth>47</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <!-- Pet Movement -->
+
+    <CheckBoxDef>
+      <ControlId>1005</ControlId>
+      <Position>
+        <X>146</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_movement2</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Go</Data>
+      <LabelWidth>29</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <CheckBoxDef>
+      <ControlId>1004</ControlId>
+      <Position>
+        <X>191</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_movement1</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Stay</Data>
+      <LabelWidth>29</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <CheckBoxDef>
+      <ControlId>1006</ControlId>
+      <Position>
+        <X>236</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_movement3</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Here</Data>
+      <LabelWidth>29</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <CheckBoxDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>281</X>
+        <Y>12</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>checkbox_generic</TemplateName>
+      <AdapterName>mini_pet_movement0</AdapterName>
+      <TextAdapterName></TextAdapterName>
+      <Data>Follow</Data>
+      <LabelWidth>38</LabelWidth>
+      <OnClickEvent></OnClickEvent>
+    </CheckBoxDef>
+
+    <!-- Pet Buffs -->
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect0</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>34</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect1</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>50</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect2</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>50</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect3</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>34</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect4</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <IconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>mini_pet_effect5</AdapterName>
+      <IconId>0</IconId>
+      <Data></Data>
+    </IconDef>
+
+    <!-- Attack/Release Buttons -->
+
+    <ButtonDef>
+      <ControlId>1007</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>18</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_size_48</TemplateName>
+      <Label>Attack</Label>
+      <onClickEvent>PetAttack</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1008</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>18</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_size_48</TemplateName>
+      <Label>Release</Label>
+      <onClickEvent>PetRelease</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

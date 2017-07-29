@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Templates -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Ochi_TargetBarFG</Name>
+    <Height>14</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>170</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_ochi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>14</Y>
+      </Left>
+      <Repeat>
+        <X>0</X>
+        <Y>14</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>14</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Ochi_Target</Name>
+    <ForegroundHResizeTemplate>hresizeimage_ochi_targetbarfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_ochi_barbg</BackgroundHResizeTemplate>
+    <Height>14</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load FloatingTargetHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>170</TitleWidth>
+    <TitleHeight>14</TitleHeight>
+    <Width>170</Width>
+    <Height>14</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>170</MinWidth>
+    <MinHeight>14</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Target Health Controls-->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_Ochi_target</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+      <Width>170</Width>
+    </StatusBarDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>-1</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>170</Width>
+      <Height>16</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>143</X>
+        <Y>-1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

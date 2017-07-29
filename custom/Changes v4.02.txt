@@ -1,0 +1,89 @@
+[** Changes from v4.01 to v4.02 **] 
+
+[** Option Changes **]
+
+Button Skin
+Added Satin Skin option
+Added Waves Skin option
+Added Marble Skin option
+Added three additional Ochi skin options
+Added seven additional Stucco skin options
+
+Chat Fonts
+Revised screenshots of each font option
+ Added several new and old style font options
+Revised Old Style (Bitmap) Font files to reduce fuzziness
+
+Note:   The font used in the text memo areas of the Help, Information, Interact, Map, Master Level, New Quest Start, and New Quest Finish windows will now change to match the style of the last "old style" chat font selected.
+
+Command Bar
+Add Background style
+Change options to allow sold or transparent background
+
+Compass
+Added new round face style
+
+Dialog Skins
+Added Satin skin option
+Added Waves skin option
+Added Marble skin option
+Added seven Stucco skin options
+
+Mini Attributes
+Added three transparent options
+
+Mini Resists
+Added three transparent options
+
+Quick Bar
+Added as new option
+Added ability to replace current Quick Bar with transparent ones
+  (When option is disabled, previous style is used)
+
+Realm War key
+Added options to Conceal and Disable Key window
+
+Summary
+Added three HUD style options
+
+Tool Tips
+Added transparent Tool Tip window option
+
+
+[** Maintenance Changes **]
+
+Added missing Dragon skin texture for Video window
+
+Adjusted vertical position of performance meter icons when they appear in clock window
+
+Changed Champion Level 7 title to Peacekeeper in Title window
+Changed Realm Mask texture with several skins to improve appearance in Atlas window
+Changed Mode and Compression level of some PNG screen shot images to reduce overall size of UI 
+
+Changed appearance of font in Title Image textures
+Changed appearance of font in Map Image textures
+Changed appearance of font in Realm Image textures
+Changed appearance of font in Artifact Image textures
+Changed appearance of font in Realm Rank Image textures
+Changed appearance of font in Armor Resist Image textures
+
+Changed appearance of scrollbar on old style Dragon and ICZ windows
+Changed appearance of Move/Close/Resize buttons with several skins to make them more visible
+
+Changed method several options are implemented in preparation to release a streamlined version of the UI with fewer options.
+
+Changed method Title options implemented
+Changed method Atlas options implemented
+Changed method Artifacts options implemented
+Changed method Compass options implemented
+Changed method Emoticon options implemented
+Changed method Chat Font options implemented
+Changed method Realm War options implemented
+Changed method Dialog Skin options implemented
+Changed method Button Skin options implemented
+Changed method Realm Rank options implemented
+Changed method Armor Resist options implemented
+Changed method Video Screen options implemented
+Changed method Status Bar Skin options implemented
+Changed method Realm War Map symbols implemented
+Changed method Ochi FloatingHealthEndPwr implemented

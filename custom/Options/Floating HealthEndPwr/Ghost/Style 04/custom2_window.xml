@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define Templates -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Ghost_GreenBarFG</Name>
+    <Height>11</Height>
+    <LeftWidth>1</LeftWidth>
+    <RepeatWidth>50</RepeatWidth>
+    <RightWidth>1</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_ghost_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>0</Y>
+      </Left>
+      <Repeat>
+        <X>104</X>
+        <Y>25</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>0</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_Ghost_Green</Name>
+    <ForegroundHResizeTemplate>hresizeimage_ghost_greenbarfg</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_ghost_barbg</BackgroundHResizeTemplate>
+    <Height>13</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>1</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load FloatingPlayerEnd Window -->
+
+  <WindowTemplate>
+    <Name>custom2_window</Name>
+    <WindowId>Floating Player End</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>200</TitleWidth>
+    <TitleHeight>13</TitleHeight>
+    <Width>200</Width>
+    <Height>13</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>200</MinWidth>
+    <MinHeight>13</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Player End Controls-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>174</X>
+        <Y>-1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>31</R>
+        <G>128</G>
+        <B>1</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+	  </ScalarLabelDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_ghost_green</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+      <Width>200</Width>
+    </StatusBarDef>
+
+  </WindowTemplate>
+
+</Root_Element>

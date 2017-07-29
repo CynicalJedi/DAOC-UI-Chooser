@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>FloatingImages_Viddi_01</Name>
+    <File>custom/assets/textures/FloatingImages_Viddi_01.tga</File>
+  </Texture>
+
+  <Font>
+    <Name>Font_FloatingNumbers_09</Name>
+    <File>custom/Assets/Fonts/FloatingNumbers_09.tga</File>
+  </Font>
+
+  <!-- Define Templates -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiHP</Name>
+    <Height>12</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>1</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>1</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>1</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiHPBG</Name>
+    <Height>12</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>44</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>44</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>44</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiEnd</Name>
+    <Height>9</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>14</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>14</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>14</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiPwr</Name>
+    <Height>9</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>24</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>24</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>24</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiEndPwrBG</Name>
+    <Height>9</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>44</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>44</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>44</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiConc</Name>
+    <Height>9</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>34</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>34</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>34</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ViddiConcBG</Name>
+    <Height>7</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>120</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>floatingimages_viddi_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>44</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>44</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>44</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_ViddiHP</Name>
+    <ForegroundHResizeTemplate>hresizeimage_viddihp</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_viddihpbg</BackgroundHResizeTemplate>
+    <Height>12</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_ViddiEnd</Name>
+    <ForegroundHResizeTemplate>hresizeimage_viddiend</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_viddiendpwrbg</BackgroundHResizeTemplate>
+    <Height>9</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_ViddiPwr</Name>
+    <ForegroundHResizeTemplate>hresizeimage_viddipwr</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_viddiendpwrbg</BackgroundHResizeTemplate>
+    <Height>9</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_ViddiConc</Name>
+    <ForegroundHResizeTemplate>hresizeimage_viddiconc</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_viddiconcbg</BackgroundHResizeTemplate>
+    <Height>9</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>-1</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load Floating Player Health (Custom1) Window -->
+
+  <WindowTemplate>
+    <Name>custom1_window</Name>
+    <WindowId>custom1_window</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>120</Width>
+    <Height>37</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Player Hit Point Controls-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-25</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>250</R>
+        <G>249</G>
+        <B>45</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>170</Width>
+      <Height>14</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_title</Adapter>
+    </LabelDef>
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>22</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_viddihp</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+      <Width>120</Width>
+    </StatusBarDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>45</X>
+        <Y>23</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_floatingnumbers_09</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>30</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Face/Stick Buttons-->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>100</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>22</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>120</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

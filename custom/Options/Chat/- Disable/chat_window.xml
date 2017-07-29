@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Templates -->
+
+  <VerticalScrollbarTemplate>
+    <Name>VScrollBar_Chat</Name>
+    <UpButtonTemplate>button_scroll_up</UpButtonTemplate>
+    <DownButtonTemplate>button_scroll_down</DownButtonTemplate>
+    <ThumbVResizeTemplate>vresizeimage_scroll_thumb</ThumbVResizeTemplate>
+    <GutterVResizeTemplate>vresizeimage_scroll_gutter</GutterVResizeTemplate>
+    <Width>13</Width>
+    <UpButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </UpButtonOffset>
+    <DownButtonOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </DownButtonOffset>
+    <ThumbOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ThumbOffset>
+    <ActiveZoneOffset>
+      <X>50</X>
+      <Y>50</Y>
+    </ActiveZoneOffset>
+  </VerticalScrollbarTemplate>
+
+  <ChatControlTemplate>
+    <Name>ChatControl_Chat</Name>
+    <FontName>font_chat</FontName>
+    <BackgroundTemplate>fresizeimage_chattabframe</BackgroundTemplate>
+    <ScrollbarTemplate>vscrollbar_chat</ScrollbarTemplate>
+  </ChatControlTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_TabButton</Name>
+    <Height>27</Height>
+    <LeftWidth>20</LeftWidth>
+    <RepeatWidth>5</RepeatWidth>
+    <RightWidth>20</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_01</TextureName>
+      <Left>
+        <X>2</X>
+        <Y>166</Y>
+      </Left>
+      <Repeat>
+        <X>8</X>
+        <Y>166</Y>
+      </Repeat>
+      <Right>
+        <X>14</X>
+        <Y>166</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeButtonTemplate>
+    <Name>Tab_Button</Name>
+    <Height>27</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>148</R>
+        <G>111</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_tabbutton</Normal>
+    <Pressed>hresizeimage_tabbutton</Pressed>
+    <NormalHighlit>hresizeimage_tabbutton</NormalHighlit>
+    <PressedHighlit>hresizeimage_tabbutton</PressedHighlit>
+    <Disabled>hresizeimage_tabbutton</Disabled>
+  </HorizontalResizeButtonTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Button20_Normal</Name>
+    <Height>20</Height>
+    <LeftWidth>10</LeftWidth>
+    <RepeatWidth>5</RepeatWidth>
+    <RightWidth>10</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>222</X>
+        <Y>165</Y>
+      </Left>
+      <Repeat>
+        <X>229</X>
+        <Y>165</Y>
+      </Repeat>
+      <Right>
+        <X>232</X>
+        <Y>165</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Button20_Highlight</Name>
+    <Height>20</Height>
+    <LeftWidth>10</LeftWidth>
+    <RepeatWidth>5</RepeatWidth>
+    <RightWidth>10</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>222</X>
+        <Y>143</Y>
+      </Left>
+      <Repeat>
+        <X>229</X>
+        <Y>143</Y>
+      </Repeat>
+      <Right>
+        <X>232</X>
+        <Y>143</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_Generic20</Name>
+    <Height>20</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>163</R>
+        <G>123</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_button20_normal</Normal>
+    <Pressed>hresizeimage_button20_normal</Pressed>
+    <NormalHighlit>hresizeimage_button20_highlight</NormalHighlit>
+    <PressedHighlit>hresizeimage_button20_highlight</PressedHighlit>
+    <Disabled>hresizeimage_button20_normal</Disabled>
+  </HorizontalResizeButtonTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Button_Emoticon</Name>
+    <TextureName>buttons_04</TextureName>
+    <Size>
+      <X>20</X>
+      <Y>20</Y>
+    </Size>
+    <TopLeft>
+      <X>201</X>
+      <Y>143</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Button_ChatChannel</Name>
+    <TextureName>buttons_04</TextureName>
+    <Size>
+      <X>20</X>
+      <Y>20</Y>
+    </Size>
+    <TopLeft>
+      <X>201</X>
+      <Y>165</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Main Window -->
+
+  <WindowTemplate>
+    <Name>chat</Name>
+    <WindowId></WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>310</Width>
+    <Height>121</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>310</MinWidth>
+    <MinHeight>97</MinHeight>
+    <ContextTemplateName>chat_context</ContextTemplateName>
+    <TabName>Main</TabName>
+    <TabName>Broad</TabName>
+    <TabName>Guild</TabName>
+    <TabName>Group</TabName>
+    <TabName>Chat</TabName>
+
+    <!-- Background -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>310</Width>
+      <Height>121</Height>
+    </FullResizeImageDef>
+
+    <!-- Msg Display Area -->
+
+    <ChatControlDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>chatcontrol_chat</TemplateName>
+      <LinePadding>0</LinePadding>
+      <TextOffset>
+        <X>9</X>
+        <Y>8</Y>
+      </TextOffset>
+      <Width>290</Width>
+      <Height>66</Height>
+      <BufferName>chat</BufferName>
+    </ChatControlDef>
+
+    <!-- Msg Entry Frame -->
+
+    <FullResizeImageDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>fresizeimage_chatentryframe</TemplateName>
+      <Width>300</Width>
+      <Height>20</Height>
+    </FullResizeImageDef>
+
+    <!-- Msg Entry Area -->
+
+    <LabelDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>8</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_chat</FontName>
+      <Width>289</Width>
+      <Height>20</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>1024</MaxCharacters>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>chat_entry</Adapter>
+    </LabelDef>
+
+    <!-- Context Right Click Area ? -->
+    
+    <InvisibleButtonDef>
+      <ControlId>1005</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent></OnClickEvent>
+      <Width>310</Width>
+      <Height>66</Height>
+    </InvisibleButtonDef>
+
+    <!--Command Buttons-->
+
+    <HorizontalResizeImageButtonDef>
+      <ImageAreaTemplateName>imagearea_button_emoticon</ImageAreaTemplateName>
+      <HRButtonTemplateName>hresizebutton_generic20</HRButtonTemplateName>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Width>20</Width>
+      <ToolTipID>156</ToolTipID>
+    </HorizontalResizeImageButtonDef>
+
+    <HorizontalResizeImageButtonDef>
+      <ImageAreaTemplateName>imagearea_button_chatchannel</ImageAreaTemplateName>
+      <HRButtonTemplateName>hresizebutton_generic20</HRButtonTemplateName>
+      <ControlId>1004</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Width>20</Width>
+      <ToolTipID>157</ToolTipID>
+    </HorizontalResizeImageButtonDef>
+
+
+  </WindowTemplate>
+
+</Root_Element>

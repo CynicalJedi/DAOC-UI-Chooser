@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Crafting Images -->
+
+  <Texture>
+    <Name>CraftImages_01</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_02</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_02.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_03</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_03.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_04</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_04.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_05</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_05.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_06</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_06.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_07</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_07.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>CraftImages_08</Name>
+    <File>custom/assets/textures/CraftImages_Viddi_08.tga</File>
+  </Texture>
+
+  <!-- Main Window -->
+
+  <WindowTemplate>
+    <Name>custom16_window</Name>
+    <WindowId>Crafting</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>630</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>630</Width>
+    <Height>480</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>630</MinWidth>
+    <MinHeight>480</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>630</Width>
+      <Height>480</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>630</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>15</MaxCharacters>
+      <Data>Crafting</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Tab controls -->
+
+    <TabsDef>
+      <TemplateName>tabs_generic</TemplateName>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Width>610</Width>
+      <Height>442</Height>
+      <onCLickEvent>ComTabChanged</onCLickEvent>
+    <Tab>
+      <Id>1</Id>
+      <Name>Info</Name>
+    </Tab>
+    <Tab>
+      <Id>2</Id>
+      <Name>Salvage</Name>
+    </Tab>
+    <Tab>
+      <Id>3</Id>
+      <Name>Armor</Name>
+    </Tab>
+    <Tab>
+      <Id>4</Id>
+      <Name>Fletching</Name>
+    </Tab>
+    <Tab>
+      <Id>5</Id>
+      <Name>Tailoring</Name>
+    </Tab>
+    <Tab>
+      <Id>6</Id>
+      <Name>Weapon</Name>
+    </Tab>
+    <Tab>
+      <Id>7</Id>
+      <Name>Alchemy</Name>
+    </Tab>
+    <Tab>
+      <Id>8</Id>
+      <Name>Spellcraft</Name>
+    </Tab>
+      <TabControl>
+        <TabId>1</TabId>
+        <ControlId>1100</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>1</TabId>
+        <ControlId>1101</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>1</TabId>
+        <ControlId>1102</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>1</TabId>
+        <ControlId>1103</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>2</TabId>
+        <ControlId>1200</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>2</TabId>
+        <ControlId>1201</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>3</TabId>
+        <ControlId>1300</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>3</TabId>
+        <ControlId>1301</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>4</TabId>
+        <ControlId>1400</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>4</TabId>
+        <ControlId>1401</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>5</TabId>
+        <ControlId>1500</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>5</TabId>
+        <ControlId>1501</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>6</TabId>
+        <ControlId>1600</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>6</TabId>
+        <ControlId>1601</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>7</TabId>
+        <ControlId>1700</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>7</TabId>
+        <ControlId>1701</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>8</TabId>
+        <ControlId>1800</ControlId>
+      </TabControl>
+      <TabControl>
+        <TabId>8</TabId>
+        <ControlId>1801</ControlId>
+      </TabControl>
+    </TabsDef>
+
+    <!-- Tab2 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1200</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1201</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_02</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab3 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1300</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1301</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_03</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab4 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1400</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1401</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_04</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab5 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1500</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1501</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_05</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab6 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1600</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1601</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_06</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab7 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1700</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1701</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_07</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab8 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1800</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1801</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_08</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <!-- Tab1 controls -->
+
+    <FullResizeImageDef>
+      <ControlId>1100</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>44</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_tab_panel</TemplateName>
+      <Width>610</Width>
+      <Height>426</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId>1101</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>600</Width>
+      <Height>393</Height>
+    </FullResizeImageDef>
+
+    <DynamicImageDef>
+      <ControlId>1102</ControlId>
+      <Position>
+        <X>26</X>
+        <Y>56</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TextureName>craftimages_01</TextureName>
+      <Dimensions>
+        <X>577</X>
+        <Y>385</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>1</X>
+        <Y>1</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+    <LabelDef>
+      <ControlId>1103</ControlId>
+      <Position>
+        <X>40</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>40</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>13</MaxCharacters>
+      <Data>Info</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Cancel Button -->
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>15</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Cancel</Label>
+      <onClickEvent>ToggleCustom16</onClickEvent>
+    </ButtonDef>
+
+    <!-- Info -->
+
+  </WindowTemplate>
+
+</Root_Element>

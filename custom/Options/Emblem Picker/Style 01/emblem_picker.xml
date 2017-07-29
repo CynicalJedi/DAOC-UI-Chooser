@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>emblem_picker</Name>
+    <WindowId>EmblemPicker</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>360</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>360</Width>
+    <Height>196</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>360</MinWidth>
+    <MinHeight>196</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>360</Width>
+      <Height>196</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>350</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Guild Emblem</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Embelm Appearance -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>213</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>150</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Emblem Appearance</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>213</Width>
+      <Height>143</Height>
+    </FullResizeImageDef>
+
+    <!-- Graphic Settings -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>228</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>122</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>230</X>
+        <Y>28</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Graphic Settings</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>228</X>
+        <Y>43</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>122</Width>
+      <Height>49</Height>
+    </FullResizeImageDef>
+
+    <!-- Choose Pattern controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>236</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Pattern</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ButtonDef>
+      <ControlId>1004 - Left</ControlId>
+      <Position>
+        <X>34</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_left</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1005 - Right</ControlId>
+      <Position>
+        <X>16</X>
+        <Y>49</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_right</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Choose Emblem controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>236</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Emblem</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ButtonDef>
+      <ControlId>1002 - Left</ControlId>
+      <Position>
+        <X>34</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_left</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1003 - Right</ControlId>
+      <Position>
+        <X>16</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_right</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Color Settings -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>228</X>
+        <Y>100</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+      <Width>122</Width>
+    </HorizontalResizeImageDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>230</X>
+        <Y>101</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_headings</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Color Settings</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>228</X>
+        <Y>116</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+      <Width>122</Width>
+      <Height>49</Height>
+    </FullResizeImageDef>
+
+    <!-- Choose Primary Color controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>236</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Primary</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ButtonDef>
+      <ControlId>1006 - Left</ControlId>
+      <Position>
+        <X>34</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_left</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1007 - Right</ControlId>
+      <Position>
+        <X>16</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_right</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Choose Secondary Color controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>236</X>
+        <Y>143</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>100</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>50</MaxCharacters>
+      <Data>Secondary</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ButtonDef>
+      <ControlId>1008 - Left</ControlId>
+      <Position>
+        <X>34</X>
+        <Y>143</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_left</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1009 - Right</ControlId>
+      <Position>
+        <X>16</X>
+        <Y>143</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_arrow_right</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!-- Accept/Cancel Buttons -->
+
+    <ButtonDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>72</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Accept</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+        <OffsetBottom>true</OffsetBottom>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Cancel</Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

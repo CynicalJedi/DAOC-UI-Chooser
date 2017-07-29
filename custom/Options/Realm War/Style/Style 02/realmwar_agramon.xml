@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>warmap_agramon</Name>
+        <File>custom/Assets/RealmWar/AgramonMap.tga</File>
+    </Texture>
+
+
+    <ImageAreaTemplate>
+        <Name>ImageArea_WarMap_Agramon</Name>
+        <TextureName>warmap_agramon</TextureName>
+        <Size>
+            <X>256</X>
+            <Y>256</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>realmwar_agramon</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>266</TitleWidth>
+        <TitleHeight>4</TitleHeight>
+        <Width>266</Width>
+        <Height>310</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>42</Y>
+            </Position>
+            <TemplateName>imagearea_warmap_agramon</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>305</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_headings</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Keep Name</Data>
+            <ColorAdapter>realmwar_info_agramon</ColorAdapter>
+            <Adapter>realmwar_info_agramon0</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>321</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_headings_small</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Realm</Data>
+            <ColorAdapter>realm_info_alb</ColorAdapter>
+            <Adapter>realmwar_info_agramon1</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>338</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_headings_small</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Claimed by:</Data>
+            <ColorAdapter>realmwar_info_agramon</ColorAdapter>
+            <Adapter>realmwar_info_agramon2</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>354</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_headings_small</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Claiming Guild</Data>
+            <ColorAdapter>realmwar_info_agramon</ColorAdapter>
+            <Adapter>realmwar_info_agramon3</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>font_headings_small</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Under Siege</Data>
+            <ColorAdapter>realmwar_info_agramon</ColorAdapter>
+            <Adapter>realmwar_info_agramon4</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>385</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>246</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>More Stuff Here</Data>
+            <ColorAdapter>realmwar_info_agramon</ColorAdapter>
+            <Adapter>realmwar_info_agramon5</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>6</Y>
+            </Position>
+            <TemplateName>checkbox_realmwar</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Hibernia</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>6</Y>
+            </Position>
+            <TemplateName>checkbox_realmwar</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Midgard</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>132</X>
+                <Y>6</Y>
+            </Position>
+            <TemplateName>checkbox_realmwar</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Albion</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>194</X>
+                <Y>6</Y>
+            </Position>
+            <TemplateName>checkbox_realmwar</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Agramon</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>2010</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>Key</Label>
+            <OnClickEvent>ToggleWarmapKey</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>132</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>Update</Label>
+            <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>194</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_generic_disabled</TemplateName>
+            <Label>Teleport</Label>
+            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>194</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>Teleport</Label>
+            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>8</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_generic</TemplateName>
+            <Label>Bonuses</Label>
+            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_selection_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_destination_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_destination_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_destination_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1201</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1202</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId>1700</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1701</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1702</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1703</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1704</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1705</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1706</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1707</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1708</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1709</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1710</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1711</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1712</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1713</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1714</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1715</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1716</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1717</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1718</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1719</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1720</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1721</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1722</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1723</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1724</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1725</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1726</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1727</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1728</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1729</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_battle_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1800</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1801</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1802</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1803</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1804</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1805</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1806</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1807</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1808</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1809</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1810</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1811</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1812</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1813</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1814</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1815</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1816</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1817</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1818</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1819</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_medium</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1820</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1821</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1822</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1823</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1824</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1825</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1826</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1827</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1828</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1829</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_scouting_large</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1400</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1401</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1402</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>statusicon_realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <ImageAreaDef>
+            <ControlId>2013</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_map_player</TemplateName>
+        </ImageAreaDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3400</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect0</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3401</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect1</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3402</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect2</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

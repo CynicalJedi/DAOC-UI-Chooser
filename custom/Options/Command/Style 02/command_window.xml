@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Command Window -->
+
+  <WindowTemplate>
+    <Name>command</Name>
+    <WindowId>Command</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>152</TitleWidth>
+    <TitleHeight>27</TitleHeight>
+    <Width>152</Width>
+    <Height>243</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>152</MinWidth>
+    <MinHeight>243</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>152</Width>
+      <Height>243</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>152</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>8</MaxCharacters>
+      <Data>Command</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>133</Width>
+      <Height>206</Height>
+    </FullResizeImageDef>
+
+    <!--Left Column Buttons-->
+
+    <ButtonDef>
+      <ControlId>0</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Attack</Label>
+      <onClickEvent>ToggleAttackMode</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>50</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Sprint</Label>
+      <onClickEvent>Sprint</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>2</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>68</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Sit</Label>
+      <onClickEvent>ToggleSitting</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>3</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>86</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Follow</Label>
+      <onClickEvent>Follow</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>4</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>104</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Stick</Label>
+      <onClickEvent>Stick</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>6</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Face</Label>
+      <onClickEvent>Face</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>7</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>140</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Pray</Label>
+      <onClickEvent>Pray</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>8</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>158</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Release</Label>
+      <onClickEvent>Release</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>9</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>176</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Bonuses</Label>
+      <onClickEvent>Bonuses</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>10</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>194</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Bind</Label>
+      <onClickEvent>Bind</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>15</X>
+        <Y>212</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Clock</Label>
+      <onClickEvent>ToggleClock</onClickEvent>
+    </ButtonDef>
+
+    <!--Right Column Buttons-->
+
+    <ButtonDef>
+      <ControlId>11</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Keeps</Label>
+      <onClickEvent>Realm</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>12</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>50</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Relics</Label>
+      <onClickEvent>Relic</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>13</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>68</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Task</Label>
+      <onClickEvent>Task</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>14</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>86</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Friends</Label>
+      <onClickEvent>Friends</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>15</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>104</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>AFK</Label>
+      <onClickEvent>Afk</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>16</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>122</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Compass</Label>
+      <onClickEvent>ToggleCompass</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>17</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>140</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Help</Label>
+      <onClickEvent>ToggleHelp</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>18</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>158</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Journal</Label>
+      <onClickEvent>Journal</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>19</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>176</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Quit</Label>
+      <onClickEvent>Quit</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>20</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>194</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Keyboard</Label>
+      <onClickEvent>ShowKeyboardConfig</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>21</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>212</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Map</Label>
+      <onClickEvent>ToggleMap</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

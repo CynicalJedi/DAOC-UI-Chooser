@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <ComboBoxTemplate>
+    <Name>ComboBox_Generic</Name>
+    <Menuoffset>
+      <X>5</X>
+      <Y>0</Y>
+    </Menuoffset>
+    <DownButtonTemplate>button_arrow_down</DownButtonTemplate>
+    <LabelButtonTemplate>button_combobox</LabelButtonTemplate>
+    <MenuTemplate>menu_generic</MenuTemplate>
+  </ComboBoxTemplate>
+
+</Root_Element>

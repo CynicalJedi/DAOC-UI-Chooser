@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load FloatingTargetHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>210</TitleWidth>
+    <TitleHeight>23</TitleHeight>
+    <Width>210</Width>
+    <Height>23</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>210</MinWidth>
+    <MinHeight>23</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_stained_frame</TemplateName>
+      <Width>210</Width>
+    </HorizontalResizeImageDef>
+
+    <!-- Target Health Controls -->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>6</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_stainedhealth</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+      <Width>167</Width>
+    </StatusBarDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>177</X>
+        <Y>6</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedhealth_healthbg</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>150</Width>
+      <Height>17</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>7</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

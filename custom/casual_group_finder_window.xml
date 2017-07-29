@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+	<!-- Templates -->
+
+	<CheckBoxTemplate>
+		<Name>CheckBox_Checkmark3</Name>
+		<Size>
+			<X>18</X>
+			<Y>18</Y>
+		</Size>
+		<Font>
+			<Name>font_buttons</Name>
+			<ColorNormal>
+				<R>148</R>
+				<G>111</G>
+				<B>0</B>
+				<A>255</A>
+			</ColorNormal>
+			<ColorPressed>
+				<R>255</R>
+				<G>197</G>
+				<B>0</B>
+				<A>255</A>
+			</ColorPressed>
+			<ColorHighlit>
+				<R>192</R>
+				<G>192</G>
+				<B>192</B>
+				<A>255</A>
+			</ColorHighlit>
+			<ColorDisabled>
+				<R>128</R>
+				<G>128</G>
+				<B>128</B>
+				<A>255</A>
+			</ColorDisabled>
+			<TextOffset>
+				<X>20</X>
+				<Y>0</Y>
+			</TextOffset>
+			<TextAlignment>
+				<TopLeft>true</TopLeft>
+			</TextAlignment>
+			<ChangeFontColor>true</ChangeFontColor>
+		</Font>
+		<Texture>
+			<TextureName>buttons_04</TextureName>
+			<Normal>
+				<X>97</X>
+				<Y>159</Y>
+			</Normal>
+			<Pressed>
+				<X>115</X>
+				<Y>159</Y>
+			</Pressed>
+			<NormalHighlit>
+				<X>97</X>
+				<Y>141</Y>
+			</NormalHighlit>
+			<PressedHighlit>
+				<X>115</X>
+				<Y>141</Y>
+			</PressedHighlit>
+			<Disabled>
+				<X>97</X>
+				<Y>159</Y>
+			</Disabled>
+		</Texture>
+	</CheckBoxTemplate>
+
+	<!-- Main Window -->
+
+	<WindowTemplate>
+		<Name>casual_group_finder_window</Name>
+		<CloseButton>true</CloseButton>
+		<MoveButton>true</MoveButton>
+		<TopRightResizeButton>false</TopRightResizeButton>
+		<BottomRightResizeButton>false</BottomRightResizeButton>
+		<BottomLeftResizeButton>false</BottomLeftResizeButton>
+		<ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+		<ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+		<TitleWidth>210</TitleWidth>
+		<TitleHeight>27</TitleHeight>
+		<Width>210</Width>
+		<Height>193</Height>
+		<ResizeableWidth>0</ResizeableWidth>
+		<ResizeableHeight>0</ResizeableHeight>
+		<ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+		<ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+		<MinWidth>210</MinWidth>
+		<MinHeight>193</MinHeight>
+
+		<!-- Background Image -->
+
+		<FullResizeImageDef>
+			<ControlId>BackgroundImage</ControlId>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+				<CenterHorizontally>true</CenterHorizontally>
+				<CenterVertically>true</CenterVertically>
+			</Alignment>
+			<TemplateName>fresizeimage_dlg_bg</TemplateName>
+			<Width>210</Width>
+			<Height>193</Height>
+		</FullResizeImageDef>
+
+		<!-- Title -->
+
+		<LabelDef>
+			<ControlId>Title</ControlId>
+			<Position>
+				<X>0</X>
+				<Y>11</Y>
+			</Position>
+			<Alignment>
+				<GrowWidth>true</GrowWidth>
+			</Alignment>
+			<Color>
+				<R>255</R>
+				<G>192</G>
+				<B>0</B>
+				<A>255</A>
+			</Color>
+			<FontName>font_titles</FontName>
+			<Width>210</Width>
+			<Height>17</Height>
+			<ColorAdapter></ColorAdapter>
+			<MaxCharacters>128</MaxCharacters>
+			<Data>Casual Group Finder</Data>
+			<EndAligned>false</EndAligned>
+			<TextCentered>true</TextCentered>
+			<Adapter></Adapter>
+		</LabelDef>
+
+		<!-- Headings -->
+
+		<HorizontalResizeImageDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>10</X>
+				<Y>27</Y>
+			</Position>
+			<Alignment>
+				<GrowWidth>true</GrowWidth>
+			</Alignment>
+			<TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+			<Width>190</Width>
+		</HorizontalResizeImageDef>
+
+		<LabelDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>15</X>
+				<Y>28</Y>
+			</Position>
+			<Alignment>
+			</Alignment>
+			<Color>
+				<R>192</R>
+				<G>192</G>
+				<B>192</B>
+				<A>255</A>
+			</Color>
+			<FontName>font_headings</FontName>
+			<Width>180</Width>
+			<Height>16</Height>
+			<ColorAdapter></ColorAdapter>
+			<MaxCharacters>64</MaxCharacters>
+			<Data>Role(s)                                    (Yours)</Data>
+			<EndAligned>false</EndAligned>
+			<TextCentered>false</TextCentered>
+			<Adapter></Adapter>
+		</LabelDef>
+
+		<!-- Interior Image -->
+
+		<FullResizeImageDef>
+			<ControlId>Interior</ControlId>
+			<Position>
+				<X>10</X>
+				<Y>43</Y>
+			</Position>
+			<Alignment>
+			</Alignment>
+			<TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+			<Width>190</Width>
+			<Height>49</Height>
+		</FullResizeImageDef>
+
+		<!-- DPS/Utility/Healer/Crown Control selections -->
+
+		<CheckBoxDef>
+			<ControlId>1007</ControlId>
+			<Position>
+				<X>16</X>
+				<Y>49</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<TemplateName>checkbox_checkmark2</TemplateName>
+			<Font>
+				<ColorDisabled>
+					<R>64</R>
+					<G>64</G>
+					<B>64</B>
+					<A>255</A>
+				</ColorDisabled>			
+			</Font>
+			<Data>DPS</Data>
+			<LabelWidth>100</LabelWidth>
+		</CheckBoxDef>
+
+		<CheckBoxDef>
+			<ControlId>1006</ControlId>
+			<Position>
+				<X>16</X>
+				<Y>68</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<TemplateName>checkbox_checkmark3</TemplateName>
+			<Font>
+				<ColorDisabled>
+					<R>64</R>
+					<G>64</G>
+					<B>64</B>
+					<A>255</A>
+				</ColorDisabled>			
+			</Font>	
+			<Data>Utility</Data>
+			<LabelWidth>100</LabelWidth>
+		</CheckBoxDef>		
+
+		<CheckBoxDef>
+			<ControlId>1004</ControlId>
+			<Position>
+				<X>93</X>
+				<Y>49</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<TemplateName>checkbox_checkmark3</TemplateName>			
+			<Font>
+				<ColorDisabled>
+					<R>64</R>
+					<G>64</G>
+					<B>64</B>
+					<A>255</A>
+				</ColorDisabled>			
+			</Font>
+			<Data>Healer</Data>
+			<LabelWidth>100</LabelWidth>
+		</CheckBoxDef>
+
+		<CheckBoxDef>
+			<ControlId>1005</ControlId>
+			<Position>
+				<X>93</X>
+				<Y>68</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<TemplateName>checkbox_checkmark3</TemplateName>
+			<Font>
+				<ColorDisabled>
+					<R>64</R>
+					<G>64</G>
+					<B>64</B>
+					<A>255</A>
+				</ColorDisabled>			
+			</Font>			
+			<Data>Crowd Control</Data>
+			<LabelWidth>100</LabelWidth>
+		</CheckBoxDef>
+
+		<!-- Headings -->
+
+		<HorizontalResizeImageDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>10</X>
+				<Y>97</Y>
+			</Position>
+			<Alignment>
+				<GrowWidth>true</GrowWidth>
+			</Alignment>
+			<TemplateName>hresizeimage_listbox_row_bg</TemplateName>
+			<Width>190</Width>
+		</HorizontalResizeImageDef>
+
+		<LabelDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>15</X>
+				<Y>98</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<FontName>font_headings</FontName>
+			<Width>180</Width>
+			<Height>16</Height>
+			<MaxCharacters>64</MaxCharacters>
+			<Color>
+				<R>192</R>
+				<G>192</G>
+				<B>192</B>
+				<A>255</A>
+			</Color>
+			<Data>Group Type                         (Desired)</Data>
+			<EndAligned>false</EndAligned>
+			<TextCentered>false</TextCentered>
+		</LabelDef>
+
+		<!-- Interior Image -->
+
+		<FullResizeImageDef>
+			<ControlId>Interior</ControlId>
+			<Position>
+				<X>10</X>
+				<Y>113</Y>
+			</Position>
+			<Alignment>
+			</Alignment>
+			<TemplateName>fresizeimage_dlg_interior_small</TemplateName>
+			<Width>190</Width>
+			<Height>49</Height>
+		</FullResizeImageDef>
+
+		<!-- PvE/PvP Queue selection -->
+
+		<CheckBoxDef>
+			<ControlId>1003</ControlId>
+			<Position>
+				<X>16</X>
+				<Y>119</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<TemplateName>checkbox_checkmark3</TemplateName>
+			<Font>
+				<ColorDisabled>
+					<R>64</R>
+					<G>64</G>
+					<B>64</B>
+					<A>255</A>
+				</ColorDisabled>			
+			</Font>
+			<Data>PvE Group</Data>
+			<LabelWidth>180</LabelWidth>
+		</CheckBoxDef>
+
+		<!-- Additional Information -->
+
+		<ImageAreaDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>17</X>
+				<Y>138</Y>
+			</Position>
+			<Alignment>
+			</Alignment>
+			<TemplateName>imagearea_infoicon</TemplateName>
+		</ImageAreaDef>
+
+		<LabelDef>
+			<ControlId></ControlId>
+			<Position>
+				<X>36</X>
+				<Y>138</Y>
+			</Position>
+			<Alignment>
+				<TopLeft>true</TopLeft>
+			</Alignment>
+			<FontName>font_buttons</FontName>
+			<Width>190</Width>
+			<Height>16</Height>
+			<MaxCharacters>128</MaxCharacters>
+			<Color>
+				<R>128</R>
+				<G>128</G>
+				<B>128</B>
+				<A>255</A>
+			</Color>
+			<Data>Unchecked for PvP Group</Data>
+			<EndAligned>false</EndAligned>
+			<TextCentered>false</TextCentered>
+		</LabelDef>
+
+		<!-- Accept/Cancel Buttons -->
+
+		<ButtonDef>
+			<ControlId>1000</ControlId>
+			<Position>
+				<X>72</X>
+				<Y>10</Y>
+			</Position>
+			<Alignment>
+				<OffsetBottom>true</OffsetBottom>
+				<OffsetRight>true</OffsetRight>
+			</Alignment>
+			<TemplateName>button_generic</TemplateName>
+			<Label>Accept</Label>
+			<onClickEvent></onClickEvent>
+		</ButtonDef>        
+
+		<ButtonDef>
+			<ControlId>1001</ControlId>
+			<Position>
+				<X>10</X>
+				<Y>10</Y>
+			</Position>
+			<Alignment>
+				<OffsetBottom>true</OffsetBottom>
+				<OffsetRight>true</OffsetRight>
+			</Alignment>
+			<TemplateName>button_generic</TemplateName>
+			<Label>Cancel</Label>
+			<onClickEvent></onClickEvent>
+		</ButtonDef>				
+
+	</WindowTemplate>
+
+</Root_Element>

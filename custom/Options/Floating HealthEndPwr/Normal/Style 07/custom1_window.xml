@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load FloatingHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom1_window</Name>
+    <WindowId>Floating Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>160</Width>
+    <Height>37</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Pet Name-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>250</R>
+        <G>249</G>
+        <B>45</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>160</Width>
+      <Height>14</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>mini_pet_title</Adapter>
+    </LabelDef>
+
+    <!--Pet Health Controls-->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>6</X>
+        <Y>22</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_bar_red</TemplateName>
+      <AdapterName>mini_pet_life</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>134</X>
+        <Y>19</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>mini_pet_life</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>30</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>64</G>
+        <B>64</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+    </ScalarLabelDef>
+
+    <!-- Player Health Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>6</X>
+        <Y>34</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_bar_red_small</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <!-- Player Face/Stick buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>30</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>100</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>5</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>150</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

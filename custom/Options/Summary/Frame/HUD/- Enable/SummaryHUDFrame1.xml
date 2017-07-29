@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define HUD Summary Frame Images -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HUDZolenBGLeft</Name>
+    <TextureName>hudimages_zolen_01</TextureName>
+    <Size>
+      <X>93</X>
+      <Y>250</Y>
+    </Size>
+    <TopLeft>
+      <X>1955</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HUDZolenBGRight</Name>
+    <TextureName>hudimages_zolen_02</TextureName>
+    <Size>
+      <X>93</X>
+      <Y>250</Y>
+    </Size>
+    <TopLeft>
+      <X>1955</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+  
+</Root_Element>

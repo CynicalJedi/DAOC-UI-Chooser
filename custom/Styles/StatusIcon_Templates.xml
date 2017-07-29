@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Tower Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Tower</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>5</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Keep Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Keep</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>16</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>5</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- MileGate Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_MileGate</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>80</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Small Battle Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Battle_Small</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>64</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Medium Battle Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Battle_Medium</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>48</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Large Battle Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Battle_Large</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>32</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Small Scouting Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Scouting_Small</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>64</X>
+      <Y>32</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Medium Scouting Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Scouting_Medium</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>64</X>
+      <Y>48</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Large Scouting Image -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_RealmWar_Scouting_Large</Name>
+    <TextureName>mapimages_01</TextureName>
+    <TextureStart>
+      <X>64</X>
+      <Y>64</Y>
+    </TextureStart>
+    <Width>16</Width>
+    <Height>16</Height>
+    <MaxLevels>3</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Healer Helper Windows Color BG StatusIcon Images -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Red</Name>
+    <TextureName>statusicons_02</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Green</Name>
+    <TextureName>statusicons_03</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Yellow</Name>
+    <TextureName>statusicons_04</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Blue</Name>
+    <TextureName>statusicons_05</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Orange</Name>
+    <TextureName>statusicons_06</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Purple</Name>
+    <TextureName>statusicons_07</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>10</Height>
+    <MaxLevels>101</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Red_Small</Name>
+    <TextureName>statusicons_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>3</Height>
+    <MaxLevels>33</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Green_Small</Name>
+    <TextureName>statusicons_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>99</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>3</Height>
+    <MaxLevels>33</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Yellow_Small</Name>
+    <TextureName>statusicons_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>198</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>3</Height>
+    <MaxLevels>33</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Blue_Small</Name>
+    <TextureName>statusicons_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>297</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>3</Height>
+    <MaxLevels>33</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Bar_Orange_Small</Name>
+    <TextureName>statusicons_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>396</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>3</Height>
+    <MaxLevels>33</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_BG</Name>
+    <TextureName>dialogimages_02</TextureName>
+    <TextureStart>
+      <X>191</X>
+      <Y>243</Y>
+    </TextureStart>
+    <Width>186</Width>
+    <Height>12</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player1</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player2</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>13</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player3</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>25</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player4</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>37</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player5</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>49</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player6</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>61</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player7</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>73</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_MiniGroup_Player8</Name>
+    <TextureName>mapimages_02</TextureName>
+    <TextureStart>
+      <X>85</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>8</Width>
+    <Height>9</Height>
+    <MaxLevels>1</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

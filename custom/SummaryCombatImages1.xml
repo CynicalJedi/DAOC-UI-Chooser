@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Summary Combat Images -->
+
+  <Texture>
+    <Name>SummaryCombatImages_01</Name>
+    <File>custom/Assets/Textures/SummaryCombatImages_01.tga</File>
+  </Texture>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_SummaryCombatFrame</Name>
+    <TextureName>summarycombatimages_01</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>90</Y>
+    </TextureStart>
+    <Width>210</Width>
+    <Height>124</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

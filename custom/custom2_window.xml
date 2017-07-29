@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>FloatingImages_Stained_02</Name>
+    <File>custom/assets/textures/FloatingImages_Stained_02.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedFloating_Endurance</Name>
+    <TextureName>floatingimages_stained_02</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>109</Width>
+    <Height>11</Height>
+    <MaxLevels>105</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load FloatingPlayerEnd Window -->
+
+  <WindowTemplate>
+    <Name>custom2_window</Name>
+    <WindowId>Floating Player End</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>125</Width>
+    <Height>19</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>125</MinWidth>
+    <MinHeight>19</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_stainedfloating_bg1</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Player End Controls -->
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedfloating_endurance</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>125</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Forground Image-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_stainedfloating_fg1</TemplateName>
+    </ImageAreaDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Chat Font -->
+
+  <TTFFont>
+    <Name>Font_Chat</Name>
+    <File>custom/Assets/Fonts/ChatFont.ttf</File>
+    <Height>14</Height>
+    <Antialiased>true</Antialiased>
+    <Hint>2</Hint>
+  </TTFFont>
+
+</Root_Element>

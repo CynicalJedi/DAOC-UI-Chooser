@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Target Images -->
+
+  <Texture>
+    <Name>StatusBars_Graph_01</Name>
+    <File>custom/assets/textures/StatusBars_Graph_01.tga</File>
+  </Texture>
+
+  <Include>TargetImages3.xml</Include>
+
+  <!--Define Textures -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Bar_GBG</Name>
+    <Height>10</Height>
+    <LeftWidth>0</LeftWidth>
+    <RepeatWidth>128</RepeatWidth>
+    <RightWidth>0</RightWidth>
+    <Texture>
+      <TextureName>statusbars_graph_01</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>1</Y>
+      </Left>
+      <Repeat>
+        <X>0</X>
+        <Y>1</Y>
+      </Repeat>
+      <Right>
+        <X>0</X>
+        <Y>1</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <StatusBarTemplate>
+    <Name>StatusBar_GTarget</Name>
+    <ForegroundHResizeTemplate>hresizeimage_bar_gtarget</ForegroundHResizeTemplate>
+    <BackgroundHResizeTemplate>hresizeimage_bar_gbg</BackgroundHResizeTemplate>
+    <Height>10</Height>
+    <ForegroundOffset>
+      <X>0</X>
+      <Y>0</Y>
+    </ForegroundOffset>
+  </StatusBarTemplate>
+
+  <!-- Load FloatingTargetHealth Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target Health</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>128</Width>
+    <Height>26</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Target Name -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>128</Width>
+      <Height>16</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <!-- Target Health Controls -->
+
+    <StatusBarDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusbar_gtarget</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+      <Width>128</Width>
+    </StatusBarDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>13</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <Width>128</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!-- Face/Stick Buttons -->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>128</Width>
+      <Height>12</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId>Stick</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>128</Width>
+      <Height>10</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Generic Icon Templates -->
+
+  <IconTemplate>
+    <Name>Icon_Generic_Small</Name>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <FontName>font_buttons_small</FontName>
+    <FontColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <A>255</A>
+    </FontColor>
+    <IconSize>0</IconSize>
+  </IconTemplate>
+
+  <IconTemplate>
+    <Name>Icon_Generic_Large</Name>
+    <Size>
+      <X>32</X>
+      <Y>32</Y>
+    </Size>
+    <FontName>font_buttons</FontName>
+    <FontColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <A>255</A>
+    </FontColor>
+    <IconSize>1</IconSize>
+  </IconTemplate>
+
+  <!-- Plain Icon Templates -->
+
+  <IconTemplate>
+    <Name>plain_icon_small</Name>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <FontName>font_buttons</FontName>
+    <FontColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <A>255</A>
+    </FontColor>
+    <IconSize>0</IconSize>
+  </IconTemplate>
+
+  <IconTemplate>
+    <Name>plain_icon_large</Name>
+    <Size>
+      <X>32</X>
+      <Y>32</Y>
+    </Size>
+    <FontName>font_buttons</FontName>
+    <FontColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <A>255</A>
+    </FontColor>
+    <IconSize>1</IconSize>
+  </IconTemplate>
+
+</Root_Element>

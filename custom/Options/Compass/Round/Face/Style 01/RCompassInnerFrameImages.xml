@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Compass Inner Frame Images -->
+
+  <Texture>
+    <Name>CompassInnerFrameImages_01</Name>
+    <File>custom/assets/textures/RCompassInnerFrameImages_01.tga</File>
+  </Texture>
+
+  <!-- Compass Inner Frame Images -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Compass_Inner_Frames</Name>
+    <TextureName>compassinnerframeimages_01</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>64</Width>
+    <Height>64</Height>
+    <MaxLevels>2</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

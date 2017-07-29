@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>TimerImages_Stained_03</Name>
+    <File>custom/assets/textures/TimerImages_Stained_03.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_StainedFloating_Timer</Name>
+    <TextureName>timerimages_stained_03</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>128</Width>
+    <Height>11</Height>
+    <MaxLevels>105</MaxLevels>
+    <Horizontal>false</Horizontal>
+  </StatusIconTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_StainedTimer_FG</Name>
+    <Height>35</Height>
+    <LeftWidth>20</LeftWidth>
+    <RepeatWidth>87</RepeatWidth>
+    <RightWidth>20</RightWidth>
+    <Texture>
+      <TextureName>timerimages_stained_03</TextureName>
+      <Left>
+        <X>0</X>
+        <Y>1175</Y>
+      </Left>
+      <Repeat>
+        <X>20</X>
+        <Y>1175</Y>
+      </Repeat>
+      <Right>
+        <X>108</X>
+        <Y>1175</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_StainedTimer_BG2</Name>
+    <TextureName>timerimages_stained_03</TextureName>
+    <Size>
+      <X>128</X>
+      <Y>33</Y>
+    </Size>
+    <TopLeft>
+      <X>0</X>
+      <Y>1220</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Load Timer Window -->
+
+  <WindowTemplate>
+    <Name>release_window</Name>
+    <WindowId>Release</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>144</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>144</Width>
+    <Height>35</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>144</MinWidth>
+    <MinHeight>35</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>1</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_stainedtimer_bg2</TemplateName>
+    </ImageAreaDef>
+
+    <!-- Timer controls -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>128</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>release_timer_text</Adapter>
+    </LabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>20</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_stainedfloating_timer</TemplateName>
+      <AdapterName>release_timer_time</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>8</X>
+        <Y>18</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>release_timer_time</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>128</Width>
+      <Height>12</Height>
+      <MaxCharacters>5</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Foreground Image-->
+
+    <HorizontalResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>hresizeimage_stainedtimer_fg</TemplateName>
+      <Width>144</Width>
+    </HorizontalResizeImageDef>
+
+    <!-- Release Button -->
+
+    <InvisibleButtonDef>
+      <ControlId>Release</ControlId>
+      <Position>
+        <X>8</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Release</OnClickEvent>
+      <Width>128</Width>
+      <Height>33</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

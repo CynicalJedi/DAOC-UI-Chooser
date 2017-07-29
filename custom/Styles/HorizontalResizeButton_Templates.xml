@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_Generic</Name>
+    <Height>16</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>163</R>
+        <G>123</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_generic_normal</Normal>
+    <Pressed>hresizeimage_generic_pressed</Pressed>
+    <NormalHighlit>hresizeimage_generic_normalhighlight</NormalHighlit>
+    <PressedHighlit>hresizeimage_generic_pressed</PressedHighlit>
+    <Disabled>hresizeimage_generic_disabled</Disabled>
+</HorizontalResizeButtonTemplate>
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_Generic_Reversed</Name>
+    <Height>16</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>163</R>
+        <G>123</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_generic_normalhighlight</Normal>
+    <Pressed>hresizeimage_generic_normal</Pressed>
+    <NormalHighlit>hresizeimage_generic_pressed</NormalHighlit>
+    <PressedHighlit>hresizeimage_generic_normalhighlight</PressedHighlit>
+    <Disabled>hresizeimage_generic_disabled</Disabled>
+</HorizontalResizeButtonTemplate>
+
+</Root_Element>

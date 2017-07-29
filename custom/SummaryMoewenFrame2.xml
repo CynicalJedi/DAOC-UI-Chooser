@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Moewen Summary Frame Images -->
+
+  <Texture>
+    <Name>MoewenFrames_01</Name>
+    <File>custom/Assets/Textures/MoewenFrames_03s.tga</File>
+  </Texture>
+
+</Root_Element>

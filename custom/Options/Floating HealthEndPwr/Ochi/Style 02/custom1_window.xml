@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>TargetImages_01</Name>
+    <File>custom/assets/textures/TargetImages_01.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Ochi_TargetHits</Name>
+    <TextureName>targetimages_01</TextureName>
+    <TextureStart>
+      <X>2</X>
+      <Y>2</Y>
+    </TextureStart>
+    <Width>20</Width>
+    <Height>68</Height>
+    <MaxLevels>11</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Ochi_PlayerHits</Name>
+    <TextureName>targetimages_01</TextureName>
+    <TextureStart>
+      <X>246</X>
+      <Y>2</Y>
+    </TextureStart>
+    <Width>20</Width>
+    <Height>68</Height>
+    <MaxLevels>11</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Ochi_PlayerEnd</Name>
+    <TextureName>targetimages_01</TextureName>
+    <TextureStart>
+      <X>2</X>
+      <Y>97</Y>
+    </TextureStart>
+    <Width>58</Width>
+    <Height>16</Height>
+    <MaxLevels>9</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Ochi_PlayerPwr</Name>
+    <TextureName>targetimages_01</TextureName>
+    <TextureStart>
+      <X>2</X>
+      <Y>115</Y>
+    </TextureStart>
+    <Width>46</Width>
+    <Height>7</Height>
+    <MaxLevels>14</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Ochi_Target_BG1</Name>
+    <TextureName>targetimages_01</TextureName>
+    <Size>
+      <X>91</X>
+      <Y>80</Y>
+    </Size>
+    <TopLeft>
+      <X>556</X>
+      <Y>2</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Ochi_Target_BG2</Name>
+    <TextureName>targetimages_01</TextureName>
+    <Size>
+      <X>67</X>
+      <Y>15</Y>
+    </Size>
+    <TopLeft>
+      <X>486</X>
+      <Y>2</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Load Floating HealthEndPwr Window -->
+
+  <WindowTemplate>
+    <Name>custom1_window</Name>
+    <WindowId>Floating HealthEndPwr</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>60</TitleWidth>
+    <TitleHeight>20</TitleHeight>
+    <Width>60</Width>
+    <Height>20</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>60</MinWidth>
+    <MinHeight>20</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Backgrounds-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-15</X>
+        <Y>-62</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_ochi_target_bg1</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-4</X>
+        <Y>-16</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_ochi_target_bg2</TemplateName>
+    </ImageAreaDef>
+
+    <!--Target Info-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>4</X>
+        <Y>-16</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>15</Height>
+      <MaxCharacters>999</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-16</X>
+        <Y>-62</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_ochi_targethits</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <!--Player Info-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>33</X>
+        <Y>-16</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>15</Height>
+      <MaxCharacters>999</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>56</X>
+        <Y>-61</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_ochi_playerhits</TemplateName>
+      <AdapterName>summary_player_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_ochi_playerpwr</TemplateName>
+      <AdapterName>summary_player_power</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_ochi_playerend</TemplateName>
+      <AdapterName>summary_player_end</AdapterName>
+    </StatusIconDef>
+
+  </WindowTemplate>
+
+</Root_Element>

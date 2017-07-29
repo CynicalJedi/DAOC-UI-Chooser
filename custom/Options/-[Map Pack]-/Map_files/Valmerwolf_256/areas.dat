@@ -1,0 +1,390 @@
+; areas.dat for normal resolutions (256 OR 512)
+; 
+; ### Last update: 29.11.2006 by Valmerwolf
+;
+; This file contains the information used to display maps for specified area 
+; within a zone.
+;
+; Area textures and named the same as zone textures, but they have a two 
+; digit area number appended to the name. So where zone 200's texture is...
+;
+;	z200.dds
+;
+; ...zone 200 area 0 would be 
+;
+;	z200_00.dds
+;	
+; ...zone 200 area 1 would be 
+;
+;	z200_01.dds
+;
+; precise grammar for this file:
+; [zone%3d]				zone number
+; area_count=%d			number of areas in the zone (helps parsing)
+; area0_left=%d			left side of the area in word units
+; area0_top=%d			top of the area in word units
+; area0_width=%d		width of the area in word units
+; area0_height=%d		height of the area in word units
+; area0_name=%s			name of this area (optional)
+; area0_desc=%s			description of this area (optional)
+; area1_left=%d       
+; area1_top=%d      
+; area1_width=%d      
+; ...
+
+[zone000]
+area_count=1
+area0_left=8640
+area0_top=23168
+area0_width=11520
+area0_height=11520
+area0_name=Cotswold
+area0_desc=Cotswold Village.
+
+[zone004]
+area_count=1
+area0_left=33500
+area0_top=53500
+area0_width=10000
+area0_height=10000
+area0_name=Golestandt's Lair
+area0_desc=This is the lair of the dragon of Albion: Golestandt
+
+[zone100]
+area_count=1
+area0_left=44864
+area0_top=47552
+area0_width=11520
+area0_height=11520
+area0_name=Mularn
+area0_desc=Mularn
+
+[zone101]
+area_count=1
+area0_left=49500
+area0_top=13820
+area0_width=8192
+area0_height=8192
+area0_name=Vasudheim
+area0_desc=This is Vasudheim.
+
+[zone116]
+area_count=1
+area0_left=15800
+area0_top=50000
+area0_width=10000
+area0_height=10000
+area0_name=Gjapinulva's Lair
+area0_desc=This is the lair of the dragon of Midgard: Gjapinulva
+
+[zone216]
+area_count=1
+area0_left=51000
+area0_top=54000
+area0_width=10000
+area0_height=10000
+area0_name=Cuuldurach's Lair
+area0_desc=This is the lair of the dragon of Hibernia: Cuuldurach
+
+[zone171]
+area_count=1
+area0_left=4000
+area0_top=51000
+area0_width=14535
+area0_height=14535
+area0_name=Maze (Emain Macha)
+;area0_desc=
+
+[zone168]
+area_count=1
+area0_left=19000
+area0_top=36000
+area0_width=12000
+area0_height=12000
+area0_name=Maze (Jamtland)
+;area0_desc=
+
+[zone177]
+area_count=1
+area0_left=23000
+area0_top=0
+area0_width=11400
+area0_height=11400
+area0_name=Maze (Pennine)
+;area0_desc=
+
+[zone200]
+area_count=2
+area0_left=24384
+area0_top=1920
+area0_width=11520
+area0_height=11520
+area0_name=Mag Mell
+area0_desc=Mag Mell
+area1_left=20500
+area1_top=41000
+area1_width=8200
+area1_height=8200
+area1_name=Tir na mBeo
+area1_desc=Tir na mBeo.
+
+[zone027]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Alb Keep
+area0_desc=Alb Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Alb Town
+area1_desc=Alb Town
+
+
+[zone028]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Mid Keep
+area0_desc=Mid Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Mid Town
+area1_desc=Mid Town
+
+[zone029]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Hib Keep
+area0_desc=Hib Keep
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Hib Town
+area1_desc=Hib Town
+
+[zone041]
+area_count=1
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+[zone084]
+area_count=1
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+[zone141]
+area_count=1
+area0_left=32000
+area0_top=24000
+area0_width=33530
+area0_height=33530
+area0_name=Eriny's Charm
+
+[zone031]
+area_count=1
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+[zone074]
+area_count=1
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+[zone131]
+area_count=1
+area0_left=21000
+area0_top=0
+area0_width=17000
+area0_height=17000
+area0_name=Kithara's Sanctuary
+
+[zone347]
+area_count=3
+area0_left=5660 ; 5307--353
+area0_top=38682 ; 44065-5383
+area0_width=7280
+area0_height=7280
+area0_name=MM347_00
+area1_left=19350 ; 18997--353
+area1_top=16061  ; 21444-5383
+area1_width=7280
+area1_height=7280
+area1_name=MM347_01
+area2_left=34038 ; 33685--353
+area2_top=1012   ; 6395-5383
+area2_width=7268
+area2_height=7268
+area2_name=MM347_02
+
+; The Foothills of Albion
+[zone330]
+area_count=3
+area0_left=24122  ; (31362-7240)
+area0_top=33224	  ; (45078-11854)
+area0_width=5990
+area0_height=5990
+area0_name=King's Crossing
+area1_left=35194  ; (42434-7240)
+area1_top=17636	  ; (29490-11854)
+area1_width=4173
+area1_height=4173
+area1_name=Baron's Keep
+area2_left=18180  ; (25420-7240)
+area2_top=16971	  ; (28825-11854)
+area2_width=5970
+area2_height=5970
+area2_name=Craigsbluff
+;
+; The Foothills of Midgard
+[zone334]
+area_count=3
+area0_left=27515  ; (33898-6383)
+area0_top=35351	  ; (45759-10408)
+area0_width=5461
+area0_height=5461
+area0_name=Hagg Dalur
+area1_left=35457  ; (41840-6383)
+area1_top=19432	  ; (29840-10408)
+area1_width=4096
+area1_height=4096
+area1_name=Nephraal's Gaol
+area2_left=17533  ; (23936-6383)
+area2_top=19864   ; (30272-10408)
+area2_width=8192
+area2_height=8192
+area2_name=Gamanborg
+;
+; The Foothills of Hibernia
+[zone335]
+area_count=3
+area0_left=24120  ; (31360-7240)
+area0_top=33036	  ; (44890-11854)
+area0_width=6013
+area0_height=6013
+area0_name=Clocha Liatha
+area1_left=34960  ; (42200-7240)
+area1_top=18632	  ; (30486-11854)
+area1_width=4092
+area1_height=4092
+area1_name=Morfesa's Keep
+area2_left=18184  ; (25424-7240)
+area2_top=16963	  ; (28817-11854)
+area2_width=5950
+area2_height=5950
+area2_name=Doiri Ban
+;
+; ### Labyrinth of the Minotaur
+[zone245]
+area_count=5
+area0_left=0
+area0_top=0
+area0_z=29930
+area0_width=62268
+area0_height=62268
+area0_depth=4131
+area0_name=Entry Level
+area0_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area1_left=0
+area1_top=0
+area1_z=28885
+area1_width=62268
+area1_height=62268
+area1_depth=1045
+area1_name=Lev1 Clockwork
+area1_desc=Ancient devices of clockwork and dark magic maintain this portion of the Labyrinth, making constant repairs and guarding against intruders.  The Minotaur Construct is the greatest of these, maintaining unblinking watch over the Relics it was created to protect.  
+area2_left=0
+area2_top=0
+area2_z=27400
+area2_width=62268
+area2_height=62268
+area2_depth=1485
+area2_name=Lev2 Collapsed
+area2_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area3_left=0
+area3_top=0
+area3_z=25250
+area3_width=62268
+area3_height=62268
+area3_depth=2150
+area3_name=Lev3 Flooded U
+area3_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic. 
+area4_left=0
+area4_top=0
+area4_z=20900
+area4_width=62268
+area4_height=62268
+area4_depth=4350
+area4_name=Lev4 Flooded D
+area4_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic.
+;
+; ### Darkness Falls
+[zone249]
+area_count=6
+area0_left=0
+area0_top=0
+area0_z=20801
+area0_width=45145
+area0_height=45145
+area0_depth=3549
+area0_name=Map 1
+area0_desc=
+area1_left=0
+area1_top=0
+area1_z=19126
+area1_width=45145
+area1_height=45145
+area1_depth=1675
+area1_name=Map 2
+area1_desc=
+area2_left=0
+area2_top=0
+area2_z=17901
+area2_width=45145
+area2_height=45145
+area2_depth=1225
+area2_name=Map 3
+area2_desc=
+area3_left=0
+area3_top=0
+area3_z=16701
+area3_width=45145
+area3_height=45145
+area3_depth=1200
+area3_name=Map 4
+area3_desc=
+area4_left=0
+area4_top=0
+area4_z=14901
+area4_width=45145
+area4_height=45145
+area4_depth=1800
+area4_name=Map 5
+area4_desc=
+area5_left=0
+area5_top=0
+area5_z=12800
+area5_width=45145
+area5_height=45145
+area5_depth=2101
+area5_name=Map 6
+area5_desc=

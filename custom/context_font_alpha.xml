@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Font Alpha -->
+
+  <WindowTemplate>
+    <Name>context_font_alpha</Name>
+    <WindowId>ContextFontAlpha</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>58</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>58</Width>
+    <Height>172</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>58</MinWidth>
+    <MinHeight>172</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeImage_dlg_bg_tiny</TemplateName>
+      <Width>58</Width>
+      <Height>172</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeImage_dlg_interior_tiny</TemplateName>
+      <Width>38</Width>
+      <Height>153</Height>
+    </FullResizeImageDef>
+
+    <!-- Slider Value -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>38</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>4</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>font_alpha_value</Adapter>
+    </LabelDef>
+
+    <!-- Slider -->
+
+    <VerticalSliderDef>
+      <ControlId>2001</ControlId>
+      <Position>
+        <X>17</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Height>131</Height>
+      <Numticks>100</Numticks>
+      <OnClickEvent>ContextSetFontAlpha</OnClickEvent>
+      <Templatename>slider_generic</Templatename>
+    </VerticalSliderDef>
+
+  </WindowTemplate>
+
+</Root_Element>

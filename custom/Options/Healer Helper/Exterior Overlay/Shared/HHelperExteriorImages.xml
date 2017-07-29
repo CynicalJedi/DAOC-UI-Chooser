@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load HHelper Exterior Images -->
+  <!-- By doing it this way I can select Square, Rounded, or None for frame -->
+
+  <Include>HHelperExteriorImages2.xml</Include>
+
+  <!-- Load HHelper Exterior Templates -->
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_HHelper_Frame</Name>
+    <TextureName>healerhelper_03</TextureName>
+    <TextureStart>
+      <X>0</X>
+      <Y>0</Y>
+    </TextureStart>
+    <Width>64</Width>
+    <Height>64</Height>
+    <MaxLevels>16</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+</Root_Element>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Templates -->
+
+  <!-- Disabled Button Templates -->
+
+  <ButtonTemplate>
+    <Name>button_generic_wide_disabled</Name>
+    <Size>
+      <X>100</X>
+      <Y>16</Y>
+    </Size>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Normal>
+        <X>1</X>
+        <Y>88</Y>
+      </Normal>
+      <Pressed>
+        <X>1</X>
+        <Y>88</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>1</X>
+        <Y>88</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>1</X>
+        <Y>88</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>1</X>
+        <Y>88</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+
+  <!-- Vertical Slider -->
+
+  <VerticalResizeImageTemplate>
+    <Name>VResizeImage_Slider_Gutter</Name>
+    <Width>24</Width>
+    <TopHeight>0</TopHeight>
+    <RepeatHeight>131</RepeatHeight>
+    <BottomHeight>0</BottomHeight>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Top>
+        <X>0</X>
+        <Y>0</Y>
+      </Top>
+      <Repeat>
+        <X>71</X>
+        <Y>1</Y>
+      </Repeat>
+      <Bottom>
+        <X>0</X>
+        <Y>0</Y>
+      </Bottom>
+    </Texture>
+  </VerticalResizeImageTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_VSlider_Thumb</Name>
+    <TextureName>buttons_04</TextureName>
+    <Size>
+      <X>24</X>
+      <Y>11</Y>
+    </Size>
+    <TopLeft>
+      <X>71</X>
+      <Y>136</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <VerticalSliderTemplate>
+    <Name>Slider_Generic</Name>
+    <ImageAreaTemplate>imagearea_vslider_thumb</ImageAreaTemplate>
+    <BackgroundVResizeTemplate>vresizeimage_slider_gutter</BackgroundVResizeTemplate>
+    <Width>24</Width>
+  </VerticalSliderTemplate>
+
+  <!-- Context Check Mark -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_CheckMark_Yellow</Name>
+    <TextureName>buttons_04</TextureName>
+    <Size>
+      <X>16</X>
+      <Y>16</Y>
+    </Size>
+    <TopLeft>
+      <X>178</X>
+      <Y>142</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <!-- Context Highlight Buttons -->
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ContextHigh_Highlight16</Name>
+    <Height>16</Height>
+    <LeftWidth>8</LeftWidth>
+    <RepeatWidth>8</RepeatWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>98</X>
+        <Y>179</Y>
+      </Left>
+      <Repeat>
+        <X>107</X>
+        <Y>179</Y>
+      </Repeat>
+      <Right>
+        <X>116</X>
+        <Y>179</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ContextHigh_Normal16</Name>
+    <Height>16</Height>
+    <LeftWidth>8</LeftWidth>
+    <RepeatWidth>8</RepeatWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>126</X>
+        <Y>179</Y>
+      </Left>
+      <Repeat>
+        <X>135</X>
+        <Y>179</Y>
+      </Repeat>
+      <Right>
+        <X>144</X>
+        <Y>179</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_ContextHighlighter16</Name>
+    <Height>16</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_contexthigh_normal16</Normal>
+    <Pressed>hresizeimage_contexthigh_normal16</Pressed>
+    <NormalHighlit>hresizeimage_contexthigh_highlight16</NormalHighlit>
+    <PressedHighlit>hresizeimage_contexthigh_highlight16</PressedHighlit>
+    <Disabled>hresizeimage_contexthigh_normal16</Disabled>
+</HorizontalResizeButtonTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ContextHigh_Highlight20</Name>
+    <Height>20</Height>
+    <LeftWidth>8</LeftWidth>
+    <RepeatWidth>8</RepeatWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>98</X>
+        <Y>198</Y>
+      </Left>
+      <Repeat>
+        <X>107</X>
+        <Y>198</Y>
+      </Repeat>
+      <Right>
+        <X>116</X>
+        <Y>198</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_ContextHigh_Normal20</Name>
+    <Height>20</Height>
+    <LeftWidth>8</LeftWidth>
+    <RepeatWidth>8</RepeatWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Left>
+        <X>126</X>
+        <Y>198</Y>
+      </Left>
+      <Repeat>
+        <X>135</X>
+        <Y>198</Y>
+      </Repeat>
+      <Right>
+        <X>144</X>
+        <Y>198</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_ContextHighlighter20</Name>
+    <Height>20</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_contexthigh_normal20</Normal>
+    <Pressed>hresizeimage_contexthigh_normal20</Pressed>
+    <NormalHighlit>hresizeimage_contexthigh_highlight20</NormalHighlit>
+    <PressedHighlit>hresizeimage_contexthigh_highlight20</PressedHighlit>
+    <Disabled>hresizeimage_contexthigh_normal20</Disabled>
+</HorizontalResizeButtonTemplate>
+
+  <!-- Base Context Windows -->
+
+  <Include>context_base.xml</Include>
+
+  <Include>context_base_sub.xml</Include>
+
+  <!-- Chat Context Windows -->
+
+  <Include>context_chat_main.xml</Include>
+
+  <Include>context_chat_main2.xml</Include>
+
+  <Include>context_chat_sub.xml</Include>
+
+  <Include>context_chat_sub2.xml</Include>
+
+  <!-- Emoticon Context Window -->
+
+  <Include>context_emoticon.xml</Include>
+
+  <!-- Default Context Window -->
+
+  <Include>context_default.xml</Include>
+
+  <!-- Font Size Context Window -->
+
+  <Include>context_font_size.xml</Include>
+
+  <!-- Font Alpha Context Window -->
+
+  <Include>context_font_alpha.xml</Include>
+
+  <!-- Window Alpha Context Window -->
+
+  <Include>context_window_alpha.xml</Include>
+
+  <!-- Default Chat Channel Context Window -->
+
+  <Include>context_default_chat_channel.xml</Include>
+
+</Root_Element>

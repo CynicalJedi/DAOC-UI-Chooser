@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Images -->
+
+  <Texture>
+    <Name>TargetImages_02</Name>
+    <File>custom/assets/textures/TargetImages_02.tga</File>
+  </Texture>
+
+  <!-- Define Templates -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_Ochi_TargetBG</Name>
+    <TextureName>targetimages_02</TextureName>
+    <Size>
+      <X>84</X>
+      <Y>66</Y>
+    </Size>
+    <TopLeft>
+      <X>1160</X>
+      <Y>1</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <StatusIconTemplate>
+    <Name>StatusIcon_Ochi_TargetHits2</Name>
+    <TextureName>targetimages_02</TextureName>
+    <TextureStart>
+      <X>1</X>
+      <Y>1</Y>
+    </TextureStart>
+    <Width>54</Width>
+    <Height>52</Height>
+    <MaxLevels>21</MaxLevels>
+    <Horizontal>true</Horizontal>
+  </StatusIconTemplate>
+
+  <!-- Load FloatingTarget Window -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>Floating Target</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>50</Width>
+    <Height>50</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>50</MinWidth>
+    <MinHeight>50</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!--Background-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-15</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_ochi_targetbg</TemplateName>
+    </ImageAreaDef>
+
+    <!--Target Info-->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>-48</X>
+        <Y>-25</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_transparentbold</FontName>
+      <Width>150</Width>
+      <Height>14</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_ochi_targethits2</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>12</X>
+        <Y>19</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>30</Width>
+      <Height>14</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <!--Face Button-->
+
+    <InvisibleButtonDef>
+      <ControlId>Face</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>50</Width>
+      <Height>50</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

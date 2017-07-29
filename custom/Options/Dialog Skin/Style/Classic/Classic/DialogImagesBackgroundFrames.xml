@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Background Frame Images -->
+
+  <!-- Standard Background Frame Templates -->
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Dlg_BG</Name>
+    <TopHeight>40</TopHeight>
+    <MiddleHeight>248</MiddleHeight>
+    <BottomHeight>2</BottomHeight>
+    <LeftWidth>40</LeftWidth>
+    <MiddleWidth>296</MiddleWidth>
+    <RightWidth>2</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_03</TextureName>
+      <TopLeft>
+        <X>1</X>
+        <Y>1</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>42</X>
+        <Y>1</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>339</X>
+        <Y>1</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>1</X>
+        <Y>42</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>42</X>
+        <Y>42</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>339</X>
+        <Y>42</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>1</X>
+        <Y>291</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>42</X>
+        <Y>291</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>339</X>
+        <Y>291</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Dlg_BG_Small</Name>
+    <TopHeight>2</TopHeight>
+    <MiddleHeight>248</MiddleHeight>
+    <BottomHeight>2</BottomHeight>
+    <LeftWidth>2</LeftWidth>
+    <MiddleWidth>296</MiddleWidth>
+    <RightWidth>2</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_03</TextureName>
+      <TopLeft>
+        <X>1</X>
+        <Y>1</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>42</X>
+        <Y>1</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>339</X>
+        <Y>1</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>1</X>
+        <Y>42</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>42</X>
+        <Y>42</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>339</X>
+        <Y>42</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>1</X>
+        <Y>291</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>42</X>
+        <Y>291</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>339</X>
+        <Y>291</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+</Root_Element>

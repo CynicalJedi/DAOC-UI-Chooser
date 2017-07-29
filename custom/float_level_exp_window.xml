@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>float_level_exp_window</Name>
+    <WindowId>float_level_exp</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>138</TitleWidth>
+    <TitleHeight>32</TitleHeight>
+    <Width>138</Width>
+    <Height>32</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <FullResizeImageDef>
+      <ControlId>ImageBackground</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg_small</TemplateName>
+      <Width>138</Width>
+      <Height>32</Height>
+    </FullResizeImageDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>4</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_bar_blue</TemplateName>
+      <AdapterName>summary_exp_coarse</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>15</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>statusicon_bar_blue_small</TemplateName>
+      <AdapterName>summary_exp_fine</AdapterName>
+    </StatusIconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>17</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>100</R>
+        <G>100</G>
+        <B>255</B>
+        <A>200</A>
+      </Color>
+      <FontName>font_buttons_small</FontName>
+      <Width>35</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>32</MaxCharacters>
+      <Data>Level</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>35</X>
+        <Y>17</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_buttons_small</FontName>
+      <Adapter>stats_level</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>20</Width>
+      <Height>16</Height>
+      <MaxCharacters>32</MaxCharacters>
+      <Color>
+        <R>100</R>
+        <G>100</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+    </ScalarLabelDef>
+
+  </WindowTemplate>
+
+</Root_Element>

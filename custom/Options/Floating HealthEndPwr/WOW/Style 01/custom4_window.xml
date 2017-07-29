@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.79 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>custom4_window</Name>
+    <WindowId>custom4_window</WindowId>
+    <CloseButton>false</CloseButton>
+    <MoveButton>false</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>190</Width>
+    <Height>76</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>190</MinWidth>
+    <MinHeight>76</MinHeight>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>126</X>
+        <Y>7</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_wow_target_health_bg</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>126</X>
+        <Y>7</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_wow_health</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <StatusIconDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>statusicon_wow_target_bg</TemplateName>
+      <AdapterName>summary_target_hits</AdapterName>
+    </StatusIconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>3</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>Font_Buttons</FontName>
+      <Width>118</Width>
+      <Height>16</Height>
+      <ColorAdapter>summary_target_color</ColorAdapter>
+      <MaxCharacters>25</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter>summary_target</Adapter>
+    </LabelDef>
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>128</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>Font_Buttons</FontName>
+      <Adapter>summary_target_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>50</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>true</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>    
+	</ScalarLabelDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>16</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Face</OnClickEvent>
+      <Width>120</Width>
+      <Height>25</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>46</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>Stick</OnClickEvent>
+      <Width>120</Width>
+      <Height>25</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

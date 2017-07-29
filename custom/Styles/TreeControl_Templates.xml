@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Generic Tree Control -->
+
+  <TreeControlTemplate>
+    <Name>TreeControl_Generic</Name>
+    <BackgroundTemplate>fresizeimage_blank</BackgroundTemplate>
+    <ScrollbarTemplate>vscrollbar_generic</ScrollbarTemplate>
+    <CheckBoxTemplate>checkbox_generic</CheckBoxTemplate>
+    <IconTemplate>icon_generic_small</IconTemplate>
+    <FontName>font_buttons_small</FontName>
+    <FontColor>
+      <R>192</R>
+      <G>192</G>
+      <B>192</B>
+      <A>255</A>
+    </FontColor>
+    <LinePadding>3</LinePadding>
+    <OffsetX>5</OffsetX>
+    <OffsetY>3</OffsetY>
+    <TextOffset>3</TextOffset>
+  </TreeControlTemplate>
+
+</Root_Element>

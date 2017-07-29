@@ -1,0 +1,58 @@
+Changes in 3.01
+
+[** New **] 
+
+Floating Health
+  Add Stained style floating Player and Target windows
+
+Mini Group window
+  Added an optional Ghost style window
+  Added 2 options for Stained style window
+  Added 10 options for Rilibryn Style window
+
+Realm War Map
+  Added options to select style of Group Member location markers
+
+Status Bar Skins
+  Added two Ochi style skins
+
+Summary window
+  Added additional WoW styles for 2 vs 3 quick bars
+  Added 2 options for Stained style window
+    One with and one without compass and lag meter
+  Added options to select ends of WoW style frame (Gryphon or Lion)
+
+Tabbed XP
+  Added optional extended window that shows Total Realm points vs Realm Title
+
+
+[** Fixes **] 
+Group Window
+  Fixed problem with buff icons not showing all the time
+
+Realm War Map 
+  Fixed problem with Labyrinth Key option
+
+Stats Group window
+  Fixed problem with group member level not showing all the time
+
+Timer window
+  Fixed problem with text sometimes appearing off edge of window
+
+Video
+  Fixed problem with Video window for Ochi, Quillix, and War skins
+
+
+[** Updates **] 
+
+Updated OptionChooser program to v1.05
+  Startup now slightly faster
+  Recompiled with Delphi 2007
+  Added “Loading Status” screen at program startup
+  Temporarily removed setting for custom interface check at program start
+
+
+
+[** Notes **] 
+
+In group window with Concentration, you still need to resize window slightly to get names to appear after a rezone.

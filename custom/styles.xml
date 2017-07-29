@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Custom Styles/Templates -->
+
+  <Include>Styles/Button_Templates.xml</Include>
+
+  <Include>Styles/ChatControl_Templates.xml</Include>
+
+  <Include>Styles/CheckBox_Templates.xml</Include>
+
+  <Include>Styles/ComboBox_Templates.xml</Include>
+
+  <Include>Styles/CompassControl_Templates.xml</Include>
+
+  <Include>Styles/FullResizeImage_Templates.xml</Include>
+
+  <Include>Styles/HorizontalResizeButton_Templates.xml</Include>
+
+  <Include>Styles/HorizontalResizeImage_Templates.xml</Include>
+
+  <Include>Styles/Icon_Templates.xml</Include>
+
+  <Include>Styles/IconSet_Templates.xml</Include>
+
+  <Include>Styles/ImageArea_Templates.xml</Include>
+
+  <Include>Styles/ListBox_Templates.xml</Include>
+
+  <Include>Styles/ListBoxHeader_Templates.xml</Include>
+
+  <Include>Styles/Menu_Templates.xml</Include>
+
+  <Include>Styles/StatusBar_Templates.xml</Include>
+
+  <Include>Styles/StatusIcon_Templates.xml</Include>
+
+  <Include>Styles/Tab_Templates.xml</Include>
+
+  <Include>Styles/TextArea_Templates.xml</Include>
+
+  <Include>Styles/TreeControl_Templates.xml</Include>
+
+  <Include>Styles/VerticalResizeImage_Templates.xml</Include>
+
+  <Include>Styles/VerticalScrollBar_Templates.xml</Include>
+
+  <Include>Styles/VerticalStatusBar_Templates.xml</Include>
+
+  <!-- Load ToolTips Template -->
+
+  <Include>ToolTips.xml</Include>
+
+  <!-- Load Target Bar Template -->
+
+  <Include>TargetImages.xml</Include>
+
+  <!-- Load other Styles/Templates -->
+
+  <HorizontalResizeButtonTemplate>
+    <Name>HResizeButton_Generic_Pressed</Name>
+    <Height>16</Height>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>163</R>
+        <G>123</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Normal>hresizeimage_generic_pressed</Normal>
+    <Pressed></Pressed>
+    <NormalHighlit></NormalHighlit>
+    <PressedHighlit></PressedHighlit>
+    <Disabled></Disabled>
+</HorizontalResizeButtonTemplate>
+
+  <HorizontalResizeImageTemplate>
+    <Name>HResizeImage_Generic_Blank</Name>
+    <Height>16</Height>
+    <LeftWidth>1</LeftWidth>
+    <RepeatWidth>100</RepeatWidth>
+    <RightWidth>1</RightWidth>
+    <Texture>
+      <TextureName>buttons_01</TextureName>
+      <Left>
+        <X>1</X>
+        <Y>240</Y>
+      </Left>
+      <Repeat>
+        <X>1</X>
+        <Y>240</Y>
+      </Repeat>
+      <Right>
+        <X>1</X>
+        <Y>240</Y>
+      </Right>
+    </Texture>
+  </HorizontalResizeImageTemplate>
+
+</Root_Element>

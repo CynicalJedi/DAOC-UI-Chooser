@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <Texture>
+    <Name>PPerdollText</Name>
+    <File>custom/assets/textures/OldStylePPerdollText.tga</File>
+  </Texture>
+  
+  <WindowTemplate>
+    <Name>custom12 - PPerdoll</Name>
+    <WindowId>custom12_window</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>0</TitleWidth>
+    <TitleHeight>0</TitleHeight>
+    <Width>192</Width>
+    <Height>448</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>0</MinWidth>
+    <MinHeight>0</MinHeight>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>192</Width>
+      <Height>448</Height>
+    </FullResizeImageDef>
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>192</Width>
+      <Height>416</Height>
+    </FullResizeImageDef>
+
+    <!--Top Part-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>74</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>74</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>194</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>194</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>13</X>
+        <Y>234</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>57</X>
+        <Y>234</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>101</X>
+        <Y>234</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>145</X>
+        <Y>234</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_large</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>39</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>69</X>
+        <Y>35</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>115</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>142</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>142</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>168</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>168</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetRight>true</OffsetRight>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <!--Middle Part-->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>4</X>
+        <Y>275</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior</TemplateName>
+      <Width>184</Width>
+      <Height>141</Height>
+    </FullResizeImageDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>277</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>294</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>311</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>328</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>345</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>362</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>379</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>396</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>171</X>
+        <Y>285</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_bag</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>171</X>
+        <Y>311</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_bag</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>171</X>
+        <Y>337</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_bag</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>171</X>
+        <Y>362</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_bag</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>171</X>
+        <Y>387</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TemplateName>button_bag</TemplateName>
+      <Label></Label>
+      <onClickEvent></onClickEvent>
+    </ButtonDef>
+
+    <!--Bottom Part-->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>11</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>imagearea_consignmentcoins_mythril</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>48</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>imagearea_consignmentcoins_plat</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>86</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>imagearea_consignmentcoins_gold</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>124</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>imagearea_consignmentcoins_silver</TemplateName>
+    </ImageAreaDef>
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>162</X>
+        <Y>14</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+        <OffsetBottom>true</OffsetBottom>
+      </Alignment>
+      <TemplateName>imagearea_consignmentcoins_copper</TemplateName>
+    </ImageAreaDef>
+
+    <DynamicImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <TopLeft>true</TopLeft>
+      </Alignment>
+      <TextureName>pperdolltext</TextureName>
+      <Dimensions>
+        <X>192</X>
+        <Y>448</Y>
+      </Dimensions>
+      <TextureCoords>
+        <X>0</X>
+        <Y>0</Y>
+      </TextureCoords>
+    </DynamicImageDef>
+
+  </WindowTemplate>
+
+</Root_Element>

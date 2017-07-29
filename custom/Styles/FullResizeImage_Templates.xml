@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Quiver BG -->
+
+  <FullResizeImageTemplate>
+    <Name>FResizeImage_Quiver_Selection_Box_BG</Name>
+    <TopHeight>8</TopHeight>
+    <MiddleHeight>8</MiddleHeight>
+    <BottomHeight>8</BottomHeight>
+    <LeftWidth>8</LeftWidth>
+    <MiddleWidth>80</MiddleWidth>
+    <RightWidth>8</RightWidth>
+    <Texture>
+      <TextureName>dialogimages_02</TextureName>
+      <TopLeft>
+        <X>317</X>
+        <Y>137</Y>
+      </TopLeft>
+      <TopMiddle>
+        <X>334</X>
+        <Y>137</Y>
+      </TopMiddle>
+      <TopRight>
+        <X>423</X>
+        <Y>137</Y>
+      </TopRight>
+      <MiddleLeft>
+        <X>317</X>
+        <Y>145</Y>
+      </MiddleLeft>
+      <MiddleMiddle>
+        <X>334</X>
+        <Y>145</Y>
+      </MiddleMiddle>
+      <MiddleRight>
+        <X>423</X>
+        <Y>145</Y>
+      </MiddleRight>
+      <BottomLeft>
+        <X>317</X>
+        <Y>145</Y>
+      </BottomLeft>
+      <BottomMiddle>
+        <X>334</X>
+        <Y>145</Y>
+      </BottomMiddle>
+      <BottomRight>
+        <X>423</X>
+        <Y>145</Y>
+      </BottomRight>
+    </Texture>
+  </FullResizeImageTemplate>
+
+</Root_Element>

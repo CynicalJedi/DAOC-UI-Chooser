@@ -1,0 +1,427 @@
+<style type="text/css">
+  <!--
+  
+  /* Font Definitions */
+    
+  @font-face {
+    font-family:Calibri;
+    panose-1:2px 15px 5px 2px 2px 2px 4px 3px 2px 4px;
+    }
+  
+  @font-face{
+    font-family:Cambria;
+    panose-1:2px 4px 5px 3px 5px 4px 6px 3px 2px 4px;
+    }
+  
+  @font-face{
+    font-family:"Cambria Math";
+    panose-1:2px 4px 5px 3px 5px 4px 6px 3px 2px 4px;
+    }
+    
+  @font-face {
+    font-family:Tahoma;
+    panose-1:2px 11px 6px 4px 3px 5px 4px 4px 2px 4px;
+    }
+  
+  
+  /* Style Definitions */
+  .MsoPapDefault {
+    text-indent:.25in;
+    }
+
+  @page Section1 {
+    margin:1in;
+    size:8.5in 11in;
+    }
+
+  div.Section1 {
+    page:Section1;
+    }
+
+  div.c1 {
+    border:none;
+    border-bottom:solid #365F91 1.5pt;
+    padding:0 0 1pt;
+    }
+
+  div.c2 {
+    border:none;
+    border-bottom:solid #4F81BD 1pt;
+    padding:0 0 1pt;
+    }
+
+  em {
+    color:#5A5A5A;
+    font-weight:700;
+    }
+
+  h1 {
+    border:none;
+    color:#365F91;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    margin:10pt 0 4pt;
+    mso-style-link:"Heading 1 Char";
+    padding:0;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+
+  h2 {
+    border:none;
+    color:#365F91;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    font-weight:400;
+    margin:10pt 0 4pt;
+    mso-style-link:"Heading 2 Char";
+    padding:0;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  h3 {
+    border:none;
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    font-weight:400;
+    margin:10pt 0 4pt;
+    mso-style-link:"Heading 3 Char";
+    padding:0;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  h4 {
+    border:none;
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    font-style:italic;
+    font-weight:400;
+    margin:10pt 0 4pt;
+    mso-style-link:"Heading 4 Char";
+    padding:0;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  h5 {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-size:11pt;
+    font-weight:400;
+    margin:10pt 0 4pt;
+    mso-style-link:"Heading 5 Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  h6 {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-size:11pt;
+    font-style:italic;
+    font-weight:400;
+    margin:14pt 0 5pt;
+    mso-style-link:"Heading 6 Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoAcetate,li.MsoAcetate,div.MsoAcetate {
+    color:#666465;
+    font-family:"Tahoma","sans-serif";
+    font-size:8pt;
+    margin:0 0 .0001pt;
+    mso-style-link:"Balloon Text Char";
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoCaption,li.MsoCaption,div.MsoCaption {
+    color:#666465;
+    font-family:"Calibri","sans-serif";
+    font-size:9pt;
+    font-weight:700;
+    margin:0 0 .0001pt;
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoHeading7,li.MsoHeading7,div.MsoHeading7 {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-size:10pt;
+    font-weight:700;
+    margin:16pt 0 5pt;
+    mso-style-link:"Heading 7 Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoHeading8,li.MsoHeading8,div.MsoHeading8 {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-size:10pt;
+    font-style:italic;
+    font-weight:700;
+    margin:16pt 0 5pt;
+    mso-style-link:"Heading 8 Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoHeading9,li.MsoHeading9,div.MsoHeading9 {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-size:10pt;
+    font-style:italic;
+    margin:16pt 0 5pt;
+    mso-style-link:"Heading 9 Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoIntenseQuote,li.MsoIntenseQuote,div.MsoIntenseQuote {
+    background:#4F81BD;
+    border:none;
+    color:#FFF;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    font-style:italic;
+    line-height:125%;
+    margin:16pt 1in;
+    mso-style-link:"Intense Quote Char";
+    padding:0;
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+}
+
+  p.MsoListParagraph,li.MsoListParagraph,div.MsoListParagraph,p.MsoListParagraphCxSpFirst,li.MsoListParagraphCxSpFirst,div.MsoListParagraphCxSpFirst,p.MsoListParagraphCxSpMiddle,li.MsoListParagraphCxSpMiddle,div.MsoListParagraphCxSpMiddle,p.MsoListParagraphCxSpLast,li.MsoListParagraphCxSpLast,div.MsoListParagraphCxSpLast {
+    color:#666465;
+    font-family:"Calibri","sans-serif";
+    font-size:11pt;
+    margin:0 0 .0001pt .5in;
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoNoSpacing,li.MsoNoSpacing,div.MsoNoSpacing {
+    color:#666465;
+    font-family:"Calibri","sans-serif";
+    font-size:11pt;
+    margin:0 0 .0001pt;
+    mso-style-link:"No Spacing Char";
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoNormal,li.MsoNormal,div.MsoNormal {
+    color:#666465;
+    font-family:"Calibri","sans-serif";
+    font-size:11pt;
+    margin:0 0 .0001pt;
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoQuote,li.MsoQuote,div.MsoQuote {
+    color:#5A5A5A;
+    font-family:"Cambria","serif";
+    font-size:11pt;
+    font-style:italic;
+    margin:0 0 .0001pt;
+    mso-style-link:"Quote Char";
+    text-align:justify;
+    text-indent:.25in;
+    text-justify:inter-ideograph;
+    }
+
+  p.MsoSubtitle,li.MsoSubtitle,div.MsoSubtitle {
+    color:#666465;
+    font-family:"Calibri","sans-serif";
+    font-size:12pt;
+    font-style:italic;
+    margin:10pt 0 45pt;
+    mso-style-link:"Subtitle Char";
+    text-align:right;
+    }
+
+  p.MsoTitle,li.MsoTitle,div.MsoTitle {
+    border:none;
+    color:#243F60;
+    font-family:"Cambria","serif";
+    font-size:30pt;
+    font-style:italic;
+    margin:0 0 .0001pt;
+    mso-style-link:"Title Char";
+    padding:0;
+    text-align:center;
+    }
+
+  p.MsoTocHeading,li.MsoTocHeading,div.MsoTocHeading {
+    border:none;
+    color:#365F91;
+    font-family:"Cambria","serif";
+    font-size:12pt;
+    font-weight:700;
+    margin:30pt 0 4pt;
+    padding:0;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    }
+
+  span.BalloonTextChar {
+    font-family:"Tahoma","sans-serif";
+    mso-style-link:"Balloon Text";
+    mso-style-name:"Balloon Text Char";
+    }
+
+  span.Heading1Char {
+    color:#365F91;
+    font-family:"Cambria","serif";
+    font-weight:700;
+    mso-style-link:"Heading 1";
+    mso-style-name:"Heading 1 Char";
+    }
+
+  span.Heading2Char {
+    color:#365F91;
+    font-family:"Cambria","serif";
+    mso-style-link:"Heading 2";
+    mso-style-name:"Heading 2 Char";
+    }
+
+  span.Heading3Char {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    mso-style-link:"Heading 3";
+    mso-style-name:"Heading 3 Char";
+    }
+
+  span.Heading4Char {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:"Heading 4";
+    mso-style-name:"Heading 4 Char";
+    }
+
+  span.Heading5Char {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    mso-style-link:"Heading 5";
+    mso-style-name:"Heading 5 Char";
+    }
+
+  span.Heading6Char {
+    color:#4F81BD;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:"Heading 6";
+    mso-style-name:"Heading 6 Char";
+    }
+
+  span.Heading7Char {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-weight:700;
+    mso-style-link:"Heading 7";
+    mso-style-name:"Heading 7 Char";
+    }
+
+  span.Heading8Char {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    font-weight:700;
+    mso-style-link:"Heading 8";
+    mso-style-name:"Heading 8 Char";
+    }
+
+  span.Heading9Char {
+    color:#9BBB59;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:"Heading 9";
+    mso-style-name:"Heading 9 Char";
+    }
+
+  span.IntenseQuoteChar {
+    background:#4F81BD;
+    color:#FFF;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:"Intense Quote";
+    mso-style-name:"Intense Quote Char";
+    }
+
+  span.MsoBookTitle {
+    color:windowtext;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    font-weight:700;
+    }
+
+  span.MsoIntenseEmphasis {
+    color:#4F81BD;
+    font-style:italic;
+    font-weight:700;
+    }
+
+  span.MsoIntenseReference {
+    color:#76923C;
+    font-weight:700;
+    text-decoration:underline;
+    }
+
+  span.MsoSubtleEmphasis {
+    color:#5A5A5A;
+    font-style:italic;
+    }
+
+  span.MsoSubtleReference {
+    color:windowtext;
+    text-decoration:underline;
+    }
+
+  span.NoSpacingChar {
+    mso-style-link:"No Spacing";
+    mso-style-name:"No Spacing Char";
+    }
+
+  span.QuoteChar {
+    color:#5A5A5A;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:Quote;
+    mso-style-name:"Quote Char";
+    }
+
+  span.SubtitleChar {
+    font-family:"Calibri","sans-serif";
+    font-style:italic;
+    mso-style-link:Subtitle;
+    mso-style-name:"Subtitle Char";
+    }
+
+  span.TitleChar {
+    color:#243F60;
+    font-family:"Cambria","serif";
+    font-style:italic;
+    mso-style-link:Title;
+    mso-style-name:"Title Char";
+    }
+
+  strong {
+    letter-spacing:0;
+    }
+  -->
+</style>

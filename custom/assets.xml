@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Default Images -->
+
+  <!-- Load Custom Fonts -->
+
+  <Include>ChatFont.xml</Include>
+
+  <Font>
+    <Name>Font_Memo</Name>
+    <File>custom/Assets/Fonts/MemoFont.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Buttons</Name>
+    <File>custom/Assets/Fonts/Calibri_10.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Buttons_Small</Name>
+    <File>custom/Assets/Fonts/Calibri_09.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Social</Name>
+    <File>custom/Assets/Fonts/Calibri_08.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Headings</Name>
+    <File>custom/Assets/Fonts/Corbel_09.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Headings_Small</Name>
+    <File>custom/Assets/Fonts/Corbel_08.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Titles</Name>
+    <File>custom/Assets/Fonts/Corbel_10.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_Transparent</Name>
+    <File>custom/Assets/Fonts/Calibri_10T.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_TransparentSmall</Name>
+    <File>custom/Assets/Fonts/Calibri_09T.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_TransparentBold</Name>
+    <File>custom/Assets/Fonts/Calibri_10TB.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_ChampXP</Name>
+    <File>custom/Assets/Fonts/ChampXP.tga</File>
+  </Font>
+
+  <Font>
+    <Name>Font_HHelperWidgets</Name>
+    <File>custom/Assets/Fonts/HHelperWidgets.tga</File>
+  </Font>
+
+  <!-- Load Custom Textures -->
+
+  <!-- Dialog Images -->
+
+  <Include>DialogImages.xml</Include>
+
+  <!-- Frame Images -->
+
+  <Include>FrameImages.xml</Include>
+
+  <!-- Transparent Images -->
+
+  <Texture>
+    <Name>TransparentImages_512</Name>
+    <File>custom/assets/textures/TransparentImages_512.tga</File>
+  </Texture>
+
+  <!-- Buttons Images -->
+
+  <Include>ButtonImages.xml</Include>
+
+  <Texture>
+    <Name>Buttons_03</Name>
+    <File>custom/assets/textures/ButtonImages_03.tga</File>
+  </Texture>
+
+  <!-- Status Bar Images -->
+
+  <Texture>
+    <Name>StatusBars_01</Name>
+    <File>custom/assets/textures/StatusBars_01.tga</File>
+  </Texture>
+
+  <!-- Mount Images -->
+
+  <Include>MountImages.xml</Include>
+
+  <!-- Healer Helper Images -->
+
+  <Texture>
+    <Name>HealerHelper_01</Name>
+    <File>custom/assets/textures/HealerHelperImages_01.tga</File>
+  </Texture>
+
+  <!-- Map Images -->
+
+  <Texture>
+    <Name>MapImages_01</Name>
+    <File>custom/assets/textures/MapImages_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>MapImages_02</Name>
+    <File>custom/assets/textures/MapImages_02.tga</File>
+  </Texture>
+
+  <!-- Realm Images -->
+
+  <Texture>
+    <Name>RealmImages_01</Name>
+    <File>custom/assets/textures/RealmImages_01.tga</File>
+  </Texture>
+
+  <!-- Status Icons -->
+
+  <Texture>
+    <Name>StatusIcons_01</Name>
+    <File>custom/assets/textures/StatusIcons_01.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_02</Name>
+    <File>custom/assets/textures/StatusIcons_02.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_03</Name>
+    <File>custom/assets/textures/StatusIcons_03.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_04</Name>
+    <File>custom/assets/textures/StatusIcons_04.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_05</Name>
+    <File>custom/assets/textures/StatusIcons_05.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_06</Name>
+    <File>custom/assets/textures/StatusIcons_06.tga</File>
+  </Texture>
+
+  <Texture>
+    <Name>StatusIcons_07</Name>
+    <File>custom/assets/textures/StatusIcons_07.tga</File>
+  </Texture>
+
+  <!-- Selected Icon -->
+
+  <Texture>
+    <Name>selected_icon</Name>
+    <File>custom/assets/textures/SelectedIcon.tga</File>
+  </Texture>
+
+  <!-- Arrows for DR Subclass Training window -->
+
+  <Texture>
+    <Name>small_arrows</Name>
+    <File>custom/assets/textures/SmallArrows.dds</File>
+  </Texture>
+
+  <!-- Relic Gate Link Images -->
+
+  <Include>RelicGateLinks.xml</Include>
+
+  <!-- Load Custom Windows -->
+
+  <Include>custom0_window.xml</Include>
+
+  <Include>custom1_window.xml</Include>
+
+  <Include>custom2_window.xml</Include>
+
+  <Include>custom3_window.xml</Include>
+
+  <Include>custom4_window.xml</Include>
+
+  <Include>custom5_window.xml</Include>
+
+  <Include>custom6_window.xml</Include>
+
+  <Include>custom7_window.xml</Include>
+
+  <Include>custom8_window.xml</Include>
+
+  <Include>custom9_window.xml</Include>
+
+  <Include>custom10_window.xml</Include>
+
+  <Include>custom11_window.xml</Include>
+
+  <Include>custom12_window.xml</Include>
+
+  <Include>custom13_window.xml</Include>
+
+  <Include>custom14_window.xml</Include>
+
+  <Include>custom15_window.xml</Include>
+
+  <Include>custom16_window.xml</Include>
+
+  <Include>custom17_window.xml</Include>
+
+  <Include>custom18_window.xml</Include>
+
+  <Include>custom19_window.xml</Include>
+
+</Root_Element>

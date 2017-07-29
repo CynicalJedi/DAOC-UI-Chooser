@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <WindowTemplate>
+    <Name>quiver</Name>
+    <WindowId>WindowQuiver</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>true</BottomRightResizeButton>
+    <BottomLeftResizeButton>true</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>310</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>310</Width>
+    <Height>122</Height>
+    <ResizeableWidth>5</ResizeableWidth>
+    <ResizeableHeight>5</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>52</MinWidth>
+    <MinHeight>122</MinHeight>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_quiver_bg</TemplateName>
+      <Width>310</Width>
+      <Height>122</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>255</R>
+        <G>192</G>
+        <B>0</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_titles</FontName>
+      <Width>310</Width>
+      <Height>17</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>7</MaxCharacters>
+      <Data>Quiver</Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>true</TextCentered>
+      <Adapter></Adapter>
+    </LabelDef>
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>10</X>
+        <Y>27</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+        <GrowHeight>true</GrowHeight>
+      </Alignment>
+      <TemplateName>fresizeimage_quiver_interior</TemplateName>
+      <Width>290</Width>
+      <Height>83</Height>
+    </FullResizeImageDef>
+
+    <!-- Quiver Selection -->
+
+    <FullResizeImageDef>
+      <ControlId>5000</ControlId>
+      <Position>
+        <X>17</X>
+        <Y>31</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <TemplateName>fresizeimage_quiver_selection_box_bg</TemplateName>
+      <Width>276</Width>
+      <Height>18</Height>
+    </FullResizeImageDef>
+
+    <!-- Quiver Slot 1 controls -->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>31</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <IconDef>
+      <ControlId>1000</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <ToolTipID>38</ToolTipID>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>quiver_icon0</AdapterName>
+      <IconId>234</IconId>
+      <Data></Data>
+      <LabelAdapterName>quiver_count_string0</LabelAdapterName>
+      <HideLabel>1</HideLabel>
+    </IconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>37</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>192</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>255</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>77</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>quiver_count_string0</Adapter>
+    </LabelDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverAdd0</OnClickEvent>
+      <Width>16</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>35</X>
+        <Y>32</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverSelect0</OnClickEvent>
+      <Width>255</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <!-- Quiver Slot 2 controls -->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>50</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <IconDef>
+      <ControlId>1001</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <ToolTipID>38</ToolTipID>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>quiver_icon1</AdapterName>
+      <IconId>235</IconId>
+      <Data></Data>
+      <LabelAdapterName>quiver_count_string1</LabelAdapterName>
+      <HideLabel>1</HideLabel>
+    </IconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>37</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>255</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>quiver_count_string1</Adapter>
+    </LabelDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverAdd1</OnClickEvent>
+      <Width>16</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>35</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverSelect1</OnClickEvent>
+      <Width>255</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <!-- Quiver Slot 3 controls -->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <IconDef>
+      <ControlId>1002</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <ToolTipID>38</ToolTipID>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>quiver_icon2</AdapterName>
+      <IconId>236</IconId>
+      <Data></Data>
+      <LabelAdapterName>quiver_count_string2</LabelAdapterName>
+      <HideLabel>1</HideLabel>
+    </IconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>37</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>255</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>quiver_count_string2</Adapter>
+    </LabelDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverAdd2</OnClickEvent>
+      <Width>16</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>35</X>
+        <Y>70</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverSelect2</OnClickEvent>
+      <Width>255</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <!-- Quiver Slot 4 controls -->
+
+    <ImageAreaDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>17</X>
+        <Y>88</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>imagearea_icon_socket_small</TemplateName>
+    </ImageAreaDef>
+
+    <IconDef>
+      <ControlId>1003</ControlId>
+      <Position>
+        <X>18</X>
+        <Y>89</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <ToolTipID>38</ToolTipID>
+      <TemplateName>icon_generic_small</TemplateName>
+      <AdapterName>quiver_icon3</AdapterName>
+      <IconId>237</IconId>
+      <Data></Data>
+      <LabelAdapterName>quiver_count_string3</LabelAdapterName>
+      <HideLabel>1</HideLabel>
+    </IconDef>
+
+    <LabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>37</X>
+        <Y>89</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Color>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </Color>
+      <FontName>font_buttons</FontName>
+      <Width>255</Width>
+      <Height>16</Height>
+      <ColorAdapter></ColorAdapter>
+      <MaxCharacters>64</MaxCharacters>
+      <Data></Data>
+      <EndAligned>false</EndAligned>
+      <TextCentered>false</TextCentered>
+      <Adapter>quiver_count_string3</Adapter>
+    </LabelDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>18</X>
+        <Y>89</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverAdd3</OnClickEvent>
+      <Width>16</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>35</X>
+        <Y>89</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>QuiverSelect3</OnClickEvent>
+      <Width>255</Width>
+      <Height>16</Height>
+    </InvisibleButtonDef>
+
+    <!--Toggles Armor Resist Window-->
+
+    <InvisibleButtonDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>0</X>
+        <Y>11</Y>
+      </Position>
+      <Alignment>
+        <GrowWidth>true</GrowWidth>
+      </Alignment>
+      <Label></Label>
+      <OnClickEvent>ToggleCustom13</OnClickEvent>
+      <Width>310</Width>
+      <Height>17</Height>
+    </InvisibleButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Command Window -->
+
+  <WindowTemplate>
+    <Name>command</Name>
+    <WindowId>Command</WindowId>
+    <CloseButton>true</CloseButton>
+    <MoveButton>true</MoveButton>
+    <TopRightResizeButton>false</TopRightResizeButton>
+    <BottomRightResizeButton>false</BottomRightResizeButton>
+    <BottomLeftResizeButton>false</BottomLeftResizeButton>
+    <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+    <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+    <TitleWidth>90</TitleWidth>
+    <TitleHeight>10</TitleHeight>
+    <Width>90</Width>
+    <Height>244</Height>
+    <ResizeableWidth>0</ResizeableWidth>
+    <ResizeableHeight>0</ResizeableHeight>
+    <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+    <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+    <MinWidth>90</MinWidth>
+    <MinHeight>244</MinHeight>
+    <ContextTemplateName></ContextTemplateName>
+
+    <!-- Background Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Background</ControlId>
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_bg</TemplateName>
+      <Width>90</Width>
+      <Height>244</Height>
+    </FullResizeImageDef>
+
+    <!-- Title -->
+
+    <!-- Interior Image -->
+
+    <FullResizeImageDef>
+      <ControlId>Interior</ControlId>
+      <Position>
+        <X>10</X>
+        <Y>10</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>fresizeimage_dlg_interior_tiny</TemplateName>
+      <Width>70</Width>
+      <Height>224</Height>
+    </FullResizeImageDef>
+
+    <!--Left Column Buttons-->
+
+    <ButtonDef>
+      <ControlId>0</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>15</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Keeps</Label>
+      <onClickEvent>Realm</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>1</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>33</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Relics</Label>
+      <onClickEvent>Relic</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>2</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>51</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Social</Label>
+      <onClickEvent>Community</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>3</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>69</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>War Map</Label>
+      <onClickEvent>ShowWarMap</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>4</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>87</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Mini Map</Label>
+      <onClickEvent>ToggleMap</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>6</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>105</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Atlas</Label>
+      <onClickEvent>ToggleCustom15</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>7</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>123</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Journal</Label>
+      <onClickEvent>ToggleJournal</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>8</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>141</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Master</Label>
+      <onClickEvent>ToggleMasterLevel</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>9</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>159</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Bonuses</Label>
+      <onClickEvent>Bonuses</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>10</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>177</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>RVR Info</Label>
+      <onClickEvent>ToggleCustom17</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>11</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>195</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Release</Label>
+      <onClickEvent>Release</onClickEvent>
+    </ButtonDef>
+
+    <ButtonDef>
+      <ControlId>12</ControlId>
+      <Position>
+        <X>15</X>
+        <Y>213</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <TemplateName>button_generic</TemplateName>
+      <Label>Quit</Label>
+      <onClickEvent>Quit</onClickEvent>
+    </ButtonDef>
+
+  </WindowTemplate>
+
+</Root_Element>

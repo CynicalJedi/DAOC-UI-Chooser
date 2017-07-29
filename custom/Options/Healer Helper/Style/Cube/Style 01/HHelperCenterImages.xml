@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.78 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load HHelper Face button Template -->
+
+  <ButtonTemplate>
+    <Name>Button_HHelper_Face</Name>
+    <Size>
+      <X>46</X>
+      <Y>46</Y>
+    </Size>
+    <Font>
+      <Name></Name>
+      <ColorNormal>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </ColorDisabled>
+    </Font>
+    <Texture>
+      <TextureName>healerhelper_01</TextureName>
+      <Normal>
+        <X>1</X>
+        <Y>79</Y>
+      </Normal>
+      <Pressed>
+        <X>1</X>
+        <Y>79</Y>
+      </Pressed>
+      <NormalHighlit>
+        <X>49</X>
+        <Y>79</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>49</X>
+        <Y>79</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>1</X>
+        <Y>79</Y>
+      </Disabled>
+    </Texture>
+  </ButtonTemplate>
+  
+</Root_Element>

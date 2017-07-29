@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Define HUD Summary Frame Images -->
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HUDHealth_Overlay</Name>
+    <TextureName>hudimages_01</TextureName>
+    <Size>
+      <X>43</X>
+      <Y>256</Y>
+    </Size>
+    <TopLeft>
+      <X>841</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HudEnd_Overlay</Name>
+    <TextureName>hudimages_02</TextureName>
+    <Size>
+      <X>43</X>
+      <Y>256</Y>
+    </Size>
+    <TopLeft>
+      <X>841</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HUDPwr_Overlay</Name>
+    <TextureName>hudimages_03</TextureName>
+    <Size>
+      <X>43</X>
+      <Y>256</Y>
+    </Size>
+    <TopLeft>
+      <X>841</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+  <ImageAreaTemplate>
+    <Name>ImageArea_HUDHealthTarget_Overlay</Name>
+    <TextureName>hudimages_04</TextureName>
+    <Size>
+      <X>43</X>
+      <Y>256</Y>
+    </Size>
+    <TopLeft>
+      <X>841</X>
+      <Y>0</Y>
+    </TopLeft>
+  </ImageAreaTemplate>
+
+</Root_Element>
