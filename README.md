@@ -6,6 +6,7 @@ Updated UI Chooser (Based on BobsUI). Inclused all the required fixed so everyth
 ## Download
 
 To get the latest click "Clone or download" and choose "Download Zip"
+  or click [here](https://github.com/CynicalJedi/DAOC-UI-Chooser/archive/master.zip)
 
 ## Install
 
