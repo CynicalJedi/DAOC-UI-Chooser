@@ -1,0 +1,5 @@
+Simply copy the "custom" directory to UI directory where your game is installed.
+
+This usually means you copy it to C:\Program Files (x86)\Electronic Arts\Dark Age of Camelot\ui
+
+Once there run "OptionsChooser.exe" from inside the "custom" directoy to setup your UI. 
