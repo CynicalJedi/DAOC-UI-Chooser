@@ -64,7 +64,7 @@
       <Height>17</Height>
       <ColorAdapter></ColorAdapter>
       <MaxCharacters>64</MaxCharacters>
-      <Data>Bob's User Interface 1.117 v7.0x BETA</Data>
+      <Data>Custom User Interface 1.0 BETA</Data>
       <EndAligned>false</EndAligned>
       <TextCentered>true</TextCentered>
       <Adapter></Adapter>
@@ -89,7 +89,7 @@
       <Height>16</Height>
       <ColorAdapter></ColorAdapter>
       <MaxCharacters>64</MaxCharacters>
-      <Data>http://bobsui.koamon.com</Data>
+      <Data>https://github.com/CynicalJedi/DAOC-UI-Chooser</Data>
       <EndAligned>false</EndAligned>
       <TextCentered>true</TextCentered>
       <Adapter></Adapter>

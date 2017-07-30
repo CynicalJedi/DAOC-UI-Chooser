@@ -89,7 +89,7 @@
       <Height>16</Height>
       <ColorAdapter></ColorAdapter>
       <MaxCharacters>64</MaxCharacters>
-      <Data>http://github.com</Data>
+      <Data>https://github.com/CynicalJedi/DAOC-UI-Chooser</Data>
       <EndAligned>false</EndAligned>
       <TextCentered>true</TextCentered>
       <Adapter></Adapter>
