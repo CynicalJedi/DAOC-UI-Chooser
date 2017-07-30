@@ -1,7 +1,11 @@
 # DAOC-UI-Chooser
 DAOC UI Chooser
 
-Updated UI Chooser (Based on BobsUI). Inclused all the required fixed so everything works with the latest DAOC patch (1.123)
+Updated UI Chooser (Based on BobsUI). 
+
+Includes all the required fixes so everything works with the latest DAOC patch (1.123)
+
+** Note: The internal screen shots are NOT updated but all 80+ pperdoll.bmp files have now been updated. **
 
 ## Download
 
