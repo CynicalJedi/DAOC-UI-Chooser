@@ -21,3 +21,7 @@ This typically means copying "custom" to "C:\Program Files (x86)\Electronic Arts
 ## Choosing Options
 
 Once installed run the "OptionsChooser.exe" from the custom UI directory. 
+
+## Getting Help
+
+If you need help check the [Wiki!](https://github.com/CynicalJedi/DAOC-UI-Chooser/wiki).
