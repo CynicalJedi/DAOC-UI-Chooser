@@ -4,6 +4,71 @@
 <!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
+ <CheckBoxTemplate>
+    <Name>CheckBox_Checkmark2</Name>
+    <Size>
+      <X>18</X>
+      <Y>18</Y>
+    </Size>
+    <Font>
+      <Name>font_buttons</Name>
+      <ColorNormal>
+        <R>148</R>
+        <G>111</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorNormal>
+      <ColorPressed>
+        <R>255</R>
+        <G>197</G>
+        <B>0</B>
+        <A>255</A>
+      </ColorPressed>
+      <ColorHighlit>
+        <R>192</R>
+        <G>192</G>
+        <B>192</B>
+        <A>255</A>
+      </ColorHighlit>
+      <ColorDisabled>
+        <R>128</R>
+        <G>128</G>
+        <B>128</B>
+        <A>255</A>
+      </ColorDisabled>
+      <TextOffset>
+        <X>20</X>
+        <Y>0</Y>
+      </TextOffset>
+      <TextAlignment>
+      </TextAlignment>
+      <ChangeFontColor>true</ChangeFontColor>
+    </Font>
+    <Texture>
+      <TextureName>buttons_04</TextureName>
+      <Normal>
+        <X>97</X>
+        <Y>159</Y>
+      </Normal>
+      <Pressed>
+        <X>115</X>
+        <Y>159</Y>
+      </Pressed>s
+      <NormalHighlit>
+        <X>97</X>
+        <Y>141</Y>
+      </NormalHighlit>
+      <PressedHighlit>
+        <X>115</X>
+        <Y>141</Y>
+      </PressedHighlit>
+      <Disabled>
+        <X>97</X>
+        <Y>159</Y>
+      </Disabled>
+    </Texture>
+  </CheckBoxTemplate>
+
   <!-- Load Options Window -->
 
   <WindowTemplate>
@@ -559,7 +624,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Players</Data>
@@ -575,7 +640,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Your Name</Data>
@@ -591,7 +656,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Gravestones</Data>
@@ -607,7 +672,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Monsters/NPCs</Data>
@@ -623,7 +688,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Guildmates</Data>
@@ -639,7 +704,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Groupmates</Data>
@@ -655,7 +720,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Enemy Players</Data>
@@ -723,7 +788,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>One</Data>
@@ -739,7 +804,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Two (Alt)</Data>
@@ -755,7 +820,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Three (Ctrl)</Data>
@@ -1007,7 +1072,7 @@
       </Position>
       <Alignment>
       </Alignment>
-      <TemplateName>checkbox_generic</TemplateName>
+      <TemplateName>CheckBox_Checkmark2</TemplateName>
       <AdapterName></AdapterName>
       <TextAdapterName></TextAdapterName>
       <Data>Normal Icon Order</Data>
