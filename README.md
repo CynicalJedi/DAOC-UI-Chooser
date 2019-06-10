@@ -18,6 +18,8 @@ Unzip the file and copy the "custom" directory to the games UI directory
 
 This typically means copying "custom" to "C:\Program Files (x86)\Electronic Arts\Dark Age of Camelot\ui"
 
+In the character selection screen choose Options > Interface > Custom Skin.
+
 ## Choosing Options
 
 Once installed run the "OptionsChooser.exe" from the custom UI directory. 
