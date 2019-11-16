@@ -202,8 +202,8 @@
                 <Y>330</Y>
             </Position>
             <TemplateName>button_generic_wide</TemplateName>
-            <Label>RPG DEFAULT</Label>
-            <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
+            <Label>WASD DEFAULT</Label>
+            <OnClickEvent>InGameKeyConfigResetMMO</OnClickEvent>
         </ButtonDef>
 
 
@@ -213,7 +213,7 @@
                 <Y>355</Y>
             </Position>
             <TemplateName>button_generic_wide</TemplateName>
-            <Label>FPS DEFAULT</Label>
+            <Label>ESDF DEFAULT</Label>
             <OnClickEvent>InGameKeyConfigResetFPS</OnClickEvent>
         </ButtonDef>
 
@@ -225,7 +225,7 @@
             </Position>
             <TemplateName>button_generic_wide</TemplateName>
             <Label>MMO DEFAULT</Label>
-            <OnClickEvent>InGameKeyConfigResetMMO</OnClickEvent>
+            <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
         </ButtonDef>
 
 
