@@ -114,6 +114,7 @@
   <!-- Load FloatingPlayerHealth Window -->
 
   <WindowTemplate>
+
     <Name>custom1_window</Name>
     <WindowId>Floating Player Health</WindowId>
     <CloseButton>true</CloseButton>
@@ -136,33 +137,6 @@
     <ContextTemplateName></ContextTemplateName>
 
     <!--Player Health Controls-->
-
-    <ScalarLabelDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>174</X>
-        <Y>2</Y>
-      </Position>
-      <Alignment>
-      </Alignment>
-      <FontName>font_transparentbold</FontName>
-      <Adapter>summary_player_hits</Adapter>
-      <ColorAdapter></ColorAdapter>
-      <Width>25</Width>
-      <Height>16</Height>
-      <MaxCharacters>4</MaxCharacters>
-      <Color>
-        <R>191</R>
-        <G>0</G>
-        <B>0</B>
-        <A>255</A>
-      </Color>
-      <Data></Data>
-      <EndAligned>true</EndAligned>
-      <TextCentered>true</TextCentered>
-      <DontDrawWhenZero>false</DontDrawWhenZero>
-      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-	</ScalarLabelDef>
 
     <StatusBarDef>
       <ControlId></ControlId>
@@ -189,6 +163,35 @@
       </Alignment>
       <TemplateName>imagearea_ghost_hashmarks</TemplateName>
     </ImageAreaDef>
+
+    <!--Numberic Display-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>2</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_hits</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+    </ScalarLabelDef>
 
   </WindowTemplate>
 
