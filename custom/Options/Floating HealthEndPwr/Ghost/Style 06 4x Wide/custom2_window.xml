@@ -66,33 +66,6 @@
 
     <!--Player End Controls-->
 
-    <ScalarLabelDef>
-      <ControlId></ControlId>
-      <Position>
-        <X>174</X>
-        <Y>-3</Y>
-      </Position>
-      <Alignment>
-      </Alignment>
-      <FontName>font_transparentbold</FontName>
-      <Adapter>summary_player_end</Adapter>
-      <ColorAdapter></ColorAdapter>
-      <Width>25</Width>
-      <Height>16</Height>
-      <MaxCharacters>4</MaxCharacters>
-      <Color>
-        <R>31</R>
-        <G>128</G>
-        <B>1</B>
-        <A>255</A>
-      </Color>
-      <Data></Data>
-      <EndAligned>true</EndAligned>
-      <TextCentered>true</TextCentered>
-      <DontDrawWhenZero>false</DontDrawWhenZero>
-      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-	</ScalarLabelDef>
-
     <StatusBarDef>
       <ControlId></ControlId>
       <Position>
@@ -105,6 +78,35 @@
       <AdapterName>summary_player_end</AdapterName>
       <Width>800</Width>
     </StatusBarDef>
+
+    <!--Numeric Value Display-->
+
+    <ScalarLabelDef>
+      <ControlId></ControlId>
+      <Position>
+        <X>5</X>
+        <Y>-3</Y>
+      </Position>
+      <Alignment>
+      </Alignment>
+      <FontName>font_transparentbold</FontName>
+      <Adapter>summary_player_end</Adapter>
+      <ColorAdapter></ColorAdapter>
+      <Width>25</Width>
+      <Height>16</Height>
+      <MaxCharacters>4</MaxCharacters>
+      <Color>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <A>255</A>
+      </Color>
+      <Data></Data>
+      <EndAligned>true</EndAligned>
+      <TextCentered>true</TextCentered>
+      <DontDrawWhenZero>false</DontDrawWhenZero>
+      <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+    </ScalarLabelDef>
 
   </WindowTemplate>
 
