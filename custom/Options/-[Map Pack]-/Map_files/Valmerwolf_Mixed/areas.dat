@@ -1222,8 +1222,8 @@ area0_left=0
 area0_top=0
 area0_width=65536
 area0_height=65536
-area0_name=Agramon
-area0_desc=The Isle of Agramon appeared overnight heralded by earthquakes, tidal waves and demonic hordes. The strange new land mass filled up the entirety of the once vast North Sea and almost appeared to reach towards the Frontiers. Through great bravery and conflict, the Realms pushed back the armies of Darkness Falls and cast back down the creature that lead them, the Demon Lord Agramon. 
+area0_name=Ellan Vannin
+area0_desc=The Isle of Ellan Vannin appeared overnight heralded by earthquakes, tidal waves and demonic hordes. The strange new land mass filled up the entirety of the once vast North Sea and almost appeared to reach towards the Frontiers. Through great bravery and conflict, the Realms pushed back the armies of Darkness Falls and cast back down the creature that lead them, the Demon Lord Agramon. 
 
 [zone164]
 area_count=1
