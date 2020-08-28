@@ -9,10 +9,10 @@ Includes all the required fixes so everything works with the latest DAOC patch (
 
 ## Whats New?
 
-8/22/20 - Convert all the help images from PNG to JPG. Overall this reduces the size of the UI by roughly 185Mb. 
-7/30/20 - Fixed issues in NF when using Map pack styles 2 and 3. 
-7/30/20	- Add better 512x512 sized images for NF areas
-7/28/20 - Add style 04 for map markers. Displays player location on map with an arrow to indicate the direction you are facing. (Realm War->Markers)
+8/22/20 - Convert all the help images from PNG to JPG. Overall this reduces the size of the UI by roughly 185Mb.  
+7/30/20 - Fixed issues in NF when using Map pack styles 2 and 3.  
+7/30/20	- Add better 512x512 sized images for NF areas.  
+7/28/20 - Add style 04 for map markers. Displays player location on map with an arrow to indicate the direction you are facing(Realm War->Markers).  
 
 ## Download
 
