@@ -8,7 +8,7 @@ Includes all the required fixes so everything works with the latest DAOC patch (
 ** Note: The internal screen shots are NOT updated but all 80+ pperdoll.bmp files have now been updated. **
 
 ## Whats New?
-9/1/20  - Update for 1.127. Fixed Style 1 ONLY of the merchant explorer. 
+9/1/20  - Update for 1.127. Fixed Style 1 ONLY of the merchant explorer.   
 8/22/20 - Convert all the help images from PNG to JPG. Overall this reduces the size of the UI by roughly 185Mb.  
 7/30/20 - Fixed issues in NF when using Map pack styles 2 and 3.  
 7/30/20	- Add better 512x512 sized images for NF areas.  
