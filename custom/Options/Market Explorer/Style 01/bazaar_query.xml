@@ -818,7 +818,7 @@
     </FullResizeImageDef>
 
     <CheckBoxDef>
-      <ControlId>1001</ControlId>
+      <ControlId>1040</ControlId>
       <Position>
         <X>16</X>
         <Y>382</Y>
@@ -833,6 +833,7 @@
       <OnClickEvent></OnClickEvent>
     </CheckBoxDef>
 	
+	<!-- Match all removed? Maybe only temporary so leaving this
 	<CheckBoxDef>
       <ControlId>1040</ControlId>
       <Position>
@@ -848,9 +849,10 @@
       <LabelWidth>120</LabelWidth>
       <OnClickEvent></OnClickEvent>
     </CheckBoxDef>
+	-->
 	
     <CheckBoxDef>
-      <ControlId>1026</ControlId>
+      <ControlId>1041</ControlId>
       <Position>
         <X>192</X>
         <Y>382</Y>

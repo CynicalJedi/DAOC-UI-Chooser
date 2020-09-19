@@ -8,6 +8,7 @@ Includes all the required fixes so everything works with the latest DAOC patch (
 ** Note: The internal screen shots are NOT updated but all 80+ pperdoll.bmp files have now been updated. **
 
 ## Whats New?
+9/18/20  - Update for 1.127B. Market explorer options should be working again.     
 9/6/20  - Fixed Style 2 of the Market Explorer. Update screenshots for styles 1 and 2.      
 9/1/20  - Update for 1.127. Fixed Style 1 ONLY of the merchant explorer.   
 8/22/20 - Convert all the help images from PNG to JPG. Overall this reduces the size of the UI by roughly 185Mb.  

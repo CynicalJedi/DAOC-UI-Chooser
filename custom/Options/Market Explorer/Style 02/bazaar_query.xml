@@ -684,6 +684,7 @@
     </FullResizeImageDef>
 
         <!--Logical AND Bonuses-->
+		<!-- Not sure if this will come back so not deleting it
      <CheckBoxDef>
       <ControlId>1040</ControlId>
       <Position>
@@ -699,10 +700,10 @@
       <LabelWidth>120</LabelWidth>
       <OnClickEvent></OnClickEvent>
     </CheckBoxDef>
-
+     -->
     <!-- Player Crafted -->    
     <CheckBoxDef>
-      <ControlId>1041</ControlId>
+      <ControlId>1040</ControlId>
       <Position>
         <X>18</X>
         <Y>190</Y>
@@ -719,7 +720,7 @@
 
     <!-- Visual Effects -->    
     <CheckBoxDef>
-      <ControlId>1042</ControlId>
+      <ControlId>1041</ControlId>
       <Position>
         <X>18</X>
         <Y>171</Y>
